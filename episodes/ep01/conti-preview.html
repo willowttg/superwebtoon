@@ -21,6 +21,16 @@
   header{max-width:1240px;margin:0 auto 40px}
   h1{font-size:26px;margin:0 0 8px;letter-spacing:-.02em}
   header p{margin:0;font-size:14px;color:#8A837A;line-height:1.7}
+  .swatches{display:flex;gap:10px;margin-top:20px;flex-wrap:wrap}
+  .sw{
+    display:flex;align-items:center;gap:9px;
+    border:1.5px solid #D9D2C7;background:#fff;color:var(--ink);
+    border-radius:999px;padding:9px 16px 9px 10px;
+    font:inherit;font-size:13px;cursor:pointer;
+  }
+  .sw[aria-pressed="true"]{border-color:var(--ink);box-shadow:0 0 0 1px var(--ink) inset}
+  .sw i{width:18px;height:18px;border-radius:50%;display:block}
+  .home{display:inline-block;margin-bottom:14px;font-size:13px;color:#8A837A;text-decoration:none}
   .grid{
     max-width:1240px;margin:0 auto;
     display:grid;gap:36px 28px;
@@ -54,9 +64,14 @@
 <body>
 
 <header>
+  <a class="home" href="../../index.html">← 프리뷰 목록</a>
   <h1>EP.01 타인의 감정을 꿰뚫는 초능력자들 — 레이아웃 프리뷰</h1>
   <p>4:5 (1080×1350) 캐러셀 7장 · 흰 배경 / 상단 나레이션 1~2줄 / 요소 최소<br>
-  저채도 일상 → 3컷 반전에서 포인트 컬러(테라코타) 등장 → 5~6컷 따뜻한 톤. 그림은 배치·톤 확인용 러프.</p>
+  저채도 일상 → 3컷에서 포인트 컬러 등장(반전) → 5~6컷 따뜻한 톤. 그림은 배치·톤 확인용 러프.</p>
+  <div class="swatches">
+    <button class="sw" data-c="#C77B3F" aria-pressed="true"><i style="background:#C77B3F"></i>테라코타</button>
+    <button class="sw" data-c="#E8503A" aria-pressed="false"><i style="background:#E8503A"></i>코랄 레드</button>
+  </div>
 </header>
 
 <div class="grid">
@@ -291,5 +306,14 @@
 </figure>
 
 </div>
+
+<script>
+  const btns = document.querySelectorAll('.sw');
+  btns.forEach(b => b.addEventListener('click', () => {
+    document.documentElement.style.setProperty('--point', b.dataset.c);
+    btns.forEach(o => o.setAttribute('aria-pressed', String(o === b)));
+    document.querySelectorAll('figcaption span[style]').forEach(s => s.style.color = b.dataset.c);
+  }));
+</script>
 </body>
 </html>
