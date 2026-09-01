@@ -8,3 +8,4 @@
 
 - 고성능 모델(fable, opus5) 사용 프로젝트. CLAUDE.md·스킬 문서 등 지침은 필요 최소한으로만 작성하고 비대화하지 않는다.
 - 문서에 수정이력을 남기지 않는다 (git이 담당).
+- 모바일 리모트 작업이 잦다. 시각 결과물은 로컬 경로로 안내하지 말고 `index.html` 목록에 추가·푸시해 https://willowttg.github.io/superwebtoon/ 링크로 전달한다.
