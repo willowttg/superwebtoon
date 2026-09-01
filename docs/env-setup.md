@@ -26,6 +26,24 @@ set -a && . ./.env && set +a    # 셸에 로드
 echo $OPENAI_API_KEY | head -c 12   # 확인 (전체 출력 금지)
 ```
 
+## Termius(모바일·원격)에서 편집
+
+이 PC는 OpenSSH 서버가 떠 있다 — 포트 22, 기본 셸 PowerShell. 접속 후 둘 중 하나:
+
+**터미널** (Git for Windows의 nano/vim이 이미 깔려 있다)
+
+```powershell
+& "C:\Program Files\Git\usr\bin\nano.exe" "$env:USERPROFILE\superwebtoon\.env"
+```
+
+**SFTP 탭** — `/C:/Users/<사용자>/superwebtoon/.env` 로 이동. `.env` 는 히든 파일이라 hidden files 표시를 켜야 보인다.
+
+키만 갈아끼울 때는 에디터 없이:
+
+```powershell
+(Get-Content $env:USERPROFILE\superwebtoon\.env) -replace '^OPENAI_API_KEY=.*','OPENAI_API_KEY=sk-proj-새키' | Set-Content -Encoding utf8 $env:USERPROFILE\superwebtoon\.env
+```
+
 ## 키가 유출됐다면
 
 즉시 [API keys 페이지](https://platform.openai.com/api-keys)에서 해당 키를 revoke 하고 재발급한다. 커밋에 섞여 들어갔다면 키 교체가 먼저이고, 히스토리 정리는 그다음이다.
