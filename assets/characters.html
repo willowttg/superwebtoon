@@ -47,7 +47,7 @@
   <div class="grid" id="leads"></div>
 
   <h2>조연 5명 <span style="font-size:11px">(주인공 1안 기준 색)</span></h2>
-  <p class="note">가족은 주인공과 같은 색 계열, 친구는 다른 계열. 엄마·아빠는 주인공보다 크고 남동생은 작다.</p>
+  <p class="note">이미지 생성 시 무늬 드리프트를 막기 위해 조연은 <b>단색 바디 + 마커 1개</b>로 제한한다. 반점·줄무늬·소품 없음. 가족은 주인공과 같은 색 계열, 친구는 다른 계열. 엄마·아빠는 주인공보다 크고 남동생은 작다.</p>
   <div class="grid" id="subs"></div>
 
   <h2>운용 규칙</h2>
@@ -73,7 +73,8 @@ function cat(o){
   if(o.belly) g+=`<ellipse cx="${cx}" cy="${by+8*s}" rx="${26*s}" ry="${18*s}" fill="${o.belly}"/>`;
   g+=`<ellipse cx="${cx-22*s}" cy="${by+30*s}" rx="${11*s}" ry="${7*s}" fill="${o.paw||o.body}" stroke="${INK}" stroke-width="3"/>`;
   g+=`<ellipse cx="${cx+22*s}" cy="${by+30*s}" rx="${11*s}" ry="${7*s}" fill="${o.paw||o.body}" stroke="${INK}" stroke-width="3"/>`;
-  g+=`<path d="M${cx-38*s},${hy-22*s} l ${-8*s},${-34*s} l ${30*s},${16*s} z" fill="${o.body}" stroke="${INK}" stroke-width="3.5" stroke-linejoin="round"/>`;
+  if(o.marker==='fold') g+=`<path d="M${cx-40*s},${hy-20*s} l ${-4*s},${-16*s} l ${26*s},${-2*s} l ${-6*s},${14*s} z" fill="${o.body}" stroke="${INK}" stroke-width="3.5" stroke-linejoin="round"/>`;
+  else g+=`<path d="M${cx-38*s},${hy-22*s} l ${-8*s},${-34*s} l ${30*s},${16*s} z" fill="${o.body}" stroke="${INK}" stroke-width="3.5" stroke-linejoin="round"/>`;
   g+=`<path d="M${cx+38*s},${hy-22*s} l ${8*s},${-34*s} l ${-30*s},${16*s} z" fill="${o.body}" stroke="${INK}" stroke-width="3.5" stroke-linejoin="round"/>`;
   g+=`<ellipse cx="${cx}" cy="${hy}" rx="${hr}" ry="${hr*.9}" fill="${o.body}" stroke="${INK}" stroke-width="3.5"/>`;
   if(o.patch) g+=`<ellipse cx="${cx}" cy="${hy+17*s}" rx="${17*s}" ry="${11*s}" fill="${o.patch}"/>`;
@@ -110,11 +111,11 @@ const leads=[
  {name:'참깨',body:'#FBF6EC',spots:true,marker:'tear',trait:'눈물 많음 · 감정 기복 · 포커페이스 불가',power:'감정 전염 — 진심이 그대로 전해짐',tone:'밝고 촉촉'},
 ];
 const subs=[
- {name:'미숙',role:'엄마',body:'#D9B98A',scale:1.12,eyes:'smile',marker:'apron',trait:'잔소리 = 걱정. 타박하는 듯하다가 제일 먼저 알아줌',power:'"엄마도 옛날엔 같은 초능력자였다"'},
- {name:'덕수',role:'아빠',body:'#A9ADB3',scale:1.15,brow:true,marker:'stripes',trait:'무뚝뚝, 말 대신 행동. 과일 깎아 두기',power:'"아빠의 초능력은 티 안 내기"'},
- {name:'콩',role:'남동생',body:'#F2DFB8',scale:.82,marker:'tuft',trait:'눈치 0, 직진, 밉지 않은 무신경. 주인공과 정반대',power:'주인공이 10번 고민한 말을 1초 만에'},
- {name:'탱자',role:'친구 1',body:'#FBF6EC',spots:true,trait:'외향, 오지랖, 시끄럽고 밝음. 주인공을 밖으로 끌어냄',power:'"오지랖은 온 동네를 지키는 초능력"'},
- {name:'먹물',role:'친구 2',body:'#3F3B39',dark:true,patch:'#FFFDF9',paw:'#FFFDF9',trait:'주인공보다 더 조용·소심. 초능력 발동 대상이자 주인공을 알아봐 주는 유일한 사람',power:'서로의 초능력을 아는 둘'},
+ {name:'미숙',role:'엄마',body:'#D9B98A',scale:1.12,eyes:'smile',trait:'잔소리 = 걱정. 타박하는 듯하다가 제일 먼저 알아줌',power:'"엄마도 옛날엔 같은 초능력자였다"',tone:'마커: 웃는 눈 + 큰 몸집'},
+ {name:'덕수',role:'아빠',body:'#A9ADB3',scale:1.15,brow:true,trait:'무뚝뚝, 말 대신 행동. 과일 깎아 두기',power:'"아빠의 초능력은 티 안 내기"',tone:'마커: 일자 눈썹 + 큰 몸집'},
+ {name:'콩',role:'남동생',body:'#F2DFB8',scale:.82,marker:'tuft',trait:'눈치 0, 직진, 밉지 않은 무신경. 주인공과 정반대',power:'주인공이 10번 고민한 말을 1초 만에',tone:'마커: 정수리 뻗친 털 + 작은 몸집'},
+ {name:'탱자',role:'친구 1',body:'#EBB273',marker:'fold',trait:'외향, 오지랖, 시끄럽고 밝음. 주인공을 밖으로 끌어냄',power:'"오지랖은 온 동네를 지키는 초능력"',tone:'마커: 왼쪽 귀 접힘'},
+ {name:'먹물',role:'친구 2',body:'#3F3B39',dark:true,patch:'#FFFDF9',trait:'주인공보다 더 조용·소심. 초능력 발동 대상이자 주인공을 알아봐 주는 유일한 사람',power:'서로의 초능력을 아는 둘',tone:'마커: 흰 턱 1곳'},
 ];
 function card(o,i){
   const idx=i!=null?`<small style="color:#A69E93">${i}안</small>`:'';
