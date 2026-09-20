@@ -1,17 +1,16 @@
 Reference images:
-- The FIRST image is the CHARACTER SHEET of a white cat named Bori. Reproduce this exact character design.
-- The other images are STYLE references only (the Korean instatoon dog "Kkamja"): copy its drawing grammar — wobbly hand-drawn black outline of uneven thickness, flat colors, no shading, simple emotion symbols (sweat drop, sparkles, tiny rain cloud, hearts) — but NOT its character or color.
+- The FIRST image is the CHARACTER SHEET of Dubu, a cream-colored sheep. Reproduce this exact character design.
+- Further character sheets / a size lineup may follow; the lineup image shows their relative sizes.
+- The last two images are STYLE references only (the Korean instatoon dog "Kkamja"): copy its drawing grammar — wobbly hand-drawn black outline of uneven thickness, flat colors, no shading, simple emotion symbols (sweat drop, sparkles, tiny rain cloud, hearts) — but NOT its character or color.
 
-Bori design (must be identical to the sheet):
-- off-white #F7F4EE body, one solid color, inner ear #E6E0D6. No markings, no patches, no stripes
-- 2-head-tall potato body, stubby limbs, short stubby tail, small pointed triangular ears
-- face: two small black dot eyes set wide apart, one small dark dot nose, NO MOUTH, NO BLUSH
-- blank, slightly dazed expression; small, scrappy, harmless mood
-- no eyelashes, no ribbon, no accessories
+Dubu design:
+- cream #F6F2E6 body, ONE solid color everywhere including the face. No markings, no darker face, no inner-ear color
+- 2-head-tall potato body with a soft cloud-shaped fluffy outline, stubby limbs, tiny tail, two small rounded ears sticking out sideways
+- face: two small black dot eyes set wide apart, one small dark dot nose, NO MOUTH, NO BLUSH, no eyelashes
 
-Draw ONE single instatoon panel, portrait, plain white background, flat colors, no shading.
+Prop of this episode, THE SUNGLASSES: a pair of wide, horizontally long sunglasses shaped like a downward-pointing triangle (flat top edge, lenses tapering to a point at the bottom), with lime-green #B5E550 lenses and a purple #8E5BC7 frame. Drawn flat, bold, simple.
 
-Second character, Misuk (Bori's mother): a cat drawn in the exact same style as Bori but 1.2x bigger, solid dark beige #D9B98A body, eyes drawn as two small smiling upward arcs, no mouth, no blush, no markings. Standing with paws on hips in a nagging pose, a few small motion lines near her head as if talking a lot.
-Scene: Misuk nags. Bori, wearing a short terracotta orange #C77B3F cape, stands in front of her a bit smaller, nodding with a blank face. One small heart floats between them.
-Composition: both characters in the LOWER HALF. The UPPER 40% of the image must stay completely empty white space.
+Additional characters: Tangja, a yellow #F5E08C duck (flat orange #F0A83A bill and feet, small feather tuft on the head, see her sheet), same height as Dubu. And three cats of the same design, same size as Dubu, in pink #F2C9CF, lavender #D6CBE6 and mint #C5DCCB (see the cats sheet): small pointed ears, thin tail, dot eyes, no mouth.
+ALL characters wear a simple girls' high-school uniform: white short-sleeve shirt and a navy #2E3A59 pleated skirt. Nothing else.
+Scene: a school cafeteria. In the foreground, Dubu wearing THE SUNGLASSES and Tangja sit side by side at a long plain table with two metal lunch trays with food. Tangja is sulky: eyes as small downward dashes, head drooping, a tiny gray rain cloud above her. Dubu sits close beside her, calm. Behind them, the three cats walk past in a line, each glancing at the two with a cold side-eye (eyes as small sideways dashes). Whole scene in the lower 65% of the image, the upper 35% empty white.
 No text, no letters, no speech bubbles, no captions. Plain white background.
