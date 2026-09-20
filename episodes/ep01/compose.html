@@ -2,54 +2,55 @@
 <html lang="ko">
 <head>
 <meta charset="utf-8">
-<title>EP.01 합성 — 말하지 않은 마음까지 읽는 초능력자</title>
+<title>EP.01 합성 — 알고 싶지 않은 마음까지 읽을 수 있는 초능력</title>
 <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
 <style>
+  @font-face{font-family:'CornCorn';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/2412-1@1.0/Ownglyph_corncorn-Rg.woff2') format('woff2');font-display:swap}
   @font-face{font-family:'KyoboHand';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff') format('woff');font-display:swap}
   :root{--ink:#3A3733;--point:#C77B3F;--gray:#8A837A}
   *{box-sizing:border-box}
   body{margin:0;background:#ddd}
   section{position:relative;width:1080px;height:1350px;overflow:hidden;background:#fff;margin:0 auto 20px;font-family:'KyoboHand',sans-serif;color:var(--ink)}
-  section img.art{position:absolute;inset:0;width:1080px;height:1350px;object-fit:cover;object-position:50% 100%}
+  section img.art{position:absolute;left:0;bottom:60px;width:1080px;height:1350px;object-fit:cover;object-position:50% 100%;transform:scale(.8);transform-origin:50% 100%}
   section.cover img.art{object-fit:contain;object-position:50% 100%}
   .series{position:absolute;top:84px;left:80px;right:80px;text-align:center;font-size:44px;color:var(--gray);letter-spacing:.02em}
-  .title{position:absolute;top:150px;left:60px;right:60px;text-align:center;font-family:'Nanum Pen Script',cursive;font-size:118px;line-height:1.12;letter-spacing:-.01em}
+  .title{position:absolute;top:150px;left:40px;right:40px;text-align:center;font-family:'CornCorn',cursive;font-size:112px;line-height:1.18;letter-spacing:-.01em}
   .title b{font-weight:400;color:var(--point)}
   .narr{position:absolute;top:70px;left:50px;right:50px;text-align:center;font-size:56px;line-height:1.4;white-space:pre}
   .mind{position:absolute;font-size:40px;line-height:1.35;color:var(--gray);white-space:pre-line}
   .mind.s{font-size:30px}
   .mind.t{font-size:38px;color:#6E6862;background:#fff;padding:2px 10px}
-  #s7 img.art{transform:scale(.92);transform-origin:50% 100%}
   #s7 .cta{top:250px;bottom:auto}
   .cta{position:absolute;left:70px;right:70px;bottom:44px;text-align:center;font-size:38px;color:var(--point)}
-  .dim img.art{filter:saturate(.75) brightness(.97)}
+  .dim img.art{filter:saturate(.7)}
+  #s1 img.art{bottom:0}
 </style>
 </head>
 <body>
 
 <section class="cover" id="s0">
   <img class="art" src="img/cover.png" alt="">
-  <div class="series">당신은 약간 초능력자?</div>
-  <div class="title">말하지 않은 <b>마음</b>까지 읽는<br>초능력자</div>
+  <div class="series">작은 힘에도 작은 책임은 따른다</div>
+  <div class="title"><b>알고 싶지 않은</b> 마음까지<br>읽을 수 있는 초능력</div>
 </section>
 
 <section id="s1">
   <img class="art" src="img/cut1.png" alt="" style="object-position:50% 50%">
   <div class="narr">나는 사람들이 말하지 않아도
 그들의 마음을 읽을 수 있다.</div>
-  <div class="mind t" style="left:70px;top:500px">배고파</div>
-  <div class="mind t" style="right:70px;top:560px">집 가고 싶다</div>
-  <div class="mind t" style="left:90px;top:740px">괜찮은 척 하는 중</div>
-  <div class="mind t" style="right:90px;top:820px">쟤 왜 저래</div>
-  <div class="mind t" style="left:60px;top:960px">월요일 싫어</div>
-  <div class="mind t" style="right:60px;top:1010px">그냥 좀 쉬고 싶다</div>
+  <div class="mind t" style="left:164px;top:670px">배고파</div>
+  <div class="mind t" style="right:164px;top:718px">집 가고 싶다</div>
+  <div class="mind t" style="left:180px;top:862px">괜찮은 척 하는 중</div>
+  <div class="mind t" style="right:180px;top:926px">쟤 왜 저래</div>
+  <div class="mind t" style="left:156px;top:1038px">월요일 싫어</div>
+  <div class="mind t" style="right:156px;top:1078px">그냥 좀 쉬고 싶다</div>
 </section>
 
 <section id="s2">
   <img class="art" src="img/cut2.png" alt="">
   <div class="narr">이 능력 덕분에
 많은 이들로부터 환영을 받기도 하고</div>
-  <div class="mind" style="left:520px;top:1170px;width:420px;text-align:center">내 맘 알아 주는 건
+  <div class="mind" style="left:524px;top:1146px;width:420px;text-align:center">내 맘 알아 주는 건
 너밖에 없어</div>
 </section>
 
@@ -63,16 +64,16 @@
   <img class="art" src="img/cut4.png" alt="">
   <div class="narr">이 능력 때문에 필요 없는 눈치를 보거나
 손해를 자처할 때도 많고</div>
-  <div class="mind s" style="left:850px;top:436px;width:220px;text-align:center;font-size:28px">마감 시간
+  <div class="mind s" style="left:788px;top:559px;width:220px;text-align:center;font-size:28px">마감 시간
 1시간 넘게 남음</div>
-  <div class="mind" style="left:560px;top:322px;width:240px;text-align:center">아무 생각 없음</div>
+  <div class="mind" style="left:556px;top:468px;width:240px;text-align:center">아무 생각 없음</div>
 </section>
 
 <section id="s5" class="dim">
   <img class="art" src="img/cut5.png" alt="">
   <div class="narr">스스로의 마음을 돌보지 못하는 나를 미워하거나
 지난 날의 영웅적인 선택들까지 후회하기도 한다.</div>
-  <div class="mind" style="right:60px;top:1230px;width:460px;text-align:center">이건 초능력이 아니라 저주야...</div>
+  <div class="mind" style="right:156px;top:1194px;width:460px;text-align:center">이건 초능력이 아니라 저주야...</div>
 </section>
 
 <section id="s6">
