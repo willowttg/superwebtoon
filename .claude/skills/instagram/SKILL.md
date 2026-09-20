@@ -5,7 +5,7 @@ description: 인스타 계정 API 관리 — 에피소드 캐러셀 게시, 댓�
 
 # instagram
 
-도구: `python scripts/ig.py` (사용법은 `--help`, 설정은 `docs/instagram-api.md`). `.env` 자동 로드.
+도구: `python scripts/ig.py` (사용법은 `--help`, 설정은 `docs/instagram-api.md`). `.env` 자동 로드 — 워크트리에는 `.env`가 없으므로 `set -a && . C:/Users/SIJIN/superwebtoon/.env && set +a` 후 실행.
 
 ## 게시
 
