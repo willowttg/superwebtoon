@@ -28,6 +28,8 @@ description: 「작은 힘에도 작은 책임은 따른다」 에피소드 1편
 
 톤 전환: 1–3 밝음 → 4–6 저채도·먹구름 → 7 망토 + 포인트 컬러 복귀.
 
+- **3→4 전환에 역접을 쓰지 않는다.** 단점은 능력의 반대가 아니라 같은 능력이 잘못된 자리에서 발동한 것이다. 4 내레이션은 "하지만·사실·그런데"로 시작하지 않고, 3 끝의 `…지만...`도 두지 않는다 — 능력이 그대로 발동한 상황을 담담히 서술하고, 전환은 그림 톤(저채도)과 대사가 맡는다.
+
 ## 2. 이미지 규칙
 
 - 생성은 **캐릭터 + 소품만**. 프롬프트 끝에 항상 `No text, no letters, no speech bubbles, no captions. Plain white background. One flat light-gray #E6E6E6 ellipse on the ground under each standing character and under any large object resting on the ground, as a contact shadow; no other shadows, no shading on the bodies.` (접지 그림자는 EP.03부터. 공중에 뜬 캐릭터는 그 컷 프롬프트에서 제외 명시.) 말풍선 꼬리가 캐릭터와 안 맞는 문제가 있어 **말풍선은 절대 그리지 않는다** — 속마음도 텍스트 합성으로.
