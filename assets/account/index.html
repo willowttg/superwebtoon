@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>인스타 계정 검토 — 당신은 약간 초능력자?</title>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+<style>
+  :root{--ink:#3A3733;--point:#C77B3F;--mute:#8A837A}
+  *{box-sizing:border-box}
+  body{margin:0;padding:48px 20px 96px;background:#EFEAE2;color:var(--ink);font-family:'Gowun Dodum','Malgun Gothic',sans-serif;line-height:1.7}
+  main{max-width:720px;margin:0 auto}
+  h1{font-size:22px;margin:0 0 4px}
+  .sub{margin:0 0 36px;font-size:13px;color:var(--mute)}
+  h2{font-size:13px;letter-spacing:.08em;color:#A69E93;margin:40px 0 12px;font-weight:400}
+  .card{background:#FFFDF9;border-radius:12px;padding:18px 20px;margin-bottom:12px;box-shadow:0 2px 14px rgba(58,55,51,.08)}
+  .row{display:flex;gap:16px;flex-wrap:wrap;align-items:flex-start}
+  .pic{text-align:center;font-size:12px;color:var(--mute)}
+  .pic img{display:block;border-radius:50%;width:120px;height:120px;object-fit:cover;border:1px solid #ddd;margin:0 auto 6px;background:#fff}
+  .pic img.sm{width:56px;height:56px}
+  .cov img{width:100%;max-width:300px;display:block;border:1px solid #ddd;background:#fff}
+  .cov{font-size:12px;color:var(--mute)}
+  .cov b{display:block;color:var(--ink);font-weight:400;font-size:13px;margin-top:6px}
+  .profile{display:flex;gap:18px;align-items:flex-start}
+  .profile img{width:86px;height:86px;border-radius:50%;object-fit:cover;border:1px solid #ddd;flex:none;background:#fff}
+  .profile .name{font-weight:700;font-size:15px}
+  .profile .handle{font-size:13px;color:var(--mute)}
+  .profile .bio{white-space:pre-line;font-size:14px;margin-top:8px}
+  table{border-collapse:collapse;width:100%;font-size:13px}
+  td,th{border-bottom:1px solid #EAE4DA;padding:8px 6px;text-align:left;vertical-align:top}
+  th{font-weight:400;color:var(--mute)}
+  code{background:#F3EEE6;padding:1px 5px;border-radius:4px;font-size:13px}
+  .ok{color:#4C8A5C}.warn{color:var(--point)}
+  ul{padding-left:18px;margin:6px 0}li{font-size:14px;margin-bottom:4px}
+</style>
+</head>
+<body>
+<main>
+  <h1>인스타 계정 검토</h1>
+  <p class="sub">아이디 · 계정명 · 소개 · 프로필 사진 · EP.01 썸네일</p>
+
+  <h2>프로필 목업 (추천안)</h2>
+  <div class="card">
+    <div class="profile">
+      <img src="profile-face.png" alt="">
+      <div>
+        <div class="name">당신은 약간 초능력자?</div>
+        <div class="handle">@yakgan.super</div>
+        <div class="bio">단점인 줄 알았던 게 사실은 초능력이었다면.
+크림색 양 두부와 친구들의 일상 힐링툰.
+당신 곁의 두부를 태그해 주세요.</div>
+      </div>
+    </div>
+  </div>
+
+  <h2>아이디 후보</h2>
+  <div class="card">
+    <table>
+      <tr><th>아이디</th><th>근거</th></tr>
+      <tr><td><code>yakgan.super</code> <span class="warn">추천</span></td><td>제목 「약간 초능력자」의 축약. 입으로 말하기 쉽고 시리즈 브랜드가 그대로 남는다. 두부 외 조연 편이 늘어도 어색하지 않음</td></tr>
+      <tr><td><code>dubu.superpower</code></td><td>캐릭터 + 콘셉트. 검색은 잘 되지만 15자로 길고, "두부"가 반려동물 이름으로 흔해 변형이 많이 선점됨</td></tr>
+      <tr><td><code>dubu.yakgan</code></td><td>짧고 둘 다 담김. 뜻이 바로 안 읽히는 게 단점</td></tr>
+      <tr><td><code>yakgan_toon</code></td><td>"툰" 접미가 장르 검색에 유리. 단, 레퍼런스 계정 다수가 쓰는 흔한 형태</td></tr>
+    </table>
+    <ul>
+      <li>피할 것: <code>chonungryeokja</code>류 로마자 표기(오타 유발), 숫자 붙이기(<code>_22</code>)는 선점됐을 때만</li>
+      <li>사용 가능 여부는 가입 화면에서 직접 확인 필요 (브라우저 프로필이 다른 세션에 잠겨 있어 이번엔 조회 못 함)</li>
+    </ul>
+  </div>
+
+  <h2>계정명 · 소개</h2>
+  <div class="card">
+    <table>
+      <tr><th>계정명(이름)</th><td><b>당신은 약간 초능력자?</b> — 12자. 검색 노출용으로 뒤에 <code>| 두부툰</code>을 붙이는 안도 있으나, 물음표로 끝나는 제목이 가장 강한 훅이라 단독 추천</td></tr>
+      <tr><th>소개(150자)</th><td>3줄. ① 콘셉트 한 문장 ② 주인공·장르 ③ CTA(댓글 유도). 이모지 없음, MBTI 미언급(작품 내 비노출 원칙). 연재 요일이 정해지면 ②와 ③ 사이에 "매주 O요일" 한 줄 추가</td></tr>
+      <tr><th>링크</th><td>당장은 비움. 에피소드가 5편 이상 쌓이면 Pages 아카이브 링크</td></tr>
+    </table>
+  </div>
+
+  <h2>프로필 사진</h2>
+  <div class="card">
+    <div class="row">
+      <div class="pic"><img src="profile-face.png" alt=""><img class="sm" src="profile-face.png" alt="">얼굴 클로즈업 <span class="warn">추천</span></div>
+      <div class="pic"><img src="profile-full.png" alt=""><img class="sm" src="profile-full.png" alt="">전신</div>
+    </div>
+    <ul>
+      <li>시트 FRONT에서 잘라냄. 원형 썸네일은 피드에서 56px 이하로 보이므로 점 눈·코가 식별되는 얼굴 클로즈업이 맞다</li>
+      <li>EP.01 표지는 선글라스로 눈이 가려져 있어, 첫 방문자가 두부의 맨얼굴을 보는 곳은 프로필 사진뿐 → 얼굴안이 더 중요</li>
+    </ul>
+  </div>
+
+  <h2>EP.01 썸네일</h2>
+  <div class="card">
+    <div class="row">
+      <div class="cov"><img src="cover-cropzones.png" alt=""><b>크롭 영역</b>주황 1:1 · 회색 3:4</div>
+      <div class="cov"><img src="cover-1x1.png" alt=""><b>1:1로 잘렸을 때</b>제목 첫 줄 상단이 잘림</div>
+      <div class="cov"><img src="cover-3x4.png" alt=""><b>3:4 그리드</b>양옆 6%만 잘림, 문제 없음</div>
+    </div>
+    <ul>
+      <li class="ok">좋은 점: 흰 배경 + 큰 캐릭터 + 3줄 손글씨 제목. 레퍼런스(하루살이·뱁새) 표지 공식과 같고, 포인트 컬러 1곳으로 시선 고정</li>
+      <li class="warn">제목 상단 여백: 첫 줄이 y≈130px에서 시작. 1:1 크롭(탐색 탭·해시태그 페이지)에서 윗부분이 잘린다. 제목 블록을 80px 정도 내리거나 세이프존(상하 135px)을 compose에 규칙으로</li>
+      <li class="warn">시리즈 식별자 없음: 그리드에 쌓일 때 「당신은 약간 초능력자?」가 어디에도 안 보인다. 제목 위에 작은 회색 한 줄(예: <code>당신은 약간 초능력자? EP.01</code>)을 넣으면 2편부터 시리즈로 읽힌다 — 보리 표지의 부제 자리 재활용</li>
+      <li>포인트 컬러 위치: 지금은 "마음". 초능력의 핵심 동사인 "읽는"에 주는 편이 제목 훅과 맞는다 (보리 표지 방식)</li>
+      <li>선글라스 표지는 첫 편으로서 아쉬운 면이 있으나(얼굴 비노출), 에피소드 소품이므로 유지. 대신 프로필 사진으로 보완</li>
+    </ul>
+  </div>
+</main>
+</body>
+</html>
