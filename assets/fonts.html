@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>폰트 후보 비교 — 당신은 약간 초능력자?</title>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Gaegu:wght@400;700&family=Hi+Melody&family=Gowun+Dodum&display=swap" rel="stylesheet">
+<style>
+  @font-face{font-family:'ParkDaHyun';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/2411-3@1.0/Ownglyph_ParkDaHyun.woff2') format('woff2');font-display:swap}
+  @font-face{font-family:'Uiyeun';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105@1.1/Uiyeun.woff') format('woff');font-display:swap}
+  @font-face{font-family:'KimKongHae';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408@1.0/Ownglyph_kimkonghae.woff2') format('woff2');font-display:swap}
+  @font-face{font-family:'CornCorn';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/2412-1@1.0/Ownglyph_corncorn-Rg.woff2') format('woff2');font-display:swap}
+  @font-face{font-family:'Omyu';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');font-display:swap}
+  @font-face{font-family:'KyoboHand';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff') format('woff');font-display:swap}
+  @font-face{font-family:'Nadeuri';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-5@1.0/HakgyoansimNadeuriTTF-L.woff2') format('woff2');font-weight:400;font-display:swap}
+  @font-face{font-family:'Nadeuri';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-5@1.0/HakgyoansimNadeuriTTF-B.woff2') format('woff2');font-weight:700;font-display:swap}
+  @font-face{font-family:'Ssukssuk';src:url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Ssukssuk.woff') format('woff');font-display:swap}
+  @font-face{font-family:'BMJua';src:url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');font-display:swap}
+
+  :root{--ink:#3A3733;--point:#C77B3F}
+  *{box-sizing:border-box}
+  body{margin:0;padding:40px 16px 96px;background:#EFEAE2;color:var(--ink);font-family:'Gowun Dodum','Malgun Gothic',sans-serif;line-height:1.6}
+  main{max-width:960px;margin:0 auto}
+  h1{font-size:22px;margin:0 0 6px}
+  .sub{font-size:13px;color:#8A837A;margin:0 0 28px}
+  .card{background:#FFFDF9;border-radius:12px;padding:14px 16px 16px;margin-bottom:18px;box-shadow:0 2px 14px rgba(58,55,51,.08)}
+  .card h2{font-size:15px;margin:0 0 2px;font-weight:400}
+  .card h2 small{font-size:12px;color:#8A837A;margin-left:8px}
+  .lic{font-size:12px;color:#8A837A;margin:0 0 10px}
+  .row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  @media(max-width:600px){.row{grid-template-columns:1fr}}
+  .cover,.cut{background:#fff;border:1px solid #E6E0D6;border-radius:8px;aspect-ratio:4/5;position:relative;overflow:hidden;padding:18px 16px}
+  .cover .title{font-size:34px;line-height:1.2;margin:0;font-weight:700;word-break:keep-all}
+  .cover .title b{color:var(--point);font-weight:inherit}
+  .cover .mbti{font-size:16px;margin:8px 0 0;color:#8A837A;letter-spacing:.06em}
+  .fig{position:absolute;right:8px;bottom:0;width:150px;height:170px;overflow:hidden}
+  .fig img{width:845px;margin-left:-698px;margin-top:-319px;display:block}
+  .cut .nar{font-size:19px;line-height:1.45;margin:0;word-break:keep-all}
+  .cut .mind{position:absolute;left:16px;bottom:22px;font-size:16px;color:#6B655D;line-height:1.4;max-width:55%}
+  .cut .fig2{position:absolute;right:10px;bottom:0;width:120px;height:170px;overflow:hidden}
+  .cut .fig2 img{width:845px;margin-left:-295px;margin-top:-319px;display:block}
+  .sample{font-size:18px;margin:12px 0 0;line-height:1.7}
+</style>
+</head>
+<body>
+<main>
+  <h1>폰트 후보 비교</h1>
+  <p class="sub">상업적 이용 가능한 손글씨 계열 12종. 왼쪽은 표지(제목 + 부제), 오른쪽은 컷(내레이션 + 속마음, 말풍선 없음). 캐릭터는 확정 시트에서 잘라 넣음. 후보 정리: <a href="https://github.com/willowttg/superwebtoon/blob/master/assets/fonts.md">fonts.md</a></p>
+
+  <div id="cards"></div>
+</main>
+<script>
+const FONTS = [
+  ['나눔손글씨 펜', 'Nanum Pen Script', 'OFL · 네이버 · Google Fonts', 700],
+  ['온글잎 박다현체', 'ParkDaHyun', '온글잎 무료 라이선스 · 상업 가능', 400],
+  ['온글잎 의연체', 'Uiyeun', '온글잎 무료 라이선스 · 상업 가능', 400],
+  ['온글잎 김콩해', 'KimKongHae', '온글잎 무료 라이선스 · 상업 가능', 400],
+  ['온글잎 콘콘체', 'CornCorn', '온글잎 무료 라이선스 · 상업 가능', 400],
+  ['오뮤 다예쁨체', 'Omyu', '무료 · 상업 가능 (폰트 파일 재판매만 금지)', 400],
+  ['교보손글씨 2019', 'KyoboHand', '교보문고 · 상업 가능', 400],
+  ['개구쟁이 (Gaegu)', 'Gaegu', 'OFL · Google Fonts · 400/700', 700],
+  ['하이멜로디 (Hi Melody)', 'Hi Melody', 'OFL · Google Fonts', 400],
+  ['학교안심 나들이', 'Nadeuri', 'OFL · KERIS · L/B 2웨이트', 700],
+  ['카페24 쑥쑥', 'Ssukssuk', '카페24 · 상업 가능', 400],
+  ['배달의민족 주아 (제목 전용 후보)', 'BMJua', 'OFL · 우아한형제들', 400],
+];
+const IMG = 'samples/bori-sheet2-high.png';
+document.getElementById('cards').innerHTML = FONTS.map(([name, fam, lic, tw], i) => `
+<div class="card" style="font-family:'${fam}'">
+  <h2 style="font-family:'Gowun Dodum'">${i+1}. ${name}<small>${fam}</small></h2>
+  <p class="lic" style="font-family:'Gowun Dodum'">${lic}</p>
+  <div class="row">
+    <div class="cover">
+      <p class="title" style="font-weight:${tw}">알고 싶지 않은<br>마음까지 <b>읽는</b><br>초능력자</p>
+      <p class="mbti">- INFP -</p>
+      <div class="fig"><img src="${IMG}" alt=""></div>
+    </div>
+    <div class="cut">
+      <p class="nar">남의 기분이 먼저 보여서,<br>정작 내 기분은 제일 늦게 알아챈다.</p>
+      <p class="mind">…아까 그 말,<br>괜히 했나</p>
+      <div class="fig2"><img src="${IMG}" alt=""></div>
+    </div>
+  </div>
+  <p class="sample">당신 곁의 INFP를 태그해 주세요. 그 사람은 오늘도 누군가의 하루를 조용히 구했을 거예요 🦸 0123456789 ?!</p>
+</div>`).join('');
+</script>
+</body>
+</html>
