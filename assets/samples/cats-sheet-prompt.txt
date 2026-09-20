@@ -1,5 +1,5 @@
 Reference images:
-- The FIRST image is a DESIGN REFERENCE: a character sheet of a white cat drawn in this project's grammar. Copy its cat silhouette and drawing grammar exactly, but NOT its color.
+- The FIRST image is a DESIGN REFERENCE: a character sheet of cats drawn in this project's grammar (re-generation: use cats-sheet-high.png itself). Copy its cat silhouette and drawing grammar exactly.
 - The other images are STYLE references only (the Korean instatoon dog "Kkamja"): copy its drawing grammar — wobbly hand-drawn black outline of uneven thickness, flat colors, no shading, simple emotion symbols (sweat drop, sparkles, tiny rain cloud, hearts) — but NOT its character or color.
 
 Draw THREE CATS, a trio of popular classmates. All three share the same design except body color:

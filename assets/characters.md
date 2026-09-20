@@ -1,6 +1,6 @@
 # 캐릭터 기획 — 확정 캐스트 7인
 
-매 편 같은 캐릭터가 나온다. 주인공은 양 두부 1명, 중성적이지만 여자에 가까운 느낌. 시각 검토: [cast.html](https://willowttg.github.io/superwebtoon/assets/cast.html) · 동물 시트: [animals.html](https://willowttg.github.io/superwebtoon/assets/samples/animals.html)
+매 편 같은 캐릭터가 나온다. 주인공은 양 두부 1명, 중성적이지만 여자에 가까운 느낌. 시각 검토: [cast.html](https://willowttg.github.io/superwebtoon/assets/cast.html)
 
 ## 0. 그림체 기준 (깜자 문법 차용)
 
@@ -51,7 +51,3 @@ MBTI는 설계용이며 **작품 안(표지·컷·캡션·해시태그 어디에
 - 시트 7장: `assets/samples/{dubu,misook,deoksu,kong,tangja,sora,bamtol}-sheet-high.png` ([cast-sheets.html](https://willowttg.github.io/superwebtoon/assets/samples/cast-sheets.html)). 소품 없음 — 망토 등은 에피소드별로 프롬프트에 지정.
 - 컷 생성 참조 순서: 등장 캐릭터 시트 → 동시 출연이면 `python scripts/lineup.py <이름들> --out episodes/epNN/ref/lineup-<이름들>.png`로 만든 크기 라인업 → 깜자 스타일 2장. 프롬프트에 "the lineup image shows their relative sizes"를 넣는다.
 - 덕수의 뿔은 시트에서 몸보다 진한 갈색으로 나왔고 10도 모두 일관되므로 그대로 확정 (2갈래).
-
-## 4. 다음 단계
-
-1. EP.01을 두부 + 무(無)MBTI 표지로 재생성
