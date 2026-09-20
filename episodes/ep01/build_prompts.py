@@ -7,15 +7,15 @@ files['conti.md'] = """# EP.01 「알고 싶지 않은 마음까지 읽을 수 �
 | 컷 | 장면 | 내레이션 | 속마음·대사(합성) |
 |---|---|---|---|
 | 표지 | 선글라스를 쓰고 허공에 손가락질하는 씩씩한 두부 | 제목 | — |
-| 1 | 선글라스 두부가 타워 꼭대기에 서 있고, 바닥의 회색 실루엣 군중에게서 속마음이 쉴 새 없이 올라옴 | 나는 사람들이 말하지 않아도 / 그들의 마음을 읽을 수 있다. | 군중 속마음 조각: 배고파 / 집 가고 싶다 / 괜찮은 척 중 / 쟤 왜 저래 / 월요일 싫어 |
+| 1 | 선글라스 두부가 타워 꼭대기에 서 있고, 바닥의 회색 실루엣 군중에게서 속마음이 쉴 새 없이 올라옴 | 우리는 사람들이 말하지 않아도 / 그들의 마음을 읽을 수 있다. | 군중 속마음 조각: 배고파 / 집 가고 싶다 / 괜찮은 척 중 / 쟤 왜 저래 / 월요일 싫어 |
 | 2 | 두부가 우는 소라를 안아 줌 | 이 능력 덕분에 / 많은 이들로부터 환영을 받기도 하고 | 소라: 내 맘 알아 주는 건 너밖에 없어 |
-| 3 | 급식실. 선글라스 두부와 시무룩한 탱자가 식판을 놓고 앉아 있고, 고양이 3인조가 아니꼬운 눈으로 옆을 지나감. 전원 여고생 교복 | 때로는 주류 무리의 반대를 무릅쓰고 / 소외되는 이에게 손 내미는 영웅적 면모도 보여 준다. | — |
-| 4 | 패스트푸드 카운터. 찡그린 점원(물범), 반 넘게 남은 햄버거를 든 채 눈치 보는 두부. 벽시계 | 이 능력 때문에 필요 없는 눈치를 보거나 / 손해를 자처할 때도 많고 | 시계 위: 마감 시간 1시간 넘게 남음 · 점원: 아무 생각 없음 |
-| 5 | 켜진 모니터에 고양이 3인조가 사이좋게 찍은 인스타 화면. 두부는 선글라스를 던져 놓고 이불에 파묻혀 욺 | 스스로의 마음을 돌보지 못하는 나를 미워하거나 / 지난 날의 영웅적인 선택들까지 후회하기도 한다. | 두부: 이건 초능력이 아니라 저주야... |
-| 6 | 탱자와 소라가 선글라스를 쓰고 양쪽에서 우는 두부에게 달려옴 | 그렇지만 내가 나를 챙기지 못할 때면, / 항상 내가 지켜낸 사람들이 나를 지켜 줬다. | — |
-| 7 | 둥지 안에 조연들이 작은 새처럼 들어가 위를 보고 조잘거리고, 선글라스 두부가 둥지를 내려다봄. 머리 위 하트 | 나는 앞으로도 사람들의 마음을 외면하지 않을 것이다. / 내가 건넨 손길들로 내 주변을 따뜻하게 할 수만 있다면. | CTA: 당신 옆의 초능력자를 태그해 주세요 |
+| 3 | 급식실. 선글라스 두부와 시무룩한 탱자가 식판을 놓고 앉아 있고, 고양이 3인조가 아니꼬운 눈으로 옆을 지나감. 전원 여고생 교복 | 때로는 무리의 반대를 무릅쓰고 / 영웅처럼 소외된 이에게 손을 내밀기도 한다! | — · 감정: 탱자 먹구름 |
+| 4 | 패스트푸드 카운터. 찡그린 점원(물범), 반 넘게 남은 햄버거를 든 채 눈치 보는 두부. 벽시계 | 이 능력 때문에 필요 없는 눈치를 보거나 / 손해를 자처할 때도 많고 | 시계 위: 마감 시간 1시간 넘게 남음 · 점원: 아무 생각 없음 · 감정: 땀방울 |
+| 5 | 켜진 모니터 속 인스타그램 게시물 프레임 안에 고양이 3인조가 사이좋게 찍은 사진. 두부는 선글라스를 던져 놓고 이불에 파묻혀 욺 | 스스로의 마음을 돌보지 못하는 / 나를 미워하거나 선택을 후회하기도 한다. | 두부: 이건 초능력이 아니라 저주야... · 감정: 머리 위 낙서 소용돌이 |
+| 6 | 탱자와 소라가 선글라스를 쓰고 양쪽에서 우는 두부에게 달려옴 | 그렇지만 그럴 때마다 / 내가 지켜낸 사람들이 오히려 나를 지켜 줬다! | — |
+| 7 | 둥지 안에 조연들이 작은 새처럼 들어가 위를 보고 조잘거리고, 선글라스 두부가 둥지를 내려다봄. 머리 위 하트 | 앞으로도 남들의 마음을 외면하지 않을래. / 나 하나로 그들이 따뜻해질 수만 있다면. | CTA: 당신 옆의 초능력자를 태그해 주세요 |
 
-톤: 1–3 밝음 → 4–6 저채도·먹구름 → 7 포인트 컬러 복귀. 참조: 두부·소라·탱자·점원 시트, `ref/lineup-*.png`, 고양이 3인조 시트, 깜자 2장. 프롬프트는 `build_prompts.py`가 만든다.
+톤: 1–3 밝음 → 4–6 저채도 → 7 포인트 컬러 복귀. 감정 기호는 컷마다 다르게(먹구름 3 · 땀방울 4 · 낙서 소용돌이 5). 참조: 두부·소라·탱자·점원 시트, `ref/lineup-*.png`, 고양이 3인조 시트, 깜자 2장. 프롬프트는 `build_prompts.py`가 만든다.
 """
 HEADER = """Reference images:
 - The FIRST image is the CHARACTER SHEET of Dubu, a cream-colored sheep. Reproduce this exact character design.
@@ -43,7 +43,11 @@ cuts['cut4'] = """Additional character: a fast-food clerk, a blue gray #BCD0DA s
 Scene: inside a fast-food restaurant. On the right, in the background, the clerk stands behind a plain counter, arms limp, eyes as two small slightly furrowed dashes (a mild frown), staring blankly toward Dubu. On the left, in the foreground and clearly separated from the counter, Dubu wearing THE SUNGLASSES sits on a simple chair at a small round customer table, holding a hamburger that is more than half uneaten over a tray on the table, glancing nervously back toward the clerk: body slightly shrunk, one sweat drop, a tiny gray rain cloud above her. On the wall above the counter, a simple round wall clock. Muted, slightly desaturated colors. Scene in the lower 60% of the image, the upper 40% empty white.
 No text, no letters, no numbers on the clock, no speech bubbles, no captions. Plain white background.
 """
-cuts['cut5'] = "Scene: a gloomy room. On the left, a desk with a glowing computer monitor; the screen shows a simple photo of three cats (pink #F2C9CF, lavender #D6CBE6, mint #C5DCCB, same design as the cats sheet) standing close together happily with closed-arc eyes and a tiny sparkle, framed like a social media post (just a picture inside a rounded rectangle, no text, no icons). On the right, Dubu is buried in a lumpy pale blue blanket on the floor, only her head showing, crying: dot eyes with two thin tear streams. THE SUNGLASSES lie thrown on the floor in front of the blanket. A small gray rain cloud above Dubu. Muted, desaturated colors. Scene in the lower 60% of the image, the upper 40% empty white." + END
+cuts['cut5'] = """Reference images: the FIRST image is the previous version of this exact cut. Keep its composition, layout, characters, colors, line style and framing as they are. The second image is Dubu's character sheet, the third is the cats sheet; the last two are style references (Kkamja) only.
+Redraw the same scene with these changes only:
+1. The picture on the computer monitor must be drawn inside an Instagram-style post frame: a white rounded rectangle card filling the screen; at the top a thin header bar with a small circle avatar on the left and a short flat gray line next to it (no letters); below it, the square photo of the three cats (pink #F2C9CF, lavender #D6CBE6, mint #C5DCCB) standing close together happily with closed-arc eyes and a tiny sparkle; under the photo a row of three simple outline icons (heart, speech bubble, paper plane) and one short gray line. No text, no letters anywhere.
+2. Remove the gray rain cloud above Dubu. Instead draw a small dark gray scribbled swirl (a messy tangled doodle loop) floating above her head, the Kkamja way of showing a gloomy mind.
+Everything else identical: gloomy room, desk and monitor on the left, Dubu buried in the lumpy pale blue blanket on the floor on the right crying with two thin tear streams, THE SUNGLASSES thrown on the floor in front of the blanket, muted desaturated colors, scene in the lower 60% of the image, the upper 40% empty white.""" + END
 cuts['cut6'] = """Additional characters: Tangja, a yellow #F5E08C duck (orange bill and feet, feather tuft), and Sora, a slate gray #C2C6CA penguin (yellow beak and feet, flipper arms). Both same height as Dubu (see sheets and lineup).
 Scene: Dubu sits in the middle on the floor, still crying (dot eyes with two thin tear streams), NOT wearing sunglasses. From the left, Tangja runs toward her with wings spread wide and small motion lines behind; from the right, Sora runs toward her with flippers out and motion lines. BOTH Tangja and Sora are wearing THE SUNGLASSES (lime-green lenses, purple frame, downward-triangle shape). Tiny sparkles begin to appear around Dubu. Scene in the lower 60% of the image, the upper 40% empty white.""" + END
 cuts['cut7'] = """The lineup image shows Dubu's friends and family: a peach fox (Misook), a tan deer with two-pronged antlers (Deoksu), a light gray mouse with big round ears (Kong), a yellow duck (Tangja), a slate gray penguin (Sora), a warm brown hedgehog (Bamtol).
@@ -54,5 +58,5 @@ os.makedirs('prompts', exist_ok=True)
 open('conti.md', 'w', encoding='utf-8', newline='\n').write(files['conti.md'])
 open('prompts/_header.txt', 'w', encoding='utf-8', newline='\n').write(HEADER)
 for k, v in cuts.items():
-    open(f'prompts/{k}.txt', 'w', encoding='utf-8', newline='\n').write(HEADER + v)
+    open(f'prompts/{k}.txt', 'w', encoding='utf-8', newline='\n').write(v if k == 'cut5' else HEADER + v)
 print(sorted(os.listdir('prompts')))
