@@ -35,6 +35,7 @@ WATCH = """Prop of this episode, THE POCKET WATCH: a round pocket watch about ha
 TABLE = "Setting: a family restaurant, but the background stays plain white — only a simple flat light-wood rectangular dining table seen from the front, with the characters seated behind it on simple stools so their upper bodies show above the table top. A few tiny flat props on the table: a water pitcher, small side-dish plates, cups. "
 MENU = "The MENU is a folded booklet with blank pages — only faint light-gray horizontal lines and a few small pale colored rectangles as photo placeholders, no letters at all. "
 FROZEN = "FROZEN characters are drawn entirely in ONE flat pale blue-gray #D5DBE1 (their body color, props and everything they hold become that same gray, black outline kept), stiff, caught mid-motion, with a small black pause symbol (two short vertical bars) floating above each frozen head. "
+CAMERA_NOTE = "If a size lineup image is given it is only for the characters' relative sizes, not for the seating layout or camera. "
 LAYOUT = "Everything in the lower 60% of the image; the upper 40% must be completely empty white."
 END = "\nNo text, no letters, no speech bubbles, no captions. Plain white background. One flat light-gray #E6E6E6 ellipse on the ground under each standing character and under any large object resting on the ground, as a contact shadow; no other shadows, no shading on the bodies.\n"
 
@@ -51,30 +52,29 @@ cuts['cover'] = head(DUBU, WATCH) + (
     "Behind her, a little to one side, stands a simple A-frame sidewalk sign (a chalkboard easel sign, dark green board, wooden frame) that is completely blank. "
     "Character in the lower 60% of the image; the upper 40% must be completely empty white for a title.") + END
 
-cuts['cut1'] = head(DUBU, MISOOK, DEOKSU, KONG, CLERK, WATCH) + TABLE + MENU + FROZEN + (
-    "Scene: the moment Dubu opens the menu, the whole world freezes. Seated behind the table from left to right: Misook, Deoksu, Dubu, Kong. "
-    "Dubu is the ONLY one in full color: she wears THE POCKET WATCH and holds the open MENU up with both hands, dot eyes on it, calm. "
-    "Everyone else is FROZEN gray: Misook tilting a cup so that a blob of water hangs suspended in mid-air between the cup and the table; "
-    "Deoksu holding a half-unfolded wet towel; Kong with chopsticks lifting a side dish halfway to his face; and the Clerk standing at the right end of the table "
-    "with a small notepad and a pen raised, caught mid-word. Pause symbols above the four frozen heads. " + LAYOUT) + END
+cuts['cut1'] = head(DUBU, MISOOK, DEOKSU, KONG, CLERK, WATCH) + CAMERA_NOTE + (
+    "CAMERA: high angle, looking down at the dining table from above and slightly in front, so the table top is a large light-wood rectangle in the middle of the picture and the four seated characters are seen from above around it, each on a small stool (Misook and Deoksu on the far side, Dubu and Kong on the near side, Dubu at the front-right); the Clerk stands beside the table at the right. Plain white background around the table. "
+    + MENU + FROZEN +
+    "Scene: the moment Dubu opens the menu, the whole world freezes. Dubu is the ONLY one in full color: she wears THE POCKET WATCH and holds the open MENU up with both hands, calm. "
+    "Everyone else is FROZEN gray: Misook tilting a cup so that a blob of water hangs suspended in mid-air above the table; Deoksu holding a half-unfolded wet towel; "
+    "Kong with chopsticks lifting a side dish halfway to his face; the Clerk holding a small notepad and a pen, caught mid-word. Pause symbols above the four frozen heads. "
+    "On the table: a water pitcher, cups, small side-dish plates. Everything in the lower 65% of the image; the upper 35% must be completely empty white.") + END
 
-cuts['cut2'] = head(DUBU, MISOOK) + TABLE + MENU + (
-    "Scene: only Dubu and Misook, seated side by side behind the table. Dubu (right) has flipped the MENU to its very last page and holds it so close that it almost touches her nose, "
-    "reading the tiny corner of the page; her dot eyes point at the bottom corner of the page. Misook (left) leans her whole body sideways toward Dubu to peek at the same corner, "
-    "eyes as slightly bigger round dots, one small heart floating above Misook's head. Bright, warm colors. Keep the lower-right corner of the menu page plain and visible so a label can be added later. " + LAYOUT) + END
+cuts['cut2'] = head(DUBU, MISOOK) + CAMERA_NOTE + MENU + (
+    "CAMERA: extreme close-up. The bottom corner of the MENU's last page fills the lower-left half of the picture at an angle, held by Dubu's two stubby cream hands; Dubu's face is partly visible right behind the page, very close, her dot eyes aimed at the page corner. "
+    "From the right edge, Misook's face and one big pointed ear lean into the frame, close to Dubu's, peeking at the same corner, eyes as slightly bigger round dots, one small heart floating above her head. "
+    "Both are seated at a table (only the table edge shows at the very bottom); no full bodies. Keep the visible corner of the menu page plain so a label can be added later. Bright, warm colors. "
+    "Everything in the lower 65% of the image; the upper 35% must be completely empty white.") + END
 
-cuts['cut3'] = head(DUBU, DEOKSU) + TABLE + (
-    "Scene: only Dubu and Deoksu, seated side by side behind the table. Between them a MENU page is propped up, showing one big flat picture of a bright red spicy stew in a black bowl, "
-    "and below it several faint gray lines, the last line at the very bottom being the item Dubu points at with one stubby finger (no letters anywhere). "
-    "Deoksu (left) sits very straight with his arms crossed, pretending to be fine, eyes as two small straight dashes, but ONE sweat drop slides down his forehead. "
-    "Dubu (right) turns toward him, eyes as closed happy upward arcs, pointing at the bottom of the menu. Bright, warm colors. " + LAYOUT) + END
+cuts['cut3'] = head(DUBU, DEOKSU) + CAMERA_NOTE + (
+    "CAMERA: side view, full profile, the camera at table height looking along the table from its end. Deoksu and Dubu sit side by side on stools, both in profile facing left, Deoksu nearer to the camera and Dubu just behind him, the table edge running across the lower part of the picture. "
+    "Scene: a MENU page is propped up on the table in front of them, seen edge-on at a slight angle so its picture is still visible: one big flat picture of a bright red spicy stew in a black bowl, and faint gray lines below it. "
+    "Deoksu sits very straight with his arms crossed, pretending to be fine, eye as a small straight dash, ONE sweat drop sliding down his forehead. Dubu leans forward past him, eyes as closed happy arcs, pointing with one stubby finger at the very bottom line of the menu. "
+    "A water pitcher and two cups on the table. Bright, warm colors. " + LAYOUT) + END
 
-cuts['cut4'] = head(DUBU, MISOOK, DEOKSU, KONG, CLERK, WATCH) + TABLE + MENU + FROZEN + (
-    "Scene: the same table as before, but reversed — now DUBU is the only FROZEN one. Seated behind the table from left to right: Misook, Deoksu, Dubu, Kong. "
-    "Dubu is entirely flat gray #D5DBE1 (body, pocket watch and the menu she holds), stiff, holding the open MENU in front of her with dot eyes on the first page, "
-    "and a thin cobweb (a few simple radial lines with rings) is spun between the top of the menu and her head. No pause symbol on her. "
-    "Everyone else is in normal full color and busy: the Clerk stands at the LEFT end of the table, turned toward Misook, writing on the notepad; Misook points at her own menu ordering; "
-    "Deoksu drinks from a cup; Kong already eats a side dish with chopsticks, eyes as closed happy arcs, a couple of small motion lines near his chopsticks. "
+cuts['cut4'] = head(DUBU, MISOOK, DEOKSU, KONG, CLERK, WATCH) + CAMERA_NOTE + MENU + FROZEN + (
+    "CAMERA: Dubu large in the foreground, the others small in the back. In the lower-right foreground, seen from behind at a three-quarter angle over her shoulder, Dubu sits on a stool and is drawn BIG: the back of her fluffy head, one ear, her shoulders, the pocket watch chain at her neck and the open MENU she holds up — all of it FROZEN flat gray #D5DBE1, stiff, with a thin cobweb (simple radial lines with rings) spun between the top of the menu and her head. No pause symbol on her. "
+    "Beyond her, smaller and farther away across the table, in normal full color and busy: Misook seated pointing at her own menu while the Clerk STANDS on the floor beside the table next to her (the Clerk is a waiter, never seated, no stool under him) writing on a notepad, Deoksu seated drinking from a cup, Kong seated eating a side dish with chopsticks, eyes as closed happy arcs, small motion lines near his chopsticks. All seated characters on stools. "
     "Colors slightly muted. " + LAYOUT) + END
 
 cuts['cut5'] = head(DUBU, MISOOK, DEOKSU, KONG) + TABLE + MENU + (
@@ -83,11 +83,10 @@ cuts['cut5'] = head(DUBU, MISOOK, DEOKSU, KONG) + TABLE + MENU + (
     "she wears small round black-rimmed glasses, holds a yellow highlighter pen and is drawing a bright yellow line across one menu line, several small colored sticky notes (pink, yellow, blue) stick out of the menu's edges, "
     "and an open notebook with a pencil lies on the table beside her. Colors muted. Keep a little space beside each crying belly for small labels. " + LAYOUT) + END
 
-cuts['cut6'] = head(DUBU, KONG) + TABLE + (
-    "Scene: only Dubu and Kong, seated side by side behind the table, the food has arrived. In front of Dubu (left): a bowl of jajangmyeon — noodles with flat dark-brown black-bean sauce and a few cucumber slivers. "
-    "In front of Kong (right): a bowl of jjamppong — bright red spicy soup with noodles and a few small seafood bits. Kong eats happily, chopsticks up, eyes as closed upward arcs. "
-    "Dubu holds her chopsticks limply over her own bowl, but her WHOLE HEAD is turned to the right in three-quarter profile so she faces Kong's red bowl, both dot eyes shifted to the far right corners staring at his soup (side-eye), her body still facing forward; three short vertical gloom lines are drawn on her forehead. No sparkle or emphasis lines anywhere. "
-    "Colors muted except the two bowls. " + LAYOUT) + END
+cuts['cut6'] = head(DUBU, KONG) + CAMERA_NOTE + (
+    "CAMERA: low angle from table-top level, the bowls large in the foreground. At the very front, drawn big and close: on the left a bowl of jajangmyeon (noodles under flat dark-brown black-bean sauce with a few cucumber slivers), on the right a bowl of jjamppong (bright red spicy soup with noodles and small seafood bits), both seen from just above their rims. "
+    "Behind the bowls, smaller, Dubu and Kong sit side by side on stools: Kong (right) eats happily with chopsticks lifting noodles, eyes as closed upward arcs. Dubu (left) holds her chopsticks limply over her own bowl, but her whole head is turned to the right toward Kong's red bowl, both dot eyes shifted to the corners staring at it (side-eye), three short vertical gloom lines on her forehead. "
+    "Colors muted except the two bowls. No sparkle or emphasis lines. " + LAYOUT) + END
 
 cuts['cut7'] = head(DUBU, MISOOK, DEOKSU, KONG, WATCH) + TABLE + MENU + (
     "Scene: seated behind the table, Dubu in the CENTER facing the viewer, Misook and Deoksu on her left, Kong on her right. "
