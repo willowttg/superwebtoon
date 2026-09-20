@@ -13,6 +13,7 @@ description: 「작은 힘에도 작은 책임은 따른다」 에피소드 1편
 - **MBTI는 작품 어디에도 쓰지 않는다** (표지·컷·캡션·해시태그). 유형은 기획 입력값일 뿐이다.
 - 내용은 해당 유형 독자가 "이거 나잖아"라고 느껴야 한다. 유형 밈이 아니라 **구체적 상황**(약치기그림식)으로 쓴다.
 - 내레이션·속마음은 **1인칭**. 능력을 설명하는 컷 1은 같은 유형 독자를 묶는 **"우리는 …"**, 감정이 드러나는 컷은 "나는 …". 3인칭 설명("이 유형은 …")으로 쓰지 않는다. CTA만 독자에게 말한다. 어미는 문어체·구어체를 섞어 리듬을 준다("…한다!", "…않을래.").
+- **속마음 대사를 적극 쓴다.** 필수는 아니지만 내레이션만으로 끝내는 컷을 기본값으로 두지 않는다 — 상황이 있는 컷(2–6)은 캐릭터 옆에 짧은 속마음 한 줄을 붙일 수 있는지 먼저 살핀다. 내레이션은 상황을, 속마음은 그 순간의 감정·본심을 맡아 둘이 겹치지 않게 한다. 조연 대사도 같은 방식으로 캐릭터 옆에 놓는다.
 - **이모지 금지** (컷·캡션·CTA 전부).
 - **표지 + 7컷 = 8장** (인스타 상한).
 
@@ -33,10 +34,11 @@ description: 「작은 힘에도 작은 책임은 따른다」 에피소드 1편
 - 참조: 등장 캐릭터 시트 `assets/samples/<이름>-sheet-high.png`(두부 dubu, 미숙 misook, 덕수 deoksu, 콩 kong, 탱자 tangja, 소라 sora, 밤톨 bamtol) → **2명 이상 동시 출연이면** `python scripts/lineup.py dubu misook --out ref/lineup.png`로 그 컷의 캐릭터만 담은 크기 라인업을 만들어 다음 참조로 → `assets/ref/kkamja-1~2.jpg`(스타일). 각 시트 프롬프트(`<이름>-sheet-prompt.txt`)의 design 블록을 프롬프트 헤더로 복사하고, 라인업이 있으면 "the lineup image shows their relative sizes"를 덧붙인다.
 - 캐스트·크기·색은 `assets/characters.md` 1절.
 - **군중·행인(이름 없는 다수)은 시트 없이 프롬프트 문구를 고정**해서 그린다 (참조 이미지가 늘수록 결과가 흐려짐): `a crowd of many small featureless people-shaped silhouettes in flat medium gray, no faces, no details` — 사람 형태여도 된다. 대사·속마음이 있는 엑스트라만 종을 정해 시트를 만든다.
-- 초능력 발동(표지·2–3·7): 에피소드 소품(EP.01 선글라스; 기본은 테라코타 망토 `#C77B3F`) + 반짝이. 소품을 착용할 때는 위치를 프롬프트에 명시(선글라스는 눈을 덮게). 단점 컷(4–6): 감정 기호. **감정 기호(먹구름·땀방울·낙서 소용돌이·세로 그늘선·눈물·하트·반짝이 등)는 한 에피소드 안에서 컷마다 다른 것을 쓰고 중복시키지 않는다** — 콘티의 속마음 열에 `감정: ○○`로 컷별 배정을 적고 프롬프트에 그 하나만 넣는다. 먹구름은 편당 1컷까지.
+- 초능력 발동(표지·2–3·7): 에피소드 소품 + 반짝이. 소품은 `assets/props.md`에서 기존 편과 종류·색이 겹치지 않게 정하고 콘티 전에 표에 추가한다. 색은 크림색 몸과 대비되게 **화려해도 좋다**(EP.01 연두+보라 선글라스). 착용 위치를 프롬프트에 명시(선글라스는 눈을 덮게). 7컷 망토 `#C77B3F`는 공통. 단점 컷(4–6): 감정 기호. **감정 기호(먹구름·땀방울·낙서 소용돌이·세로 그늘선·눈물·하트·반짝이 등)는 한 에피소드 안에서 컷마다 다른 것을 쓰고 중복시키지 않는다** — 콘티의 속마음 열에 `감정: ○○`로 컷별 배정을 적고 프롬프트에 그 하나만 넣는다. 먹구름은 편당 1컷까지.
 - **밈·명장면 활용**: 콘티에서 내레이션을 다 쓴 뒤, 장면 구상 전에 `assets/memes.md`를 한 번 훑어 상황에 맞는 것이 있으면 캐릭터 연기·구도로 옮긴다(그림 쪽만, 내레이션엔 안 씀. 억지로 끼우지 않음). 프롬프트 요점에 `밈: ○○`로 적고, 쓴 항목은 `memes.md`에서 지워 `memes-used.md`로 옮긴다(한 번 쓴 밈은 다른 컷·에피소드에서 재사용 금지). 웹 검색은 하지 않는다 — 리스트는 매월 갱신.
+- **사회생활 컷**: 캐릭터가 겉으로 웃거나 예의상 멘트를 하는데 진짜 속마음이 다르면, 그림에 속마음 장치를 함께 넣는다 — 등 뒤로 숨긴 손의 주먹·브이, 살랑거리는 꼬리, 등 뒤로 새는 반짝이, 작은 생각 구름(안의 글자는 합성) 등. 콘티 속마음 열에 `속마음 장치: ○○`로 적는다.
 - 텍스트가 들어갈 여백을 프롬프트로 확보: 내레이션 컷은 `character in the lower half, upper 40% empty`.
-- 생성: `python scripts/gen_image.py --prompt-file prompts/cutN.txt --ref assets/samples/dubu-sheet-high.png [--ref assets/samples/misook-sheet-high.png --ref ref/lineup.png] --ref assets/ref/kkamja-1.jpg --ref assets/ref/kkamja-2.jpg --out img/cutN.png` — 컷 `medium`, 표지 `high`. `.env` 로드 필요(`docs/env-setup.md`).
+- 생성: `python scripts/gen_image.py --prompt-file prompts/cutN.txt --ref assets/samples/dubu-sheet-high.png [--ref assets/samples/misook-sheet-high.png --ref ref/lineup.png] --ref assets/ref/kkamja-1.jpg --ref assets/ref/kkamja-2.jpg --out img/cutN.png` — 표지 포함 **전부 `medium`** (`high` 금지). `.env` 로드 필요(`docs/env-setup.md`).
 
 ## 3. 텍스트 합성
 
