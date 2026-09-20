@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EP.01 다운로드</title>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+<style>
+  body{margin:0;padding:32px 12px 80px;background:#EFEAE2;color:#3A3733;font-family:'Gowun Dodum','Malgun Gothic',sans-serif;line-height:1.6}
+  main{max-width:540px;margin:0 auto}
+  h1{font-size:18px;margin:0 0 4px}
+  p.sub{margin:0 0 20px;font-size:13px;color:#8A837A}
+  a.big{display:block;text-align:center;background:#C77B3F;color:#fff;text-decoration:none;padding:16px;border-radius:12px;font-size:16px;margin-bottom:24px}
+  .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+  .grid a{display:block;text-decoration:none;color:inherit;font-size:13px;text-align:center}
+  .grid img{width:100%;display:block;border-radius:8px;box-shadow:0 2px 14px rgba(58,55,51,.08);margin-bottom:4px}
+  h2{font-size:15px;margin:32px 0 8px}
+  button{font:inherit;background:#FFFDF9;border:1px solid #D9D2C7;border-radius:8px;padding:8px 14px;color:#3A3733}
+  pre{white-space:pre-wrap;font:14px/1.7 inherit;background:#FFFDF9;padding:16px;border-radius:8px;margin-top:8px}
+  .hint{font-size:12px;color:#8A837A}
+</style>
+</head>
+<body>
+<main>
+  <h1>EP.01 알고 싶지 않은 마음까지 읽을 수 있는 초능력</h1>
+  <p class="sub">1080×1350 · 8장 · <a href="preview.html" style="color:#C77B3F">프리뷰</a></p>
+
+  <a class="big" href="ep01.zip" download>전체 ZIP 다운로드 (슬라이드 8장 + 캡션)</a>
+  <p class="hint">낱장은 아래 이미지를 탭하면 저장됩니다. iOS는 길게 눌러 "이미지 저장"도 가능.</p>
+
+  <div class="grid">
+    <a href="img/slide1.png" download="ep01-01.png"><img src="img/slide1.png" alt="">01 표지</a>
+    <a href="img/slide2.png" download="ep01-02.png"><img src="img/slide2.png" alt="">02</a>
+    <a href="img/slide3.png" download="ep01-03.png"><img src="img/slide3.png" alt="">03</a>
+    <a href="img/slide4.png" download="ep01-04.png"><img src="img/slide4.png" alt="">04</a>
+    <a href="img/slide5.png" download="ep01-05.png"><img src="img/slide5.png" alt="">05</a>
+    <a href="img/slide6.png" download="ep01-06.png"><img src="img/slide6.png" alt="">06</a>
+    <a href="img/slide7.png" download="ep01-07.png"><img src="img/slide7.png" alt="">07</a>
+    <a href="img/slide8.png" download="ep01-08.png"><img src="img/slide8.png" alt="">08</a>
+  </div>
+
+  <h2>캡션 <button id="copy">복사</button></h2>
+  <pre id="cap">나는 사람들이 말하지 않아도
+그들의 마음을 읽을 수 있다.
+
+이 능력 덕분에
+많은 이들로부터 환영을 받기도 하고
+
+때로는 주류 무리의 반대를 무릅쓰고
+소외되는 이에게 손 내미는 영웅적 면모도 보여 준다.
+
+이 능력 때문에 필요 없는 눈치를 보거나
+손해를 자처할 때도 많고
+
+스스로의 마음을 돌보지 못하는 나를 미워하거나
+지난 날의 영웅적인 선택들까지 후회하기도 한다.
+
+그렇지만 내가 나를 챙기지 못할 때면,
+항상 내가 지켜낸 사람들이 나를 지켜 줬다.
+
+나는 앞으로도 사람들의 마음을 외면하지 않을 것이다.
+내가 건넨 손길들로 내 주변을 따뜻하게 할 수만 있다면.
+
+당신 옆의 초능력자를 태그해 주세요.
+
+#작은힘에도작은책임은따른다 EP.01
+#인스타툰 #일상툰 #공감툰</pre>
+</main>
+<script>
+  document.getElementById('copy').onclick = async e => {
+    await navigator.clipboard.writeText(document.getElementById('cap').textContent);
+    e.target.textContent = '복사됨'; setTimeout(() => e.target.textContent = '복사', 1500);
+  };
+</script>
+</body>
+</html>
