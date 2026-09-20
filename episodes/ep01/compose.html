@@ -12,16 +12,16 @@
   section{position:relative;width:1080px;height:1350px;overflow:hidden;background:#fff;margin:0 auto 20px;font-family:'KyoboHand',sans-serif;color:var(--ink)}
   section img.art{position:absolute;inset:0;width:1080px;height:1350px;object-fit:cover;object-position:50% 100%}
   section.cover img.art{object-fit:contain;object-position:50% 100%}
-  .title{position:absolute;top:120px;left:80px;right:80px;text-align:center;font-family:'Nanum Pen Script',cursive;font-size:118px;line-height:1.12;letter-spacing:-.01em}
+  .series{position:absolute;top:84px;left:80px;right:80px;text-align:center;font-size:44px;color:var(--gray);letter-spacing:.02em}
+  .title{position:absolute;top:150px;left:60px;right:60px;text-align:center;font-family:'Nanum Pen Script',cursive;font-size:118px;line-height:1.12;letter-spacing:-.01em}
   .title b{font-weight:400;color:var(--point)}
-  .narr{position:absolute;top:70px;left:70px;right:70px;text-align:center;font-size:46px;line-height:1.5;white-space:pre-line}
-  .mind{position:absolute;font-size:30px;line-height:1.35;color:var(--gray);white-space:pre-line}
-  .mind.s{font-size:26px}
-  .mind.t{font-size:34px;color:#6E6862;background:#fff;padding:2px 10px}
-  #s7 img.art{transform:scale(.88);transform-origin:50% 100%}
-  #s7 .narr{font-size:40px}
-  #s7 .cta{top:318px;bottom:auto}
-  .cta{position:absolute;left:70px;right:70px;bottom:44px;text-align:center;font-size:32px;color:var(--point)}
+  .narr{position:absolute;top:70px;left:50px;right:50px;text-align:center;font-size:56px;line-height:1.4;white-space:pre}
+  .mind{position:absolute;font-size:40px;line-height:1.35;color:var(--gray);white-space:pre-line}
+  .mind.s{font-size:30px}
+  .mind.t{font-size:38px;color:#6E6862;background:#fff;padding:2px 10px}
+  #s7 img.art{transform:scale(.92);transform-origin:50% 100%}
+  #s7 .cta{top:250px;bottom:auto}
+  .cta{position:absolute;left:70px;right:70px;bottom:44px;text-align:center;font-size:38px;color:var(--point)}
   .dim img.art{filter:saturate(.75) brightness(.97)}
 </style>
 </head>
@@ -29,7 +29,8 @@
 
 <section class="cover" id="s0">
   <img class="art" src="img/cover.png" alt="">
-  <div class="title">말하지 않은<br><b>마음</b>까지 읽는<br>초능력자</div>
+  <div class="series">당신은 약간 초능력자?</div>
+  <div class="title">말하지 않은 <b>마음</b>까지 읽는<br>초능력자</div>
 </section>
 
 <section id="s1">
@@ -48,51 +49,54 @@
   <img class="art" src="img/cut2.png" alt="">
   <div class="narr">이 능력 덕분에
 많은 이들로부터 환영을 받기도 하고</div>
-  <div class="mind" style="right:60px;top:1180px;width:420px;text-align:center">내 맘 알아 주는 건
+  <div class="mind" style="left:520px;top:1170px;width:420px;text-align:center">내 맘 알아 주는 건
 너밖에 없어</div>
 </section>
 
 <section id="s3">
   <img class="art" src="img/cut3.png" alt="" style="object-position:50% 80%">
   <div class="narr">때로는 주류 무리의 반대를 무릅쓰고
-소외되는 이에게 손 내미는
-영웅적 면모도 보여 준다.</div>
+소외되는 이에게 손 내미는 영웅적 면모도 보여 준다.</div>
 </section>
 
 <section id="s4" class="dim">
   <img class="art" src="img/cut4.png" alt="">
   <div class="narr">이 능력 때문에 필요 없는 눈치를 보거나
 손해를 자처할 때도 많고</div>
-  <div class="mind s" style="left:330px;top:262px;width:380px;text-align:center">마감 시간 1시간 넘게 남음</div>
-  <div class="mind" style="right:50px;top:480px;width:340px;text-align:center">아무 생각 없음</div>
+  <div class="mind s" style="left:850px;top:436px;width:220px;text-align:center;font-size:28px">마감 시간
+1시간 넘게 남음</div>
+  <div class="mind" style="left:560px;top:322px;width:240px;text-align:center">아무 생각 없음</div>
 </section>
 
 <section id="s5" class="dim">
   <img class="art" src="img/cut5.png" alt="">
-  <div class="narr">스스로의 마음을 돌보지 못하는
-나를 미워하거나
-지난 날의 영웅적인 선택들까지
-후회하기도 한다.</div>
+  <div class="narr">스스로의 마음을 돌보지 못하는 나를 미워하거나
+지난 날의 영웅적인 선택들까지 후회하기도 한다.</div>
   <div class="mind" style="right:60px;top:1230px;width:460px;text-align:center">이건 초능력이 아니라 저주야...</div>
 </section>
 
 <section id="s6">
   <img class="art" src="img/cut6.png" alt="">
   <div class="narr">그렇지만 내가 나를 챙기지 못할 때면,
-항상 내가 지켜낸 사람들이
-나를 지켜 줬다.</div>
+항상 내가 지켜낸 사람들이 나를 지켜 줬다.</div>
 </section>
 
 <section id="s7">
   <img class="art" src="img/cut7.png" alt="">
-  <div class="narr">나는 앞으로도
-사람들의 마음을 외면하지 않을 것이다.
-내가 건넨 손길들로
-내 주변을 따뜻하게 할 수만 있다면.</div>
-  <div class="cta">당신 곁의 두부를 태그해 주세요</div>
+  <div class="narr">나는 앞으로도 사람들의 마음을 외면하지 않을 것이다.
+내가 건넨 손길들로 내 주변을 따뜻하게 할 수만 있다면.</div>
+  <div class="cta">당신 옆의 초능력자를 태그해 주세요</div>
 </section>
 
 <script>
+  // 내레이션: 줄바꿈은 콘티 그대로 두고, 가장 긴 줄이 폭을 넘으면 그 슬라이드만 폰트를 줄인다 (기본 56px)
+  document.fonts.ready.then(() => {
+    document.querySelectorAll('.narr').forEach(el => {
+      let fs = 56;
+      while (el.scrollWidth > el.clientWidth && fs > 30) el.style.fontSize = (--fs) + 'px';
+      el.dataset.fs = fs;
+    });
+  });
   // compose.html?only=N → 그 슬라이드만 표시 (헤드리스 스크린샷용, N은 0부터)
   const only = new URLSearchParams(location.search).get('only');
   if (only !== null) {
