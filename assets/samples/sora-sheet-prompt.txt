@@ -1,0 +1,20 @@
+Reference images:
+- The FIRST image is the CHARACTER to draw: a slate-gray penguin named Sora (front view). Reproduce this exact character design in every figure.
+- The other images are STYLE references only (the Korean instatoon dog "Kkamja"): copy its drawing grammar — wobbly hand-drawn black outline of uneven thickness, flat colors, no shading, simple emotion symbols (sweat drop, sparkles, tiny rain cloud, hearts) — but NOT its character or color.
+
+Sora design (must be identical in all figures):
+- slate gray #C2C6CA body, ONE solid color everywhere including face and belly (no white belly, no black back). The ONLY other color is the tiny beak and two small feet in yellow #E8B24A
+- 2-head-tall rounded body, short flipper arms held close to the body, no neck, no ears, tiny tail
+- face: two small black dot eyes set wide apart, a tiny yellow beak instead of a nose, NO MOUTH, NO BLUSH
+- blank, slightly dazed expression by default; arms hanging limply; small, scrappy, harmless mood
+- no eyelashes, no ribbon, no clothes, no accessories, no props
+
+Draw a CHARACTER REFERENCE SHEET, landscape, plain white background. Two rows, evenly spaced, every figure the same size and proportions, a thin gray English caption under each figure. No other text, no swatches, no props, no frames.
+Row 1, turnaround (full body, standing, blank face): FRONT, 3/4 VIEW, SIDE, BACK.
+Row 2, expressions (full body, front view). Since Sora has no mouth, show emotion only with the eyes, posture and symbols:
+NEUTRAL (dot eyes, flippers limp);
+HAPPY (eyes as closed upward arcs, one tiny sparkle — very small and quiet);
+SULKY (eyes as small downward-tilted dashes, head drooping, tiny gray rain cloud above);
+SURPRISED (eyes as slightly bigger round dots, body leaning back, sweat drop);
+CRYING (dot eyes with two thin tear streams, shoulders hunched);
+SHY (dot eyes glancing sideways, body slightly shrunk, flippers held together in front, one sweat drop).

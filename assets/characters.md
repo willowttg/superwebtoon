@@ -39,8 +39,12 @@ MBTI는 설계용이며 **작품 안(표지·컷·캡션·해시태그 어디에
 - CTA는 캐릭터 이름을 정체성 태그로: "당신 곁의 두부를 태그해 주세요" → 댓글에서 "나 완전 두부 / 넌 탱자지" 식 자기 분류.
 - 이름은 두 글자 이내 음식·사물 계열 (탱자·밤톨 예외 허용).
 
-## 3. 다음 단계
+## 3. 시트와 참조 입력
 
-1. ~~두부 캐릭터 시트~~ 완료: `samples/dubu-sheet-high.png` ([dubu-sheet.html](https://willowttg.github.io/superwebtoon/assets/samples/dubu-sheet.html)). 컷 생성 시 첫 참조. 시트에 소품(망토 등)은 넣지 않고 에피소드별로 지정한다
-2. 조연 6인 시트 (크기 비교 라인업 포함)
-3. EP.01을 두부 + 무(無)MBTI 표지로 재생성
+- 시트 7장: `assets/samples/{dubu,misook,deoksu,kong,tangja,sora,bamtol}-sheet-high.png` ([cast-sheets.html](https://willowttg.github.io/superwebtoon/assets/samples/cast-sheets.html)). 소품 없음 — 망토 등은 에피소드별로 프롬프트에 지정.
+- 컷 생성 참조 순서: 등장 캐릭터 시트 → 동시 출연이면 `python scripts/lineup.py <이름들> --out episodes/epNN/ref/lineup-<이름들>.png`로 만든 크기 라인업 → 깜자 스타일 2장. 프롬프트에 "the lineup image shows their relative sizes"를 넣는다.
+- 덕수의 뿔은 시트에서 몸보다 진한 갈색으로 나왔고 10도 모두 일관되므로 그대로 확정 (2갈래).
+
+## 4. 다음 단계
+
+1. EP.01을 두부 + 무(無)MBTI 표지로 재생성

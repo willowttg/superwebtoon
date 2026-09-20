@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>확정 캐스트 시트 7장 + 크기 라인업</title>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+<style>
+  body{margin:0;padding:40px 16px 80px;background:#EFEAE2;color:#3A3733;font-family:'Gowun Dodum','Malgun Gothic',sans-serif;line-height:1.6}
+  main{max-width:1100px;margin:0 auto}
+  h1{font-size:22px;margin:0 0 4px}
+  h2{font-size:15px;margin:36px 0 8px;font-weight:400}
+  p.sub,p.cap{margin:0 0 12px;font-size:13px;color:#8A837A}
+  img{width:100%;display:block;background:#fff;border-radius:10px;box-shadow:0 2px 14px rgba(58,55,51,.08)}
+  ul{font-size:14px;padding-left:18px}
+  a{color:#C77B3F}
+  code{font-size:12px;background:#fff;padding:1px 5px;border-radius:4px}
+</style>
+</head>
+<body>
+<main>
+  <h1>확정 캐스트 시트 7장 + 크기 라인업</h1>
+  <p class="sub">gpt-image-2.5-sunburst · high · 1536×1024 · 장당 $0.061 · 참조: 동물 시트 크롭 + 깜자 3장. 모든 시트는 소품 없음(망토 등은 에피소드별 지정).</p>
+
+  <h2>크기 라인업 (시트 FRONT 도를 잘라 합성, 생성 아님)</h2>
+  <img src="../cast/lineup-all.png" alt="7인 크기 라인업">
+  <p class="cap">엄마·아빠 1.2 / 남친 1.1 / 주인공·친구 1.0 / 동생 0.8. <code>python scripts/lineup.py all --out …</code></p>
+  <h2>동시 출연 참조 예시 — 두부 + 미숙</h2>
+  <img src="../cast/lineup-example-dubu-misook.png" alt="두부 미숙 라인업" style="max-width:420px">
+  <p class="cap">컷에 나오는 캐릭터만 골라 만든다: <code>python scripts/lineup.py dubu misook --out episodes/epNN/ref/lineup.png</code> → 컷 생성 시 <code>--ref</code>로 시트들과 함께 입력.</p>
+
+  <h2>두부 — 주인공 · 양</h2>
+  <img src="dubu-sheet-high.png" alt="두부 시트">
+  <p class="cap">2행: 기본 · 기쁨 · 시무룩 · 놀람 · 눈물 · 긴장(눈치) · 프롬프트 <a href="dubu-sheet-prompt.txt">dubu-sheet-prompt.txt</a></p>
+  <h2>미숙 — 엄마 · 여우 · 1.2배</h2>
+  <img src="misook-sheet-high.png" alt="미숙 시트">
+  <p class="cap">2행: 기본 · 기쁨 · 잔소리 · 놀람 · 걱정 · 누그러짐 · 프롬프트 <a href="misook-sheet-prompt.txt">misook-sheet-prompt.txt</a></p>
+  <h2>덕수 — 아빠 · 사슴 · 1.2배</h2>
+  <img src="deoksu-sheet-high.png" alt="덕수 시트">
+  <p class="cap">2행: 기본 · 기쁨(절제) · 엄격 · 놀람 · 걱정 · 조용한 뿌듯함 · 프롬프트 <a href="deoksu-sheet-prompt.txt">deoksu-sheet-prompt.txt</a></p>
+  <h2>콩 — 남동생 · 쥐 · 0.8배</h2>
+  <img src="kong-sheet-high.png" alt="콩 시트">
+  <p class="cap">2행: 기본 · 신남 · 능청 · 놀람 · 지루함 · 돌진 · 프롬프트 <a href="kong-sheet-prompt.txt">kong-sheet-prompt.txt</a></p>
+  <h2>탱자 — 친구1 · 오리</h2>
+  <img src="tangja-sheet-high.png" alt="탱자 시트">
+  <p class="cap">2행: 기본 · 신남 · 시끄러움 · 놀람 · 시무룩 · 웃음 · 프롬프트 <a href="tangja-sheet-prompt.txt">tangja-sheet-prompt.txt</a></p>
+  <h2>소라 — 친구2 · 펭귄</h2>
+  <img src="sora-sheet-high.png" alt="소라 시트">
+  <p class="cap">2행: 기본 · 기쁨(작게) · 시무룩 · 놀람 · 눈물 · 수줍음 · 프롬프트 <a href="sora-sheet-prompt.txt">sora-sheet-prompt.txt</a></p>
+  <h2>밤톨 — 남친 · 고슴도치 · 1.1배</h2>
+  <img src="bamtol-sheet-high.png" alt="밤톨 시트">
+  <p class="cap">2행: 기본 · 기쁨 · 엄격 · 놀람 · 부드러움 · 생각 · 프롬프트 <a href="bamtol-sheet-prompt.txt">bamtol-sheet-prompt.txt</a></p>
+</main>
+</body>
+</html>
