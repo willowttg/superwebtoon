@@ -1,4 +1,5 @@
 """캐릭터 시트에서 FRONT 도를 잘라 크기 비교 라인업을 만든다 (컷 생성 참조용).
+크기는 실제 동물이 아니라 역할 기준: 눈높이→발끝 거리를 기준으로 맞춰 귀·뿔·털 길이에 영향받지 않는다.
 
   python scripts/lineup.py dubu misook --out episodes/ep02/ref/lineup.png
   python scripts/lineup.py all --out assets/cast/lineup-all.png
@@ -18,7 +19,7 @@ CAST = {  # 이름: (시트, 상대 크기, 캡션)
     "bamtol": ("assets/samples/bamtol-sheet-high.png", 1.1, "BAMTOL 1.1"),
 }
 ORDER = ["misook", "deoksu", "dubu", "kong", "tangja", "sora", "bamtol"]
-BASE_H = 300  # 크기 1.0 캐릭터의 픽셀 높이
+BASE_H = 210  # 크기 1.0 캐릭터의 눈높이→발끝 픽셀 거리 (귀·뿔·털 제외, 역할 기준 크기)
 
 
 def grow(seed, ok):
@@ -50,6 +51,27 @@ def front_figure(sheet):
     return Image.fromarray(out)
 
 
+def eye_line(im):
+    """점 눈 2개의 y 평균. 눈은 채워진 작은 검은 원이라 외곽선과 구분된다."""
+    a = np.array(im.convert("L")); dark = a < 70
+    H, W = dark.shape; seen = np.zeros_like(dark); dots = []
+    for y in range(H):
+        for x in range(W):
+            if dark[y, x] and not seen[y, x]:
+                st = [(y, x)]; seen[y, x] = True; pts = []
+                while st:
+                    cy, cx = st.pop(); pts.append((cy, cx))
+                    for ny, nx in ((cy + 1, cx), (cy - 1, cx), (cy, cx + 1), (cy, cx - 1)):
+                        if 0 <= ny < H and 0 <= nx < W and dark[ny, nx] and not seen[ny, nx]:
+                            seen[ny, nx] = True; st.append((ny, nx))
+                ys = [p[0] for p in pts]; xs = [p[1] for p in pts]
+                h = max(ys) - min(ys) + 1; w = max(xs) - min(xs) + 1
+                if 30 < len(pts) < 600 and 0.6 < w / h < 1.6 and len(pts) / (w * h) > 0.55:
+                    dots.append((len(pts), sum(ys) / len(ys)))
+    dots.sort(reverse=True)
+    return (dots[0][1] + dots[1][1]) / 2 if len(dots) >= 2 else None
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("names", nargs="+")
@@ -61,11 +83,14 @@ def main():
     for n in names:
         sheet, scale, cap = CAST[n]
         f = front_figure(sheet)
-        h = int(BASE_H * scale); w = int(f.width * h / f.height)
+        ey = eye_line(f)
+        body = (f.height - ey) if ey else f.height * 0.6  # 눈높이→발끝
+        k = BASE_H * scale / body
+        h = int(f.height * k); w = int(f.width * k)
         figs.append((f.resize((w, h), Image.LANCZOS), cap))
     gap = 40; cap_h = 0 if a.no_caption else 34
     W = sum(f.width for f, _ in figs) + gap * (len(figs) + 1)
-    H = int(BASE_H * 1.25) + gap + cap_h
+    H = max(f.height for f, _ in figs) + gap + cap_h
     M = Image.new("RGB", (W, H), "white"); d = ImageDraw.Draw(M)
     try:
         font = ImageFont.truetype("arial.ttf", 18)
