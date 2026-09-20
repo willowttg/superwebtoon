@@ -86,7 +86,7 @@ cuts['cut5'] = head(DUBU, MISOOK, DEOKSU, KONG) + TABLE + MENU + (
 cuts['cut6'] = head(DUBU, KONG) + TABLE + (
     "Scene: only Dubu and Kong, seated side by side behind the table, the food has arrived. In front of Dubu (left): a bowl of jajangmyeon — noodles with flat dark-brown black-bean sauce and a few cucumber slivers. "
     "In front of Kong (right): a bowl of jjamppong — bright red spicy soup with noodles and a few small seafood bits. Kong eats happily, chopsticks up, eyes as closed upward arcs. "
-    "Dubu holds her chopsticks over her own bowl but her head is turned sideways toward Kong's red bowl, dot eyes fixed on it, and three short vertical gloom lines are drawn on her forehead. "
+    "Dubu holds her chopsticks limply over her own bowl, but her WHOLE HEAD is turned to the right in three-quarter profile so she faces Kong's red bowl, both dot eyes shifted to the far right corners staring at his soup (side-eye), her body still facing forward; three short vertical gloom lines are drawn on her forehead. No sparkle or emphasis lines anywhere. "
     "Colors muted except the two bowls. " + LAYOUT) + END
 
 cuts['cut7'] = head(DUBU, MISOOK, DEOKSU, KONG, WATCH) + TABLE + MENU + (
