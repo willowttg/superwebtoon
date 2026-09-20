@@ -24,7 +24,8 @@ cp .env.example .env
 ```bash
 set -a && . ./.env && set +a    # 셸에 로드
 echo $OPENAI_API_KEY | head -c 12   # 확인 (전체 출력 금지)
-python scripts/gen_image.py --prompt-file assets/samples/bori-prompt.txt --out out.png   # 생성 (표준 라이브러리만 사용)
+python scripts/gen_image.py --prompt-file p.txt --out out.png                    # 텍스트 생성
+python scripts/gen_image.py --prompt-file p.txt --ref assets/ref/kkamja-1.jpg --out out.png   # 참조 이미지 입력 (edits)
 ```
 
 ## 키가 유출됐다면

@@ -1,0 +1,17 @@
+The attached images are STYLE references only: the Korean instatoon character "Kkamja" (a dog). Copy the DRAWING GRAMMAR from them, not the character:
+- 2-head-tall potato-shaped body, head bigger than body, stubby short limbs
+- wobbly hand-drawn black outline with uneven line thickness, closed outlines
+- completely flat colors, no shading, no gradients, no texture
+- two black dot eyes, round pink blush, simple emotion symbols (sweat drop, sparkles, tiny rain cloud, hearts)
+- plain white background, warm and gentle mood
+
+The new character is a CAT named Bori, NOT a dog. Design:
+- cream fur (#F2DFB8); small pointed triangular cat ears with light beige (#D9B98A) inner ear
+- exactly ONE marking: a small beige dot on the tip of the ear on the VIEWER'S LEFT side. No stripes, no spots, nothing else
+- two black dot eyes, NO nose, tiny "ω" mouth, round pink blush on both cheeks
+- shy, soft, slightly feminine feel expressed ONLY through blush and round cheeks: no eyelashes, no ribbon, no accessories, no clothes
+- short stubby tail
+
+Draw a CHARACTER REFERENCE SHEET, landscape, on plain white background. Two rows, evenly spaced, every figure the same size and same proportions, a small thin gray English caption under each figure. No other text, no color swatches, no props, no frames.
+Row 1, turnaround (full body, standing, neutral face): FRONT, 3/4 VIEW, SIDE, BACK. The ear dot must stay on the same ear in every view.
+Row 2, expressions (full body, front view): NEUTRAL; LAUGHING (closed happy arc eyes, open smile); SULKY (drooping posture, tiny rain cloud above head); SURPRISED (wide dot eyes, small open mouth, sweat drop); CRYING (streams of tears, wobbly mouth); POWER ACTIVATED (wearing a short terracotta orange #C77B3F cape, confident pose, sparkles around).
