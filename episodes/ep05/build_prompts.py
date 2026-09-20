@@ -66,7 +66,7 @@ cuts['cut2'] = head(DUBU, TANGJA, APPLE) + (
 cuts['cut3'] = head(DUBU, KONG_KID, CLERK, APPLE) + (
     "Scene: inside a convenience store, years ago. Background stays plain white; only a simple flat counter on the RIGHT with the Clerk standing behind it, blank stare, flippers on the counter. "
     "On the LEFT, a metal snack shelf has toppled over sideways and a big pile of colorful snack bags (flat rectangles and pillows in red, yellow, blue, green, no letters) is spilled across the floor. "
-    "Little Kong (a small child, about 70% of Dubu's height, red bow tie) stands next to the pile with both hands behind his back, head turned away pretending nothing happened, one small black music note floating above his head. "
+    "Little Kong (a small child, about 70% of Dubu's height, red bow tie) stands next to the pile in FRONT VIEW with both hands behind his back, pretending nothing happened: his round face has EXACTLY three small black dots — two eyes and one nose in the middle below them — and nothing else (no snout, no extra dot, no mouth); one small black music note floats above his head. "
     "Dubu, wearing a Korean high-school girl uniform (white short-sleeve shirt and a navy #2E3A59 pleated skirt), stands in the middle bending forward in a deep 90-degree bow toward the Clerk, holding THE APPLE out with both hands. "
     "Bright, warm colors. " + LAYOUT) + END
 
