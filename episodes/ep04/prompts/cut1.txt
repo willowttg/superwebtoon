@@ -1,0 +1,27 @@
+Reference images are CHARACTER SHEETS (and, if present, a size lineup image which shows the characters' relative sizes). Reproduce these exact character designs. Drawing grammar: wobbly hand-drawn black outline of uneven thickness, flat colors, no shading, simple emotion symbols. Cute, small, harmless mood.
+
+Dubu design (the main character, a cream sheep):
+- cream #F6F2E6 body, ONE solid color everywhere including the face. No markings, no darker face, no inner-ear color
+- 2-head-tall potato body with a soft cloud-shaped fluffy outline, stubby limbs, tiny tail, two small rounded ears sticking out sideways
+- face: two small black dot eyes set wide apart, one small dark dot nose, NO MOUTH, NO BLUSH, no eyelashes
+Misook design (Dubu's mother, a soft-orange fox, slightly taller than Dubu):
+- soft orange #F6CA9E body, ONE solid color everywhere including face, ears, tail. No white chest, no dark ear tips
+- 2-head-tall potato body, stubby limbs, large pointed triangular ears, one big bushy tail curling up beside the body
+- face: two small black dot eyes set wide apart, one small dark dot nose, NO MOUTH, NO BLUSH
+Deoksu design (Dubu's father, a tan deer, the tallest):
+- tan #EACEAA body, ONE solid color everywhere including face and ears. No spots, no white belly
+- 2-head-tall potato body, stubby limbs, tiny tail, small upright ears, a pair of SIMPLE TWO-PRONG antlers (one stem with one short branch each) in a darker brown exactly as in his sheet
+- face: two small black dot eyes set wide apart, one small dark dot nose, NO MOUTH, NO BLUSH
+Kong design (Dubu's little brother, a light-gray mouse, same height as Dubu):
+- light gray #DED6DA body, ONE solid color everywhere including face and ears. No pink inner ears
+- 2-head-tall potato body, stubby limbs, two BIG round ears on top of the head, one thin curly tail
+- face: two small black dot eyes set wide apart, one small dark dot nose, NO MOUTH, NO BLUSH
+Clerk design (a restaurant waiter, a blue-gray seal, same height as Dubu):
+- blue gray #BCD0DA body, ONE solid color everywhere. No spots
+- 2-head-tall soft blob body, no neck, no ears, two short flipper arms, a small flat tail flipper at the bottom instead of legs
+- face: two small black dot eyes set wide apart, one small dark dot nose, NO MOUTH, NO BLUSH; blank empty stare
+- wears a tiny plain white apron
+Prop of this episode, THE POCKET WATCH: a round pocket watch about half the size of Dubu's head, hanging on a thin black chain around Dubu's neck so it rests on her chest. Hot pink #E64980 case with its lid flipped open, a mint #5EDBB5 dial with two simple black hands and no numbers. Drawn flat and bold with the same wobbly outline.
+
+Setting: a family restaurant, but the background stays plain white — only a simple flat light-wood rectangular dining table seen from the front, with the characters seated behind it on simple stools so their upper bodies show above the table top. A few tiny flat props on the table: a water pitcher, small side-dish plates, cups. The MENU is a folded booklet with blank pages — only faint light-gray horizontal lines and a few small pale colored rectangles as photo placeholders, no letters at all. FROZEN characters are drawn entirely in ONE flat pale blue-gray #D5DBE1 (their body color, props and everything they hold become that same gray, black outline kept), stiff, caught mid-motion, with a small black pause symbol (two short vertical bars) floating above each frozen head. Scene: the moment Dubu opens the menu, the whole world freezes. Seated behind the table from left to right: Misook, Deoksu, Dubu, Kong. Dubu is the ONLY one in full color: she wears THE POCKET WATCH and holds the open MENU up with both hands, dot eyes on it, calm. Everyone else is FROZEN gray: Misook tilting a cup so that a blob of water hangs suspended in mid-air between the cup and the table; Deoksu holding a half-unfolded wet towel; Kong with chopsticks lifting a side dish halfway to his face; and the Clerk standing at the right end of the table with a small notepad and a pen raised, caught mid-word. Pause symbols above the four frozen heads. Everything in the lower 60% of the image; the upper 40% must be completely empty white.
+No text, no letters, no speech bubbles, no captions. Plain white background. One flat light-gray #E6E6E6 ellipse on the ground under each standing character and under any large object resting on the ground, as a contact shadow; no other shadows, no shading on the bodies.
