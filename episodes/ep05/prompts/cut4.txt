@@ -1,0 +1,14 @@
+Reference images are CHARACTER SHEETS (and, if present, a size lineup image which shows the characters' relative sizes). Reproduce these exact character designs. Drawing grammar: wobbly hand-drawn black outline of uneven thickness, flat colors, no shading, simple emotion symbols. Cute, small, harmless mood.
+
+Dubu design (the main character, a cream sheep):
+- cream #F6F2E6 body, ONE solid color everywhere including the face. No markings, no darker face, no inner-ear color
+- 2-head-tall potato body with a soft cloud-shaped fluffy outline, stubby limbs, tiny tail, two small rounded ears sticking out sideways
+- face: two small black dot eyes set wide apart, one small dark dot nose, NO MOUTH, NO BLUSH, no eyelashes
+Bamtol design (Dubu's boyfriend, a warm-brown hedgehog, slightly taller than Dubu):
+- warm brown #C9A582 body, ONE solid color everywhere including the face (no lighter face patch, no two-tone). The spikes are drawn ONLY as a zigzag outline around the back of the head and body; no lines or spikes drawn inside the body
+- 2-head-tall rounded body, stubby limbs, small rounded ears, no tail
+- face: two small black dot eyes set wide apart, one small dark dot nose, NO MOUTH, NO BLUSH
+Prop of this episode, THE APPLE: one bright green #5DBB63 apple about two thirds the size of Dubu's head, with a short brown stem and one small dark-green #2E7D32 leaf. Drawn flat and bold with the same wobbly outline, no highlight, no shading. Dubu holds it out with both hands like a gift whenever she apologizes.
+
+Scene: in front of a cafe (plain white background, only a thin gray ground line and, behind Dubu, a simple flat wooden park bench). On the bench seat sits a clear plastic cup with a straw, its drink gone pale and watery, ice fully melted, and a small puddle of condensation under it. Bamtol (left) has just arrived, strolling in slowly and unhurried, side view, arms hanging limply, eyes as two small blank dots, no sign of hurry or guilt. Dubu (right) has stood up from the bench to greet him: her body faces him, eyes as two closed happy upward arcs, one hand holding THE APPLE out toward him at chest height, while her OTHER arm is hidden behind her back and that hidden hand is clenched into a tight fist, with three short tremble lines drawn around the fist (this fist must be visible to the viewer behind her body). Colors slightly muted and desaturated. Everything in the lower 60% of the image; the upper 40% must be completely empty white.
+No text, no letters, no speech bubbles, no captions. Plain white background. One flat light-gray #E6E6E6 ellipse on the ground under each standing character and under any large object resting on the ground, as a contact shadow; no other shadows, no shading on the bodies.
