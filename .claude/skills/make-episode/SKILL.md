@@ -29,7 +29,7 @@ description: 「작은 힘에도 작은 책임은 따른다」 에피소드 1편
 
 ## 2. 이미지 규칙
 
-- 생성은 **캐릭터 + 소품만**. 프롬프트 끝에 항상 `No text, no letters, no speech bubbles, no captions. Plain white background.` 말풍선 꼬리가 캐릭터와 안 맞는 문제가 있어 **말풍선은 절대 그리지 않는다** — 속마음도 텍스트 합성으로.
+- 생성은 **캐릭터 + 소품만**. 프롬프트 끝에 항상 `No text, no letters, no speech bubbles, no captions. Plain white background. One flat light-gray #E6E6E6 ellipse on the ground under each standing character and under any large object resting on the ground, as a contact shadow; no other shadows, no shading on the bodies.` (접지 그림자는 EP.03부터. 공중에 뜬 캐릭터는 그 컷 프롬프트에서 제외 명시.) 말풍선 꼬리가 캐릭터와 안 맞는 문제가 있어 **말풍선은 절대 그리지 않는다** — 속마음도 텍스트 합성으로.
 - 참조: 등장 캐릭터 시트 `assets/samples/<이름>-sheet-high.png`(두부 dubu, 미숙 misook, 덕수 deoksu, 콩 kong, 탱자 tangja, 소라 sora, 밤톨 bamtol) → **2명 이상 동시 출연이면** `python scripts/lineup.py dubu misook --out ref/lineup.png`로 그 컷의 캐릭터만 담은 크기 라인업을 만들어 다음 참조로 → `assets/ref/kkamja-1~2.jpg`(스타일). 각 시트 프롬프트(`<이름>-sheet-prompt.txt`)의 design 블록을 프롬프트 헤더로 복사하고, 라인업이 있으면 "the lineup image shows their relative sizes"를 덧붙인다.
 - 캐스트·크기·색은 `assets/characters.md` 1절.
 - **군중·행인(이름 없는 다수)은 시트 없이 프롬프트 문구를 고정**해서 그린다 (참조 이미지가 늘수록 결과가 흐려짐): `a crowd of many small featureless people-shaped silhouettes in flat medium gray, no faces, no details` — 사람 형태여도 된다. 대사·속마음이 있는 엑스트라만 종을 정해 시트를 만든다.
@@ -67,5 +67,5 @@ episodes/epNN/
 
 - [ ] 제목이 단점을 능력처럼 말하는가, 시리즈명이 표지에 없는가
 - [ ] 4컷이 친구에게 보낼 만큼 구체적인가 / 7컷이 저장할 만한 한 문장인가
-- [ ] 생성 이미지에 글자·말풍선이 없는가, 캐릭터 색·눈·입 없음·상대 크기가 유지되는가
+- [ ] 생성 이미지에 글자·말풍선이 없는가, 캐릭터 색·눈·입 없음·상대 크기가 유지되는가, 접지 그림자가 전 컷에 있고 몸에 명암은 없는가
 - [ ] 8장 전부 1080×1350, 텍스트가 잘리지 않는가
