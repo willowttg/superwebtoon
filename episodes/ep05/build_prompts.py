@@ -51,10 +51,10 @@ cuts['cover'] = head(DUBU, APPLE) + (
     "Character and rock in the lower 60% of the image; the upper 40% must be completely empty white for a title.") + END
 
 cuts['cut1'] = head(DUBU, APPLE) + (
-    "Scene: " + SILHOUETTE + " is walking from right to left in side view, looking straight ahead, and has just shoulder-bumped Dubu so hard that she is LAUNCHED INTO THE AIR. "
-    "The silhouette keeps walking without reacting, and stands on the ground at the right. Dubu is on the LEFT, high up in mid-air, feet well off the ground, her whole body flying sideways away from the silhouette "
-    "with a curved arc of motion lines behind her and one small black four-point impact star near the silhouette's shoulder — yet even while flying she is the one apologizing: "
-    "her head is bowed toward the silhouette and she holds THE APPLE out with both hands toward it, eyes as two small dots. "
+    "Scene: " + SILHOUETTE + " is walking from right to left in side view, looking straight ahead, and has just shoulder-bumped Dubu so hard that she is LAUNCHED INTO THE AIR and FLIPPED UPSIDE DOWN. "
+    "The silhouette keeps walking without reacting, standing on the ground at the right. Dubu is on the LEFT, high up in mid-air, feet well off the ground, her body completely upside down (head at the bottom, feet pointing up), "
+    "tumbling away from the silhouette with a curved arc of motion lines and a small spinning-motion swirl line around her body, one small black four-point impact star near the silhouette's shoulder. "
+    "Her eyes are DIZZY: instead of dots, draw each eye as a small black spiral (swirl). Yet even upside down and dizzy she is the one apologizing: she still holds THE APPLE out with both stubby arms toward the silhouette. "
     "Dubu is airborne, so draw NO contact shadow under her; only the silhouette gets a shadow ellipse. Bright, calm colors. " + LAYOUT) + END
 
 cuts['cut2'] = head(DUBU, TANGJA, APPLE) + (
