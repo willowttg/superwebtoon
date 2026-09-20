@@ -10,13 +10,13 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 
 CAST = {  # 이름: (시트, 상대 크기, 캡션)
-    "dubu":   ("assets/samples/dubu-sheet-high.png",   1.0, "DUBU 1.0"),
-    "misook": ("assets/samples/misook-sheet-high.png", 1.2, "MISOOK 1.2"),
-    "deoksu": ("assets/samples/deoksu-sheet-high.png", 1.2, "DEOKSU 1.2"),
-    "kong":   ("assets/samples/kong-sheet-high.png",   0.8, "KONG 0.8"),
-    "tangja": ("assets/samples/tangja-sheet-high.png", 1.0, "TANGJA 1.0"),
-    "sora":   ("assets/samples/sora-sheet-high.png",   1.0, "SORA 1.0"),
-    "bamtol": ("assets/samples/bamtol-sheet-high.png", 1.1, "BAMTOL 1.1"),
+    "dubu":   ("assets/samples/dubu-sheet-high.png",   1.0, "DUBU 100"),
+    "misook": ("assets/samples/misook-sheet-high.png", 1.05, "MISOOK 105"),
+    "deoksu": ("assets/samples/deoksu-sheet-high.png", 1.10, "DEOKSU 110"),
+    "kong":   ("assets/samples/kong-sheet-high.png",   1.00, "KONG 100"),
+    "tangja": ("assets/samples/tangja-sheet-high.png", 1.0, "TANGJA 100"),
+    "sora":   ("assets/samples/sora-sheet-high.png",   1.0, "SORA 100"),
+    "bamtol": ("assets/samples/bamtol-sheet-high.png", 1.05, "BAMTOL 105"),
 }
 ORDER = ["misook", "deoksu", "dubu", "kong", "tangja", "sora", "bamtol"]
 BASE_H = 210  # 크기 1.0 캐릭터의 눈높이→발끝 픽셀 거리 (귀·뿔·털 제외, 역할 기준 크기)
