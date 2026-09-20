@@ -18,7 +18,7 @@ MBTI 유형별로 통용되는 성격적 단점을 **"초능력"**으로 재해�
 1. ✅ 유사 장르 성공사례 분석 → [docs/research/01-genre-analysis.md](docs/research/01-genre-analysis.md)
 2. 🔄 고정 캐스트 기획 (주인공 후보 5안 + 조연 5명) → [assets/characters.md](assets/characters.md)
 3. 🔄 생성 자동화 파이프라인 스킬 → `.claude/skills/make-episode/` (콘티 → 이미지 → 텍스트 합성 → 프리뷰)
-4. ⬜ 인스타 업로드 및 관리 스킬 (게시, 해시태그, 댓글/인사이트 관리)
+4. 🔄 인스타 API 관리 → [docs/instagram-api.md](docs/instagram-api.md) (`scripts/ig.py` 게시·댓글·인사이트)
 
 ## 디렉토리
 

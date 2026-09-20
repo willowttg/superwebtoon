@@ -61,6 +61,7 @@ episodes/epNN/
 
 - 고정 해시태그: `#작은힘에도작은책임은따른다 EP.NN` 줄 + `#인스타툰 #일상툰 #공감툰` (MBTI 관련 태그 없음)
 - `index.html` 콘티 프리뷰 섹션에 카드 추가 → 커밋. **푸시는 사용자 확인 후.**
+- 인스타 게시는 `instagram` 스킬 (`scripts/ig.py export` → 푸시 → `publish`).
 
 ## 5. 체크리스트 (커밋 전)
 
