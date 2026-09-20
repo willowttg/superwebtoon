@@ -30,7 +30,7 @@ CLERK = """Clerk design (a restaurant waiter, a blue-gray seal, same height as D
 - face: two small black dot eyes set wide apart, one small dark dot nose, NO MOUTH, NO BLUSH; blank empty stare
 - wears a tiny plain white apron
 """
-WATCH = """Prop of this episode, THE POCKET WATCH: a round pocket watch about half the size of Dubu's head, hanging on a thin black chain around Dubu's neck so it rests on her chest. Hot pink #E64980 case with its lid flipped open, a mint #5EDBB5 dial with two simple black hands and no numbers. Drawn flat and bold with the same wobbly outline.
+WATCH = """Prop of this episode, THE POCKET WATCH: a round pocket watch about half the size of Dubu's head, hanging on a thin black chain around Dubu's neck so it rests on her chest. Bright red #E53935 case with its lid flipped open, a blue #3A7BD5 dial with two simple black hands and no numbers. Drawn flat and bold with the same wobbly outline.
 """
 TABLE = "Setting: a family restaurant, but the background stays plain white — only a simple flat light-wood rectangular dining table seen from the front, with the characters seated behind it on simple stools so their upper bodies show above the table top. A few tiny flat props on the table: a water pitcher, small side-dish plates, cups. "
 MENU = "The MENU is a folded booklet with blank pages — only faint light-gray horizontal lines and a few small pale colored rectangles as photo placeholders, no letters at all. "
