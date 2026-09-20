@@ -40,42 +40,42 @@
   <img class="art" src="img/cut2.png" alt="">
   <div class="narr">남들이 대충 넘기는 메뉴판 구석까지
 우리는 한 글자도 빠짐없이 읽어내고</div>
-  <div class="mind" style="left:80px;top:560px;width:360px;text-align:center">이런 게 있었어?</div>
-  <div class="mind s" style="left:620px;top:900px;width:300px;text-align:center;color:#3A3733">가족 세트 20% 할인</div>
+  <div class="mind" style="left:120px;top:440px;width:420px;text-align:center">이런 게 있었어?</div>
+  <div class="mind s" style="left:800px;top:790px;width:260px;text-align:center;color:#3A3733">가족 세트 20% 할인</div>
 </section>
 
 <section id="s3">
   <img class="art" src="img/cut3.png" alt="">
   <div class="narr">말 못 하고 있는 가족의 취향까지
 멈춘 시간 속에서 다 챙길 수 있지만...</div>
-  <div class="mind" style="left:80px;top:560px;width:360px;text-align:center">아빠는 아무거나.</div>
-  <div class="mind" style="left:640px;top:560px;width:360px;text-align:center">순한맛도 있어!</div>
-  <div class="mind s" style="left:440px;top:930px;width:200px;text-align:center;color:#3A3733">순한맛</div>
+  <div class="mind" style="left:60px;top:340px;width:460px;text-align:center">아빠는 아무거나.</div>
+  <div class="mind" style="left:620px;top:420px;width:420px;text-align:center">순한맛도 있어!</div>
+  <div class="mind s" style="left:470px;top:840px;width:180px;text-align:center;color:#3A3733">순한맛</div>
 </section>
 
 <section id="s4" class="dim">
   <img class="art" src="img/cut4.png" alt="">
   <div class="narr">사실 이 능력으론
 나 말곤 아무도 멈출 수 없다!</div>
-  <div class="mind" style="left:60px;top:560px;width:420px;text-align:center">얘는 두고 먼저 시킬게요</div>
-  <div class="mind" style="left:700px;top:560px;width:340px;text-align:center">누나 또 시작이다</div>
+  <div class="mind" style="left:180px;top:500px;width:480px;text-align:center">얘는 두고 먼저 시킬게요</div>
+  <div class="mind" style="left:740px;top:560px;width:320px;text-align:center">누나 또 시작이다</div>
 </section>
 
 <section id="s5" class="dim">
   <img class="art" src="img/cut5.png" alt="">
   <div class="narr">일행들 배에서 꼬르륵 소리가 날 때까지
 나는 아직 메뉴판 학습 중이고</div>
-  <div class="mind s" style="left:120px;top:820px;width:160px;text-align:center">꼬르륵</div>
-  <div class="mind s" style="left:360px;top:820px;width:160px;text-align:center">꼬르륵</div>
-  <div class="mind s" style="left:820px;top:820px;width:160px;text-align:center">꼬르륵</div>
-  <div class="mind" style="left:720px;top:560px;width:300px;text-align:center">누나 제발</div>
+  <div class="mind s" style="left:100px;top:535px;width:200px;text-align:center">꼬르륵</div>
+  <div class="mind s" style="left:340px;top:490px;width:200px;text-align:center">꼬르륵</div>
+  <div class="mind s" style="left:770px;top:570px;width:220px;text-align:center">꼬르륵</div>
+  <div class="mind" style="left:750px;top:500px;width:260px;text-align:center">누나 제발</div>
 </section>
 
 <section id="s6" class="dim">
   <img class="art" src="img/cut6.png" alt="">
   <div class="narr">겨우 고른 뒤에는
 남의 그릇에서 눈을 떼지 못한다.</div>
-  <div class="mind" style="left:120px;top:560px;width:360px;text-align:center">저거 시킬 걸...</div>
+  <div class="mind" style="left:120px;top:420px;width:420px;text-align:center">저거 시킬 걸...</div>
 </section>
 
 <section id="s7">
@@ -99,6 +99,7 @@
   if (only !== null) {
     document.querySelectorAll('section').forEach((el, i) => { if (i != only) el.style.display = 'none'; });
     document.body.style.background = '#fff';
+    document.documentElement.style.overflow = document.body.style.overflow = 'hidden';
     document.querySelector('section').style.margin = '0';
   }
 </script>
