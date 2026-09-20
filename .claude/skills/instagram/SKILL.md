@@ -5,13 +5,14 @@ description: 인스타 계정 API 관리 — 에피소드 캐러셀 게시, 댓�
 
 # instagram
 
-도구: `python scripts/ig.py` (사용법은 `--help`, 설정은 `docs/instagram-api.md`). `.env` 자동 로드 — 워크트리에는 `.env`가 없으므로 `set -a && . C:/Users/SIJIN/superwebtoon/.env && set +a` 후 실행.
+도구: `python scripts/ig.py` (사용법은 `--help`, 설정은 `docs/instagram-api.md`). `.env` 는 본 저장소 것을 자동으로 찾는다 (워크트리 포함).
 
 ## 게시
 
 1. `export epNN` → `episodes/epNN/img/slideN.jpg` 생성 → 커밋·푸시 (Pages 반영 1~2분).
-2. `publish epNN --dry-run` 으로 URL 8개·캡션 확인.
-3. **실제 `publish` 는 사용자 확인 후.** 결과 `episodes/epNN/ig.json` 커밋.
+2. `schedule epNN --dry-run` 으로 URL 8개·캡션·예정 시각 확인. 기본은 다음 빈 21:00 KST 슬롯(하루 한 편, 월·목 권장) — 사용자가 시각을 말하면 `--at`.
+3. **실제 `schedule`(또는 즉시 `publish`) 은 사용자 확인 후.** `schedule.json` 커밋. 게시 뒤 `ig.json` 이 생기면 커밋.
+4. `queue` 로 현황. 작업이 「없음」이면 PC 재부팅 등으로 사라진 것 — 다시 `schedule`.
 
 ## 관리
 
