@@ -86,7 +86,6 @@
 | Confused math lady | 수식 떠다님 | 과계산·혼란 | 글로벌 |
 | Side-eye Chloe | 곁눈 시큰둥 | 실망·의심 | 글로벌 |
 | Monkey puppet 곁눈 | 눈 옆으로 슬쩍 | 어색·찔림 | 글로벌 |
-| Squidward window | 창밖 노는 이들 응시 | 부러움·소외 | 글로벌 |
 | Gru plan 4컷 | 계획 3단계 후 마지막 어긋남 | 계획 실패 | 글로벌 |
 | Boardroom meeting | 창밖으로 던져짐 | 의견 묵살 | 글로벌 |
 | They're the same picture | 두 그림 비교 | 차이 못 느낌 | 글로벌 |
