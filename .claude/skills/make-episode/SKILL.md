@@ -42,7 +42,8 @@ description: 「당신은 약간 초능력자?」 에피소드 1편 제작 — M
 - 폰트: `assets/fonts.md` 후보 중 지정(확정 전) 또는 확정 폰트. `@font-face`는 `assets/fonts.html`에서 복사.
 - 표지: 제목 3줄 이내, 핵심 단어 `<b>`로 포인트 컬러, 부제 회색 소문자.
 - 컷: 상단 내레이션 1–2줄. 속마음은 캐릭터 옆에 작은 회색 글자, 말풍선·박스 없이.
-- Playwright MCP로 각 `<section>`을 `img/slideN.png`로 스크린샷 (viewport 1080×1350, `clip`).
+- Playwright MCP로 각 `<section>`을 `img/slideN.png`로 스크린샷 (viewport 1080×1350, `clip`). MCP 브라우저가 사용 중이면 `chrome-headless-shell.exe --headless --window-size=1080,1350 --virtual-time-budget=10000 --screenshot=img/slideN.png compose.html?only=N` (N은 0부터; `?only`는 compose.html에 그 슬라이드만 남기는 스크립트로 처리).
+- 이미지 크롭은 `object-position:50% 100%`(하단 기준)로 발이 안 잘리게 하고, 표지는 `object-fit:contain`.
 
 ## 4. 산출물과 마무리
 

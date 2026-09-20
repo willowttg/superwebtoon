@@ -1,0 +1,13 @@
+The FIRST image is the DESIGN REFERENCE: a character sheet of "Bori", a white cat. Reproduce its exact drawing grammar for every figure:
+- 2-head-tall potato body, head bigger than body, stubby limbs, tiny tail
+- wobbly hand-drawn black outline of uneven thickness, closed outlines, completely flat colors, no shading
+- face: two small black dot eyes set wide apart, one small dark dot nose, NO MOUTH, NO BLUSH
+- blank slightly dazed expression, arms hanging limply, small scrappy harmless mood
+- no accessories, no clothes, no markings (no spots, stripes, patches, ear tips)
+The other images are STYLE references only (the instatoon dog "Kkamja"): same line grammar, not its character.
+
+Draw 10 DIFFERENT ANIMALS as if they were Bori's species-swapped siblings: same size, same pose (standing, front view), same face grammar, each in ONE solid soft pastel color that suits the animal. Each animal must be recognizable by SILHOUETTE alone (ears, snout, beak, body shape), because there are no markings.
+
+Layout: landscape, plain white background, 2 rows of 5, evenly spaced, a thin gray English caption under each figure. No other text, no props, no frames.
+Row 1: DOG (floppy ears, warm beige #E8D3B5) · RABBIT (long upright ears, pale pink #F3D9DC) · BEAR (small round ears, light brown #D4B294) · HAMSTER (tiny ears, extra chubby, apricot #F5D9B8) · PENGUIN (small beak instead of nose, flipper arms, slate gray #B9C0C8)
+Row 2: DUCK (flat bill instead of nose, pale yellow #F6E8B1) · PIG (round snout with two dots instead of nose, small ears, pink #F2C9CF) · FROG (two eyes sitting on top of the head, sage green #C9D6BF) · SEAL (no ears, flipper limbs, blob body, blue gray #BCD0DA) · SHEEP (cloud-shaped fluffy outline, cream #F1EDE3)
