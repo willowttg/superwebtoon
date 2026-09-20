@@ -43,7 +43,7 @@ description: 「작은 힘에도 작은 책임은 따른다」 에피소드 1편
 - 표지: 제목 3줄 이내, 핵심 단어 `<b>`로 포인트 컬러.
 - 컷: 상단 내레이션, **줄바꿈은 콘티에 적힌 그대로** (임의로 줄 수를 늘리지 않는다). 크기는 레퍼런스 실측(솜비 글자 높이 56px, 서밤 40px) 기준 내레이션 **56px**, 긴 줄은 그 슬라이드만 폭에 맞춰 자동 축소. 속마음·대사 **40px** 회색, 말풍선·박스 없이 캐릭터 옆에. CTA 38px.
 - Playwright MCP로 각 `<section>`을 `img/slideN.png`로 스크린샷 (viewport 1080×1350, `clip`). MCP 브라우저가 사용 중이면 `chrome-headless-shell.exe --headless --window-size=1080,1350 --virtual-time-budget=10000 --screenshot=img/slideN.png compose.html?only=N` (N은 0부터; `?only`는 compose.html에 그 슬라이드만 남기는 스크립트로 처리).
-- 이미지 크롭은 `object-position:50% 100%`(하단 기준)로 발이 안 잘리게 하고, 표지는 `object-fit:contain`.
+- 이미지 크롭은 `object-position:50% 100%`(하단 기준)로 발이 안 잘리게 하고, 표지는 `object-fit:contain`. 그림은 **80%로 축소**해 하단 60px·좌우 여백을 두고(`transform:scale(.8)`, 하단 기준), 모든 컷 동일 적용 — 군중처럼 프레임에 닿는 컷도 예외 없음.
 - 속마음 등 그림 옆 텍스트는 `python scripts/art_bbox.py img/cutN.png`로 그림 영역을 잰 뒤 그 밖에 놓는다. 프롬프트의 "상단 40% 비움"은 대략만 지켜지고(30~47%), 글자 폭은 폰트마다 달라 눈대중으로 두면 겹친다.
 
 ## 4. 산출물과 마무리
@@ -55,7 +55,7 @@ episodes/epNN/
   img/cutN.png, slideN.png
   compose.html
   preview.html    슬라이드 8장 세로 나열 (모바일 확인용)
-  caption.txt     캡션 1–2줄 + 고정 해시태그
+  caption.txt     컷 1–7 내레이션 전문(컷별 문단, 줄바꿈 그대로) → 빈 줄 → "당신 옆의 초능력자를 태그해 주세요." → 해시태그
 ```
 
 - 고정 해시태그: `#작은힘에도작은책임은따른다 EP.NN` 줄 + `#인스타툰 #일상툰 #공감툰` (MBTI 관련 태그 없음)
