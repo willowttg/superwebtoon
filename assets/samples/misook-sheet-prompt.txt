@@ -1,0 +1,20 @@
+Reference images:
+- The FIRST image is the CHARACTER to draw: a soft-orange fox named Misook (front view). Reproduce this exact character design in every figure.
+- The other images are STYLE references only (the Korean instatoon dog "Kkamja"): copy its drawing grammar — wobbly hand-drawn black outline of uneven thickness, flat colors, no shading, simple emotion symbols (sweat drop, sparkles, tiny rain cloud, hearts) — but NOT its character or color.
+
+Misook design (must be identical in all figures):
+- soft orange #F6CA9E body, ONE solid color everywhere including face, ears, tail. No markings, no white chest, no dark ear tips, no dark paws
+- 2-head-tall potato body, stubby limbs, large pointed triangular ears, one big bushy tail curling up beside the body
+- face: two small black dot eyes set wide apart, one small dark dot nose, NO MOUTH, NO BLUSH
+- blank, slightly dazed expression by default; arms hanging limply; small, scrappy, harmless mood
+- no eyelashes, no ribbon, no clothes, no accessories, no props
+
+Draw a CHARACTER REFERENCE SHEET, landscape, plain white background. Two rows, evenly spaced, every figure the same size and proportions, a thin gray English caption under each figure. No other text, no swatches, no props, no frames.
+Row 1, turnaround (full body, standing, blank face): FRONT, 3/4 VIEW, SIDE, BACK.
+Row 2, expressions (full body, front view). Since Misook has no mouth, show emotion only with the eyes, posture and symbols:
+NEUTRAL (dot eyes, limp arms);
+HAPPY (eyes as closed upward arcs, tiny sparkles);
+NAGGING (hands on hips, eyes as small straight dashes, small motion lines beside the head);
+SURPRISED (eyes as slightly bigger round dots, body leaning back, sweat drop);
+WORRIED (dot eyes, hands held together in front, one sweat drop, tiny gray rain cloud above);
+SOFTENED (eyes as closed upward arcs, head tilted slightly, one small heart above).

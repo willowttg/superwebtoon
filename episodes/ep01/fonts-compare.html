@@ -58,10 +58,11 @@ const FONTS = [
   ['배달의민족 주아 (대조군)', 'BMJua', 'OFL'],
 ];
 const CUT4 = `<img src="img/cut4.png" alt="">
-  <p class="nar">단톡방에 "ㅇㅇ" 두 글자가 오면<br>거기 담긴 마음까지 읽는다.</p>
-  <p class="mind" style="right:90px;top:540px;text-align:right">…화났나.<br>아까 그 말 때문인가.<br><span style="font-size:38px;color:#A69E93">(사실 아무것도 안 담겨 있음)</span></p>`;
+  <p class="nar">단톡방에 "ㅇㅇ" 두 글자가 오면<br>나는 거기 담긴 마음까지 읽는다.</p>
+  <p class="mind" style="right:90px;top:330px;text-align:right">…화났나.<br>아까 그 말 때문인가.</p>
+  <p class="mind" style="right:80px;bottom:60px;font-size:38px;color:#A69E93">(사실 아무것도 안 담겨 있음)</p>`;
 const CUT5 = `<img src="img/cut5.png" alt="">
-  <p class="nar">동생은 말한다. "그냥 물어보면 되잖아."<br>그게 되면 초능력자가 아니지.</p>`;
+  <p class="nar">동생은 말한다. "그냥 물어보면 되잖아."<br>그게 되면 나는 초능력자가 아니지.</p>`;
 document.getElementById('cards').innerHTML = FONTS.map(([name, fam, lic], i) => `
 <div class="card">
   <h2>${i+1}. ${name}<small>${fam} · ${lic}</small></h2>

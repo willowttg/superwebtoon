@@ -1,0 +1,20 @@
+Reference images:
+- The FIRST image is the CHARACTER to draw: a light-gray mouse named Kong (front view). Reproduce this exact character design in every figure.
+- The other images are STYLE references only (the Korean instatoon dog "Kkamja"): copy its drawing grammar — wobbly hand-drawn black outline of uneven thickness, flat colors, no shading, simple emotion symbols (sweat drop, sparkles, tiny rain cloud, hearts) — but NOT its character or color.
+
+Kong design (must be identical in all figures):
+- light gray #DED6DA body, ONE solid color everywhere including face and ears. No pink inner ears, no markings
+- 2-head-tall potato body, stubby limbs, two BIG round ears on top of the head, one thin curly tail
+- face: two small black dot eyes set wide apart, one small dark dot nose, NO MOUTH, NO BLUSH
+- blank, slightly dazed expression by default; arms hanging limply; small, scrappy, harmless mood
+- no eyelashes, no ribbon, no clothes, no accessories, no props
+
+Draw a CHARACTER REFERENCE SHEET, landscape, plain white background. Two rows, evenly spaced, every figure the same size and proportions, a thin gray English caption under each figure. No other text, no swatches, no props, no frames.
+Row 1, turnaround (full body, standing, blank face): FRONT, 3/4 VIEW, SIDE, BACK.
+Row 2, expressions (full body, front view). Since Kong has no mouth, show emotion only with the eyes, posture and symbols:
+NEUTRAL (dot eyes, limp arms);
+GRINNING (eyes as closed upward arcs, both arms raised, tiny sparkles);
+CHEEKY (one eye a dot, the other eye a closed arc, head tilted);
+SURPRISED (eyes as slightly bigger round dots, body leaning back, sweat drop);
+BORED (eyes as small half-closed dashes, body slouching, arms limp);
+DASHING (body leaning forward as if running, small motion lines behind, eyes dots).
