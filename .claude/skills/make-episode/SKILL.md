@@ -37,7 +37,7 @@ description: 「당신은 약간 초능력자?」 에피소드 1편 제작 — M
 ## 3. 텍스트 합성
 
 - `episodes/epNN/compose.html` — 슬라이드 8장을 각각 1080×1350 `<section>`으로. 이미지는 1024×1536 생성본을 중앙 1024×1280 크롭(`object-fit:cover`).
-- 폰트: `assets/fonts.md` 후보 중 지정(확정 전) 또는 확정 폰트. `@font-face`는 `assets/fonts.html`에서 복사.
+- 폰트: 본문(내레이션·속마음·CTA) **교보손글씨 2019** 확정, 내레이션은 가운데 정렬. 표지 제목은 미확정(현재 나눔손글씨 펜). `@font-face`는 `assets/fonts.html`에서 복사.
 - 표지: 제목 3줄 이내, 핵심 단어 `<b>`로 포인트 컬러, 부제 회색 소문자.
 - 컷: 상단 내레이션 1–2줄. 속마음은 캐릭터 옆에 작은 회색 글자, 말풍선·박스 없이.
 - Playwright MCP로 각 `<section>`을 `img/slideN.png`로 스크린샷 (viewport 1080×1350, `clip`). MCP 브라우저가 사용 중이면 `chrome-headless-shell.exe --headless --window-size=1080,1350 --virtual-time-budget=10000 --screenshot=img/slideN.png compose.html?only=N` (N은 0부터; `?only`는 compose.html에 그 슬라이드만 남기는 스크립트로 처리).

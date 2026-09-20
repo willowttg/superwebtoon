@@ -5,16 +5,17 @@
 <title>EP.01 compose</title>
 <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
 <style>
+  @font-face{font-family:'KyoboHand';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff') format('woff');font-display:swap}
   :root{--ink:#3A3733;--gray:#8A837A;--mind:#6B655D;--point:#C77B3F}
   *{box-sizing:border-box}
-  body{margin:0;background:#fff;font-family:'Nanum Pen Script',cursive;color:var(--ink)}
+  body{margin:0;background:#fff;font-family:'KyoboHand',cursive;color:var(--ink)}  /* 본문 확정: 교보손글씨 2019 */
   section{position:relative;width:1080px;height:1350px;overflow:hidden;background:#fff}
   section img{position:absolute;inset:0;width:1080px;height:1350px;object-fit:cover;object-position:50% 100%;display:block}
   #s0 img{object-fit:contain;object-position:50% 100%}
-  .title{position:absolute;left:72px;top:118px;width:936px;margin:0;font-size:132px;line-height:1.18;font-weight:700;word-break:keep-all}
+  .title{position:absolute;left:72px;top:118px;width:936px;margin:0;font-family:'Nanum Pen Script',cursive;font-size:132px;line-height:1.18;font-weight:700;word-break:keep-all}
   .title b{color:var(--point);font-weight:inherit}
   .mbti{position:absolute;left:72px;top:586px;margin:0;font-size:56px;color:var(--gray);letter-spacing:.08em}
-  .nar{position:absolute;left:80px;right:80px;top:110px;margin:0;font-size:66px;line-height:1.42;word-break:keep-all}
+  .nar{position:absolute;left:80px;right:80px;top:110px;margin:0;font-size:66px;line-height:1.42;word-break:keep-all;text-align:center}
   .mind{position:absolute;margin:0;font-size:50px;line-height:1.35;color:var(--mind);word-break:keep-all}
   .cta{position:absolute;left:80px;right:80px;top:335px;margin:0;font-size:58px;color:var(--point);text-align:center}
   .dim img{filter:saturate(.55) brightness(.99)}
