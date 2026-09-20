@@ -1,0 +1,20 @@
+Reference images:
+- The FIRST image is a DESIGN REFERENCE sheet of animals drawn in this project's grammar. Copy the SEAL from it (blob body, no ears, flipper limbs) and its drawing grammar exactly. Ignore the other animals.
+- The other images are STYLE references only (the Korean instatoon dog "Kkamja"): copy its drawing grammar — wobbly hand-drawn black outline of uneven thickness, flat colors, no shading, simple emotion symbols (sweat drop, sparkles, tiny rain cloud, hearts) — but NOT its character or color.
+
+The character is a SEAL, a part-time fast-food clerk, drawn without uniform here:
+- blue gray #BCD0DA body, ONE solid color everywhere including face and belly. No markings, no spots
+- 2-head-tall soft blob body, no neck, no ears, two short flipper arms, a small flat tail flipper at the bottom instead of legs
+- face: two small black dot eyes set wide apart, one small dark dot nose, NO MOUTH, NO BLUSH
+- completely blank, empty stare by default — thinking about nothing; arms hanging limply; small, harmless mood
+- no eyelashes, no whiskers, no clothes, no accessories, no props
+
+Draw a CHARACTER REFERENCE SHEET, landscape, plain white background. Two rows, evenly spaced, every figure the same size and proportions, a thin gray English caption under each figure. No other text, no swatches, no props, no frames.
+Row 1, turnaround (full body, upright, blank face): FRONT, 3/4 VIEW, SIDE, BACK.
+Row 2, expressions (full body, front view). Since the seal has no mouth, show emotion only with the eyes, posture and symbols:
+NEUTRAL (dot eyes, flippers limp);
+BORED (eyes as small half-closed dashes, body slouching);
+SURPRISED (eyes as slightly bigger round dots, body leaning back, sweat drop);
+HAPPY (eyes as closed upward arcs, one tiny sparkle);
+TIRED (dot eyes, body leaning to one side, one sweat drop);
+POINTING (one flipper raised sideways as if pointing at something, dot eyes).
