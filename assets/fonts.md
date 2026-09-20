@@ -1,6 +1,6 @@
 # 폰트 후보
 
-비교 페이지: https://willowttg.github.io/superwebtoon/assets/fonts.html · EP.01 테스트에서 표지용 1종 + 본문용 1종 확정. 확정 전까지 스킬은 `--font` 인자로 후보를 받는다.
+비교 페이지: https://willowttg.github.io/superwebtoon/assets/fonts.html · **본문 확정: 7번 교보손글씨 2019** (내레이션·속마음·CTA, 내레이션은 가운데 정렬). 표지용은 미확정 — EP.01은 1번 나눔손글씨 펜 임시 적용. 적용 비교: [ep01/fonts-compare.html](https://willowttg.github.io/superwebtoon/episodes/ep01/fonts-compare.html)
 
 조건: 상업적 이용 가능(웹·SNS 게시), 손글씨 느낌, 보리의 흔들리는 손그림 선과 충돌하지 않을 것. 모두 웹폰트 CDN으로 바로 쓸 수 있어 합성 HTML에 그대로 넣는다.
 

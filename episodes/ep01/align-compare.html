@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EP.01 내레이션 정렬 비교 — 교보손글씨 2019</title>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+<style>
+  @font-face{font-family:'KyoboHand';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff') format('woff');font-display:swap}
+  :root{--ink:#3A3733;--mind:#6B655D;--point:#C77B3F}
+  *{box-sizing:border-box}
+  body{margin:0;padding:32px 12px 96px;background:#EFEAE2;color:var(--ink);font-family:'Gowun Dodum','Malgun Gothic',sans-serif;line-height:1.6}
+  main{max-width:1100px;margin:0 auto}
+  h1{font-size:20px;margin:0 0 4px}
+  .sub{font-size:13px;color:#8A837A;margin:0 0 22px}
+  .card{background:#FFFDF9;border-radius:12px;padding:12px 12px 14px;margin-bottom:18px;box-shadow:0 2px 14px rgba(58,55,51,.08)}
+  .card h2{font-size:15px;margin:0 0 8px;font-weight:400}
+  .row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  @media(max-width:560px){.row{grid-template-columns:1fr}}
+  .lab{font-size:12px;color:#8A837A;margin:0 0 4px}
+  .box{position:relative;overflow:hidden;border-radius:8px;border:1px solid #E6E0D6}
+  .slide{position:absolute;left:0;top:0;width:1080px;height:1350px;background:#fff;transform-origin:0 0;font-family:'KyoboHand'}
+  .slide img{position:absolute;inset:0;width:1080px;height:1350px;object-fit:cover;object-position:50% 100%}
+  .dim img{filter:saturate(.55)}
+  .nar{position:absolute;left:80px;right:80px;top:110px;margin:0;font-size:66px;line-height:1.42;word-break:keep-all}
+  .c .nar{text-align:center}
+  .mind{position:absolute;margin:0;font-size:50px;line-height:1.35;color:var(--mind)}
+  .cta{position:absolute;left:80px;right:80px;top:335px;margin:0;font-size:58px;color:var(--point);text-align:center}
+</style>
+</head>
+<body>
+<main>
+  <h1>EP.01 내레이션 정렬 비교</h1>
+  <p class="sub">본문 폰트 교보손글씨 2019 확정. 왼쪽 = 왼쪽 정렬, 오른쪽 = 가운데 정렬. 속마음·CTA 위치는 동일.</p>
+  <div id="cards"></div>
+</main>
+<script>
+const CUTS = [
+  ['1 초능력 설명', '', `<img src="img/cut1.png"><p class="nar">나는 마음이 읽힌다.<br>상대가 말을 꺼내기 전에, 먼저.</p>`],
+  ['3 장점 — 엄마 (긴 문장)', '', `<img src="img/cut3.png"><p class="nar">잔소리 안에 든 걱정까지 읽힌다.<br>그래서 나는 그냥 "응" 하고 만다.</p>`],
+  ['4 공유 컷 (속마음 포함)', 'dim', `<img src="img/cut4.png"><p class="nar">단톡방에 "ㅇㅇ" 두 글자가 오면<br>나는 거기 담긴 마음까지 읽는다.</p><p class="mind" style="right:90px;top:330px;text-align:right">…화났나.<br>아까 그 말 때문인가.</p><p class="mind" style="right:80px;bottom:60px;font-size:38px;color:#A69E93">(사실 아무것도 안 담겨 있음)</p>`],
+  ['7 마무리 + CTA', '', `<img src="img/cut7.png"><p class="nar">그래도 내 능력 덕분에,<br>누군가는 오늘 혼자가 아니었다.</p><p class="cta">당신 곁의 INFP를 태그해 주세요</p>`],
+];
+document.getElementById('cards').innerHTML = CUTS.map(([t, cls, html]) => `
+<div class="card"><h2>${t}</h2><div class="row">
+  <div><p class="lab">왼쪽 정렬</p><div class="box"><div class="slide ${cls}">${html}</div></div></div>
+  <div><p class="lab">가운데 정렬</p><div class="box"><div class="slide c ${cls}">${html}</div></div></div>
+</div></div>`).join('');
+function fit(){ document.querySelectorAll('.box').forEach(b => { const s=b.clientWidth/1080; b.style.height=Math.round(1350*s)+'px'; b.firstElementChild.style.transform=`scale(${s})`; }); }
+fit(); addEventListener('resize', fit);
+</script>
+</body>
+</html>
