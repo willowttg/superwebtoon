@@ -13,7 +13,7 @@ files['conti.md'] = """# EP.01 「말하지 않은 마음까지 읽는 초능력
 | 4 | 패스트푸드 카운터. 찡그린 점원(물범), 반 넘게 남은 햄버거를 든 채 눈치 보는 두부. 벽시계 | 이 능력 때문에 필요 없는 눈치를 보거나 / 손해를 자처할 때도 많고 | 시계 위: 마감 시간 1시간 넘게 남음 · 점원: 아무 생각 없음 |
 | 5 | 켜진 모니터에 고양이 3인조가 사이좋게 찍은 인스타 화면. 두부는 선글라스를 던져 놓고 이불에 파묻혀 욺 | 스스로의 마음을 돌보지 못하는 나를 미워하거나 / 지난 날의 영웅적인 선택들까지 후회하기도 한다. | 두부: 이건 초능력이 아니라 저주야... |
 | 6 | 탱자와 소라가 선글라스를 쓰고 양쪽에서 우는 두부에게 달려옴 | 그렇지만 내가 나를 챙기지 못할 때면, / 항상 내가 지켜낸 사람들이 나를 지켜 줬다. | — |
-| 7 | 둥지 안에 조연들이 작은 새처럼 들어가 위를 보고 조잘거리고, 선글라스 두부가 둥지를 내려다봄. 머리 위 하트 | 나는 앞으로도 사람들의 마음을 외면하지 않을 것이다. / 내가 건넨 손길들로 내 주변을 따뜻하게 할 수만 있다면. | CTA: 당신 곁의 두부를 태그해 주세요 |
+| 7 | 둥지 안에 조연들이 작은 새처럼 들어가 위를 보고 조잘거리고, 선글라스 두부가 둥지를 내려다봄. 머리 위 하트 | 나는 앞으로도 사람들의 마음을 외면하지 않을 것이다. / 내가 건넨 손길들로 내 주변을 따뜻하게 할 수만 있다면. | CTA: 당신 옆의 초능력자를 태그해 주세요 |
 
 톤: 1–3 밝음 → 4–6 저채도·먹구름 → 7 포인트 컬러 복귀. 참조: 두부·소라·탱자·점원 시트, `ref/lineup-*.png`, 고양이 3인조 시트, 깜자 2장. 프롬프트는 `build_prompts.py`가 만든다.
 """
@@ -27,7 +27,7 @@ Dubu design:
 - 2-head-tall potato body with a soft cloud-shaped fluffy outline, stubby limbs, tiny tail, two small rounded ears sticking out sideways
 - face: two small black dot eyes set wide apart, one small dark dot nose, NO MOUTH, NO BLUSH, no eyelashes
 
-Prop of this episode, THE SUNGLASSES: a pair of wide, horizontally long sunglasses shaped like a downward-pointing triangle (flat top edge, lenses tapering to a point at the bottom), with lime-green #B5E550 lenses and a purple #8E5BC7 frame. Drawn flat, bold, simple.
+Prop of this episode, THE SUNGLASSES: a pair of wide, horizontally long sunglasses shaped like a downward-pointing triangle (flat top edge, lenses tapering to a point at the bottom), with lime-green #B5E550 lenses and a purple #8E5BC7 frame. Drawn flat, bold, simple. When a character WEARS the sunglasses, they sit exactly over the eyes: the lenses are centered on the face at eye level, both dot eyes are completely hidden behind the lenses, and the frame rests on the nose. Never draw them on the forehead or above the eyes.
 
 """
 END = "\nNo text, no letters, no speech bubbles, no captions. Plain white background.\n"
@@ -40,7 +40,7 @@ cuts['cut3'] = """Additional characters: Tangja, a yellow #F5E08C duck (flat ora
 ALL characters wear a simple girls' high-school uniform: white short-sleeve shirt and a navy #2E3A59 pleated skirt. Nothing else.
 Scene: a school cafeteria. In the foreground, Dubu wearing THE SUNGLASSES and Tangja sit side by side at a long plain table with two metal lunch trays with food. Tangja is sulky: eyes as small downward dashes, head drooping, a tiny gray rain cloud above her. Dubu sits close beside her, calm. Behind them, the three cats walk past in a line, each glancing at the two with a cold side-eye (eyes as small sideways dashes). Whole scene in the lower 65% of the image, the upper 35% empty white.""" + END
 cuts['cut4'] = """Additional character: a fast-food clerk, a blue gray #BCD0DA seal (blob body, no ears, flipper arms, dot eyes, no mouth, see the clerk sheet), same height as Dubu. The clerk wears a small white paper cap and a plain red #D9534F apron.
-Scene: a fast-food counter. The clerk stands behind a plain counter on the right, arms limp, eyes as two small slightly furrowed dashes (a mild frown), staring blankly. On the left, Dubu wearing THE SUNGLASSES stands holding a hamburger that is more than half uneaten, glancing nervously at the clerk: dot eyes looking sideways, body slightly shrunk, one sweat drop, a tiny gray rain cloud above her. On the wall between them, a simple round wall clock. Muted, slightly desaturated colors. Scene in the lower 60% of the image, the upper 40% empty white.
+Scene: inside a fast-food restaurant. On the right, in the background, the clerk stands behind a plain counter, arms limp, eyes as two small slightly furrowed dashes (a mild frown), staring blankly toward Dubu. On the left, in the foreground and clearly separated from the counter, Dubu wearing THE SUNGLASSES sits on a simple chair at a small round customer table, holding a hamburger that is more than half uneaten over a tray on the table, glancing nervously back toward the clerk: body slightly shrunk, one sweat drop, a tiny gray rain cloud above her. On the wall above the counter, a simple round wall clock. Muted, slightly desaturated colors. Scene in the lower 60% of the image, the upper 40% empty white.
 No text, no letters, no numbers on the clock, no speech bubbles, no captions. Plain white background.
 """
 cuts['cut5'] = "Scene: a gloomy room. On the left, a desk with a glowing computer monitor; the screen shows a simple photo of three cats (pink #F2C9CF, lavender #D6CBE6, mint #C5DCCB, same design as the cats sheet) standing close together happily with closed-arc eyes and a tiny sparkle, framed like a social media post (just a picture inside a rounded rectangle, no text, no icons). On the right, Dubu is buried in a lumpy pale blue blanket on the floor, only her head showing, crying: dot eyes with two thin tear streams. THE SUNGLASSES lie thrown on the floor in front of the blanket. A small gray rain cloud above Dubu. Muted, desaturated colors. Scene in the lower 60% of the image, the upper 40% empty white." + END
