@@ -46,7 +46,7 @@ description: 「작은 힘에도 작은 책임은 따른다」 에피소드 1편
 - `episodes/epNN/compose.html` — 슬라이드 8장을 각각 1080×1350 `<section>`으로. 이미지는 1024×1536 생성본을 중앙 1024×1280 크롭(`object-fit:cover`).
 - 폰트: 본문(내레이션·속마음·CTA) **교보손글씨 2019** 확정, 내레이션은 가운데 정렬. 표지 제목은 미확정(현재 나눔손글씨 펜). `@font-face`는 `assets/fonts.html`에서 복사.
 - 표지: 제목 3줄 이내, 핵심 단어 `<b>`로 포인트 컬러. 시리즈명과 제목 사이 약간의 행간(시리즈명 top 84px/44px, 제목 top 166px).
-- 컷: 상단 내레이션, **줄바꿈은 콘티에 적힌 그대로** (임의로 줄 수를 늘리지 않는다). 크기는 레퍼런스 실측(솜비 글자 높이 56px, 서밤 40px) 기준 내레이션 **56px**, 긴 줄은 그 슬라이드만 폭에 맞춰 자동 축소. 속마음·대사 **40px** 회색, 말풍선·박스 없이 캐릭터 옆에. CTA 38px.
+- 컷: 상단 내레이션, **줄바꿈은 콘티에 적힌 그대로** (임의로 줄 수를 늘리지 않는다). 크기는 레퍼런스 실측(솜비 글자 높이 56px, 서밤 40px) 기준 내레이션 **56px**, 긴 줄은 그 슬라이드만 폭에 맞춰 자동 축소. 속마음·대사 **40px** 회색, 말풍선·박스 없이 캐릭터 옆에. CTA는 **하단(bottom 44px) 40px 볼드 포인트 컬러, 양옆에 활자 하트 `♥`**(이모지 아님) — 그림이 바닥까지 닿을 때만 상단으로 올린다. 스타일은 `episodes/ep03/compose.html`의 `.cta` 그대로.
 - Playwright MCP로 각 `<section>`을 `img/slideN.png`로 스크린샷 (viewport 1080×1350, `clip`). MCP 브라우저가 사용 중이면 `chrome-headless-shell.exe --headless --window-size=1080,1350 --virtual-time-budget=10000 --screenshot=img/slideN.png compose.html?only=N` (N은 0부터; `?only`는 compose.html에 그 슬라이드만 남기는 스크립트로 처리).
 - 이미지 크롭은 `object-position:50% 100%`(하단 기준)로 발이 안 잘리게 하고, 표지는 `object-fit:contain`. 그림은 **80%로 축소**해 하단 60px·좌우 여백을 두고(`transform:scale(.8)`, 하단 기준), 모든 컷 동일 적용 — 군중처럼 프레임에 닿는 컷도 예외 없음.
 - 속마음 등 그림 옆 텍스트는 `python scripts/art_bbox.py img/cutN.png`로 그림 영역을 잰 뒤 그 밖에 놓는다. 프롬프트의 "상단 40% 비움"은 대략만 지켜지고(30~47%), 글자 폭은 폰트마다 달라 눈대중으로 두면 겹친다.
