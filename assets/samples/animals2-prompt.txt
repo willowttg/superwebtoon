@@ -1,0 +1,13 @@
+The FIRST image is the DESIGN REFERENCE: a character sheet of "Bori", a white cat. Reproduce its exact drawing grammar for every figure:
+- 2-head-tall potato body, head bigger than body, stubby limbs, tiny tail
+- wobbly hand-drawn black outline of uneven thickness, closed outlines, completely flat colors, no shading
+- face: two small black dot eyes set wide apart, one small dark dot nose, NO MOUTH, NO BLUSH
+- blank slightly dazed expression, arms hanging limply, small scrappy harmless mood
+- no accessories, no clothes, no markings (no spots, stripes, patches, ear tips)
+The other images are STYLE references only (the instatoon dog "Kkamja"): same line grammar, not its character.
+
+Draw 10 DIFFERENT ANIMALS as if they were Bori's species-swapped siblings: same size, same pose (standing, front view), same face grammar, each in ONE solid soft pastel color that suits the animal. Each animal must be recognizable by SILHOUETTE alone (ears, snout, beak, body shape), because there are no markings.
+
+Layout: landscape, plain white background, 2 rows of 5, evenly spaced, a thin gray English caption under each figure. No other text, no props, no frames.
+Row 1: FOX (pointed ears, big bushy tail, soft orange #F0C9A0) · MOUSE (big round ears, thin tail, light gray #D6D6DB) · KOALA (big fluffy round ears, large oval nose, gray #C4C6CB) · ELEPHANT (short trunk instead of nose, big floppy ears, pale blue gray #C7D3DC) · OWL (small ear tufts, tiny beak instead of nose, folded wing arms, taupe #D8C8B4)
+Row 2: CHICK (tiny round body, small beak, stubby wing arms, pale yellow #F8EBB5) · HEDGEHOG (spiky rounded back outline, small ears, warm brown #D9B99B) · OTTER (rounded head, tiny ears, thick tail, brown beige #CDB49A) · DEER (small antlers, upright ears, tan #E3C7A5) · TURTLE (round shell outline on back, small head, moss green #BFCFAF)
