@@ -16,7 +16,7 @@ cp .env.example .env
 | `OPENAI_API_KEY` | 이미지 생성용. [platform.openai.com/api-keys](https://platform.openai.com/api-keys) 에서 발급 |
 | `IMAGE_MODEL` | `gpt-image-2.5-sunburst` (기본). `gpt-image-2.5-flare`는 같은 단가에 빠르기만 하므로 쓸 이유 없음. `gpt-image-1`은 2026-10-23 종료 |
 | `IMAGE_SIZE` | `1024x1536` — 모델이 지원하는 세로 사이즈. 4:5가 아니므로 **1024×1280으로 크롭 후 1080×1350 업스케일**해서 캐러셀에 넣는다 |
-| `IMAGE_QUALITY` | `low` / `medium` / `high` / `xhigh` / `max`. 컷은 `medium` (세로 ≈ $0.01/장), 캐릭터 시트·표지는 `high` (≈ $0.08). Sunburst의 일관성 이점은 `high` 이상에서 나타남 |
+| `IMAGE_QUALITY` | `low` / `medium` / `high` / `xhigh` / `max`. **전부 `medium`** (세로 ≈ $0.01/장). 표지·캐릭터 시트도 `high`를 쓰지 않는다 |
 | `OUTPUT_DIR` | 생성 결과 저장 루트 |
 
 ## 사용

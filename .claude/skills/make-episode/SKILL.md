@@ -38,7 +38,7 @@ description: 「작은 힘에도 작은 책임은 따른다」 에피소드 1편
 - **장면 연출에 최신 밈을 활용**한다 (내레이션 문장이 아니라 그림 쪽). 콘티 단계에서 웹 검색으로 그 시점에 통하는 밈·짤 포즈·구도를 확인하고, 상황에 맞는 것만 캐릭터 연기·구도로 옮긴다(억지로 끼우지 않음). 콘티 프롬프트 요점에 `밈: ○○`로 출처를 적는다.
 - **사회생활 컷**: 캐릭터가 겉으로 웃거나 예의상 멘트를 하는데 진짜 속마음이 다르면, 그림에 속마음 장치를 함께 넣는다 — 등 뒤로 숨긴 손의 주먹·브이, 살랑거리는 꼬리, 등 뒤로 새는 반짝이, 작은 생각 구름(안의 글자는 합성) 등. 콘티 속마음 열에 `속마음 장치: ○○`로 적는다.
 - 텍스트가 들어갈 여백을 프롬프트로 확보: 내레이션 컷은 `character in the lower half, upper 40% empty`.
-- 생성: `python scripts/gen_image.py --prompt-file prompts/cutN.txt --ref assets/samples/dubu-sheet-high.png [--ref assets/samples/misook-sheet-high.png --ref ref/lineup.png] --ref assets/ref/kkamja-1.jpg --ref assets/ref/kkamja-2.jpg --out img/cutN.png` — 컷 `medium`, 표지 `high`. `.env` 로드 필요(`docs/env-setup.md`).
+- 생성: `python scripts/gen_image.py --prompt-file prompts/cutN.txt --ref assets/samples/dubu-sheet-high.png [--ref assets/samples/misook-sheet-high.png --ref ref/lineup.png] --ref assets/ref/kkamja-1.jpg --ref assets/ref/kkamja-2.jpg --out img/cutN.png` — 표지 포함 **전부 `medium`** (`high` 금지). `.env` 로드 필요(`docs/env-setup.md`).
 
 ## 3. 텍스트 합성
 
