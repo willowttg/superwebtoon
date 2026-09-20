@@ -51,10 +51,11 @@ cuts['cover'] = head(DUBU, APPLE) + (
     "Character and rock in the lower 60% of the image; the upper 40% must be completely empty white for a title.") + END
 
 cuts['cut1'] = head(DUBU, APPLE) + (
-    "Scene: " + SILHOUETTE + " is walking from right to left in side view, looking straight ahead, and has just shoulder-bumped into Dubu who was standing still; "
-    "it keeps walking without reacting. Dubu, on the LEFT, is knocked sideways: her body is tilted and wobbling with two short motion lines, one small black four-point impact star "
-    "is drawn between the silhouette's shoulder and Dubu's shoulder — yet SHE is the one apologizing: she bends forward toward the silhouette in a deep bow, holding THE APPLE out "
-    "with both hands toward it, eyes as two small dots. The two figures overlap slightly at the shoulders so the bump is obvious. Bright, calm colors. " + LAYOUT) + END
+    "Scene: " + SILHOUETTE + " is walking from right to left in side view, looking straight ahead, and has just shoulder-bumped Dubu so hard that she is LAUNCHED INTO THE AIR. "
+    "The silhouette keeps walking without reacting, and stands on the ground at the right. Dubu is on the LEFT, high up in mid-air, feet well off the ground, her whole body flying sideways away from the silhouette "
+    "with a curved arc of motion lines behind her and one small black four-point impact star near the silhouette's shoulder — yet even while flying she is the one apologizing: "
+    "her head is bowed toward the silhouette and she holds THE APPLE out with both hands toward it, eyes as two small dots. "
+    "Dubu is airborne, so draw NO contact shadow under her; only the silhouette gets a shadow ellipse. Bright, calm colors. " + LAYOUT) + END
 
 cuts['cut2'] = head(DUBU, TANGJA, APPLE) + (
     "Scene: a street (plain white background, only a thin gray ground line). Tangja (left) has just run into Dubu: she is caught mid-skid with her body leaning forward, a few short motion lines behind her, "
