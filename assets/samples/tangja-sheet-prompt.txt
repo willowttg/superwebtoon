@@ -22,7 +22,7 @@ FRONT; 3/4 VIEW; SIDE (profile facing left, one big round eye with its tiny whit
 
 Row 2, comic action poses:
 BOTH WINGS UP (jumping with both wings raised high, feet off the ground, glossy eyes, sparkles);
-DRAGGING (seen from the side, leaning far forward pulling hard on something off to the side with both wings gripping, feet dug in, motion lines);
+DRAGGING (seen from the side so only ONE eye is visible, leaning far forward pulling hard on something off to the side with both wings gripping, feet dug in, motion lines; the visible eye is a single round black dot with its white highlight, drawn normally);
 CHATTERING (leaning forward toward the viewer, both wings gesturing in the air, glossy eyes, several short motion lines around the head);
 POINTING FAR (one wing pointing up and out into the distance, other wing on the hip, glossy eyes, one sparkle).
 

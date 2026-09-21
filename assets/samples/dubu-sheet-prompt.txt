@@ -21,7 +21,7 @@ Row 1, turnaround (full body, plain standing, default face, arms hanging limply)
 FRONT; 3/4 VIEW; SIDE (profile facing left, one dot eye with its eyebrow stroke above, nose dot at the muzzle tip, no mouth mark); BACK (no face visible, tiny tail).
 
 Row 2, comic action poses:
-RUNNING AWAY (seen from the side, sprinting in a panic, arms flailing above the head, legs a blur of motion lines, eyes squeezed shut ">.<", sweat drops flying);
+RUNNING AWAY (seen from the side so only ONE eye is visible, sprinting in a panic, arms flailing above the head, legs a blur of motion lines; the visible eye is one clean squeezed-shut ">" mark with its worried eyebrow stroke above it, nothing else on the face except the nose dot; sweat drops flying);
 MELTED (lying flat on the floor face-down like a puddle, limbs splayed out, ears flat, eyes as tired flat dashes, three short vertical gloom lines above the head);
 JUMPING (mid-air with all four limbs stretched out star-shaped, big glossy round eyes with white highlights, solid black dot nose, sparkles around);
 PEEKING (both hands held up covering the lower half of the face below the eyes; both dot eyes with worried eyebrows fully visible above the hands, glancing sideways; one sweat drop; body shrunk small).

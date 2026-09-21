@@ -46,12 +46,12 @@ Row 3, comic reaction poses:
 CAST = {
 "misook": dict(
     who="a soft-orange fox named Misook",
-    side_note="one dot eye with its flat eyebrow stroke and its two tiny upward eyelash strokes visible",
+    side_note="one dot eye with its flat eyebrow stroke above and its two short straight vertical eyelash lines standing up from the top of the eye",
     design="""Misook design (identical in all figures):
 - soft orange #F6CA9E body, ONE solid color everywhere including face, ears, tail. No markings, no white chest, no dark ear tips, no dark paws
 - 2-head-tall potato body, stubby limbs, large pointed triangular ears, one big bushy tail curling up beside the body
-- DEFAULT FACE: two small black dot eyes set wide apart; two short straight black eyebrow strokes pressed low and flat just above the eyes (stern, in charge); and on EACH eye two tiny thin black eyelash strokes sticking UPWARD and slightly outward from the top outer edge of the eye (like two little ticks pointing up). One small dark dot nose. NO MOUTH, NO BLUSH, no ribbon, no clothes, no props
-- The flat eyebrows and the two upward eyelashes per eye appear in EVERY figure, even when the eyes change shape (dots, closed upward arcs, flat dashes, bigger round dots, ">.<")
+- DEFAULT FACE: two small black dot eyes set wide apart; two short straight black eyebrow strokes pressed low and flat just above the eyes (stern, in charge); and on EACH eye two short thin straight VERTICAL black lines standing straight up from the top edge of the eye, parallel to each other, not slanted, not curved (two little upright eyelash lines per eye, between the eye and the eyebrow). One small dark dot nose. NO MOUTH, NO BLUSH, no ribbon, no clothes, no props
+- The flat eyebrows and the two upright vertical eyelash lines per eye appear in EVERY figure, even when the eyes change shape (dots, closed upward arcs, flat dashes, bigger round dots, ">.<")
 - personality: the mom. Nags because she worries; scolds first, notices first. Brisk, capable, always moving""",
     row2="""POINTING (leaning forward, one arm stretched out pointing with a finger, other hand on hip, small motion lines by the pointing arm);
 RUSHING (seen from the side, hurrying forward with quick short steps, tail streaming behind, motion lines, one sweat drop);
@@ -96,7 +96,7 @@ SHRUG (both palms turned up at the sides, shoulders raised, head tilted, arc eye
     row3="""POP UP (popping up from the bottom edge of his space, only head and raised arms visible, eyes open as round dots, small motion lines);
 BORED (slouched sitting on the floor leaning back on both hands, eyes as flat dashes, tail limp);
 WHISPER (leaning sideways, one hand cupped beside the face, one eye an arc and the other a round dot, one tiny sparkle);
-BONKED (body tilted as if just hit lightly, eyes as ">.<", ears askew, three small sparkles circling above the head).""",
+BONKED (body tilted as if just hit lightly, eyes as ">.<", ears askew, three small stars floating above the head; the outline of the head and body stays solid, closed and continuous - the impact is shown only by the stars and the tilt, no broken or dented lines).""",
 ),
 "tangja": dict(
     who="a yellow duck named Tangja",
@@ -108,7 +108,7 @@ BONKED (body tilted as if just hit lightly, eyes as ">.<", ears askew, three sma
 - The glossy highlight eyes are her default. When a caption says so the eyes may become closed upward arcs (delight), bigger round dots (shock), or ">.<"
 - personality: the loud friend. Extroverted, nosy, bright, always excited, drags the shy hero outdoors. Big energy in a small body""",
     row2="""BOTH WINGS UP (jumping with both wings raised high, feet off the ground, glossy eyes, sparkles);
-DRAGGING (seen from the side, leaning far forward pulling hard on something off to the side with both wings gripping, feet dug in, motion lines);
+DRAGGING (seen from the side so only ONE eye is visible, leaning far forward pulling hard on something off to the side with both wings gripping, feet dug in, motion lines; the visible eye is a single round black dot with its white highlight, drawn normally);
 CHATTERING (leaning forward toward the viewer, both wings gesturing in the air, glossy eyes, several short motion lines around the head);
 POINTING FAR (one wing pointing up and out into the distance, other wing on the hip, glossy eyes, one sparkle).""",
     row3="""RUNNING HUG (running toward the viewer with both wings spread wide open, eyes as closed upward arcs, motion lines);
@@ -139,14 +139,14 @@ FIDGET (flippers rubbing together in front, eyes shifted sideways, body leaning 
     side_note="one dot eye inside its round glasses rim seen from the side as a thin circle, no temple arm going to the ear",
     design="""Bamtol design (identical in all figures):
 - warm brown #C9A582 body, ONE solid color everywhere including the face (no lighter face patch, no two-tone). The spikes are drawn ONLY as a zigzag outline around the back of the head and body; no lines or spikes drawn inside the body
-- 2-head-tall rounded body, stubby limbs, small rounded ears, no tail
+- 2-head-tall rounded body, stubby limbs, two small rounded ears at the top sides of the head (in the BACK view the same two small rounded ears sit at the top of the head, drawn as simple half-circles inside the zigzag spike outline), no tail
 - DEFAULT FACE: two small black dot eyes set wide apart, one small dark dot nose, and ROUND GLASSES: one thin black circular rim drawn around each eye, the two rims joined by one short bridge line over the nose. NOTHING ELSE - no temple arms, no pieces going to the ears, the rims simply sit on the face. Lenses are transparent (body color shows inside). NO MOUTH, NO BLUSH, no eyelashes, no clothes, no other props
 - The round glasses appear in EVERY figure, including side and 3/4 views (in profile the near rim is a thin circle on the face). Inside the rims the eyes may change: dots, closed upward arcs, flat dashes, bigger round dots
 - personality: the boyfriend. Prickly and blunt on the outside, soft on the inside. Makes plans, decides things for you, logical to a fault, secretly caring""",
     row2="""ARMS CROSSED (standing with arms crossed, chin slightly up, dot eyes behind the glasses);
 MAKING A POINT (one finger raised beside the head as if explaining a plan, other hand on hip, small motion lines by the finger);
 GLASSES PUSH (one hand pushing the bridge of the glasses up the nose, eyes as flat dashes, one small sparkle glinting on a rim);
-STRIDING (seen from the side, walking briskly with purpose, arms swinging, motion lines behind).""",
+STRIDING (seen from the side, walking briskly with purpose, arms swinging, motion lines behind; the one visible eye is a SOLID black dot inside its round rim, drawn as dark as every other eye on the sheet).""",
     row3="""CURLED BALL (rolled into a round ball on the floor with the zigzag spike outline all around, only the glasses and dot eyes showing at the front);
 STARTLED (leaning back, glasses tilted slightly askew on the face, eyes as bigger round dots, one sweat drop);
 THINKING (sitting on the floor, chin resting on one hand, elbow on knee, dot eyes behind the glasses, one very short line above the head);

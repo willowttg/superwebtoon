@@ -30,4 +30,4 @@ Row 3, comic reaction poses:
 POP UP (popping up from the bottom edge of his space, only head and raised arms visible, eyes open as round dots, small motion lines);
 BORED (slouched sitting on the floor leaning back on both hands, eyes as flat dashes, tail limp);
 WHISPER (leaning sideways, one hand cupped beside the face, one eye an arc and the other a round dot, one tiny sparkle);
-BONKED (body tilted as if just hit lightly, eyes as ">.<", ears askew, three small sparkles circling above the head).
+BONKED (body tilted as if just hit lightly, eyes as ">.<", ears askew, three small stars floating above the head; the outline of the head and body stays solid, closed and continuous - the impact is shown only by the stars and the tilt, no broken or dented lines).

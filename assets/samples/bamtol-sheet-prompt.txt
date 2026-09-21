@@ -9,7 +9,7 @@ LINE QUALITY (most important):
 
 Bamtol design (identical in all figures):
 - warm brown #C9A582 body, ONE solid color everywhere including the face (no lighter face patch, no two-tone). The spikes are drawn ONLY as a zigzag outline around the back of the head and body; no lines or spikes drawn inside the body
-- 2-head-tall rounded body, stubby limbs, small rounded ears, no tail
+- 2-head-tall rounded body, stubby limbs, two small rounded ears at the top sides of the head (in the BACK view the same two small rounded ears sit at the top of the head, drawn as simple half-circles inside the zigzag spike outline), no tail
 - DEFAULT FACE: two small black dot eyes set wide apart, one small dark dot nose, and ROUND GLASSES: one thin black circular rim drawn around each eye, the two rims joined by one short bridge line over the nose. NOTHING ELSE - no temple arms, no pieces going to the ears, the rims simply sit on the face. Lenses are transparent (body color shows inside). NO MOUTH, NO BLUSH, no eyelashes, no clothes, no other props
 - The round glasses appear in EVERY figure, including side and 3/4 views (in profile the near rim is a thin circle on the face). Inside the rims the eyes may change: dots, closed upward arcs, flat dashes, bigger round dots
 - personality: the boyfriend. Prickly and blunt on the outside, soft on the inside. Makes plans, decides things for you, logical to a fault, secretly caring
@@ -24,7 +24,7 @@ Row 2, comic action poses:
 ARMS CROSSED (standing with arms crossed, chin slightly up, dot eyes behind the glasses);
 MAKING A POINT (one finger raised beside the head as if explaining a plan, other hand on hip, small motion lines by the finger);
 GLASSES PUSH (one hand pushing the bridge of the glasses up the nose, eyes as flat dashes, one small sparkle glinting on a rim);
-STRIDING (seen from the side, walking briskly with purpose, arms swinging, motion lines behind).
+STRIDING (seen from the side, walking briskly with purpose, arms swinging, motion lines behind; the one visible eye is a SOLID black dot inside its round rim, drawn as dark as every other eye on the sheet).
 
 Row 3, comic reaction poses:
 CURLED BALL (rolled into a round ball on the floor with the zigzag spike outline all around, only the glasses and dot eyes showing at the front);

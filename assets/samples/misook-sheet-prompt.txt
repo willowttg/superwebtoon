@@ -10,15 +10,15 @@ LINE QUALITY (most important):
 Misook design (identical in all figures):
 - soft orange #F6CA9E body, ONE solid color everywhere including face, ears, tail. No markings, no white chest, no dark ear tips, no dark paws
 - 2-head-tall potato body, stubby limbs, large pointed triangular ears, one big bushy tail curling up beside the body
-- DEFAULT FACE: two small black dot eyes set wide apart; two short straight black eyebrow strokes pressed low and flat just above the eyes (stern, in charge); and on EACH eye two tiny thin black eyelash strokes sticking UPWARD and slightly outward from the top outer edge of the eye (like two little ticks pointing up). One small dark dot nose. NO MOUTH, NO BLUSH, no ribbon, no clothes, no props
-- The flat eyebrows and the two upward eyelashes per eye appear in EVERY figure, even when the eyes change shape (dots, closed upward arcs, flat dashes, bigger round dots, ">.<")
+- DEFAULT FACE: two small black dot eyes set wide apart; two short straight black eyebrow strokes pressed low and flat just above the eyes (stern, in charge); and on EACH eye two short thin straight VERTICAL black lines standing straight up from the top edge of the eye, parallel to each other, not slanted, not curved (two little upright eyelash lines per eye, between the eye and the eyebrow). One small dark dot nose. NO MOUTH, NO BLUSH, no ribbon, no clothes, no props
+- The flat eyebrows and the two upright vertical eyelash lines per eye appear in EVERY figure, even when the eyes change shape (dots, closed upward arcs, flat dashes, bigger round dots, ">.<")
 - personality: the mom. Nags because she worries; scolds first, notices first. Brisk, capable, always moving
 - Emotion symbols allowed: sweat drop, sparkles, motion lines, short vertical gloom lines, tears, tiny hearts. NO rain cloud, NO cloud of any kind anywhere on the sheet. Never a mouth, never blush.
 
 Draw a CHARACTER REFERENCE SHEET, landscape, plain white background. THREE rows of four figures, evenly spaced, a thin gray English caption under each figure exactly as written below. No other text, no swatches, no props, no frames. Poses may be loose, exaggerated and comic; the body may squash, stretch, tilt or sprawl. Figures need not be the same size or stiffly upright.
 
 Row 1, turnaround (full body, plain standing, default face, arms hanging limply):
-FRONT; 3/4 VIEW; SIDE (profile facing left, one dot eye with its flat eyebrow stroke and its two tiny upward eyelash strokes visible, no mouth mark); BACK (no face visible).
+FRONT; 3/4 VIEW; SIDE (profile facing left, one dot eye with its flat eyebrow stroke above and its two short straight vertical eyelash lines standing up from the top of the eye, no mouth mark); BACK (no face visible).
 
 Row 2, comic action poses:
 POINTING (leaning forward, one arm stretched out pointing with a finger, other hand on hip, small motion lines by the pointing arm);
