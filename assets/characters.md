@@ -50,6 +50,6 @@ MBTI는 설계용이며 **작품 안(표지·컷·캡션·해시태그 어디에
 
 ## 3. 시트와 참조 입력
 
-- 시트 7장: `assets/samples/{dubu,misook,deoksu,kong,tangja,sora,bamtol}-sheet.png` (각 턴어라운드 4 + 성격별 코믹 포즈 8. 제작은 정면·측면 선 샘플 `<이름>-line-sample.png` 먼저 → 그 샘플만 참조로 시트) ([cast-sheets.html](https://willowttg.github.io/superwebtoon/assets/samples/cast-sheets.html)). 소품 없음 — 망토 등은 에피소드별로 프롬프트에 지정.
+- 시트 7장: `assets/samples/{dubu,misook,deoksu,kong,tangja,sora,bamtol}-sheet.png` (각 턴어라운드 4 + 성격별 코믹 포즈 8. 제작은 정면·측면 선 샘플 `<이름>-line-sample.png` 먼저 → 그 샘플 + `dubu-line-sample.png`(연필선 스타일 참조)로 시트. 연필 입자는 글로만 지시하면 안 살고 두부 샘플을 같이 넣어야 나온다) ([cast-sheets.html](https://willowttg.github.io/superwebtoon/assets/samples/cast-sheets.html)). 소품 없음 — 망토 등은 에피소드별로 프롬프트에 지정.
 - 컷 생성 참조 순서: 등장 캐릭터 시트 → 동시 출연이면 `python scripts/lineup.py <이름들> --out episodes/epNN/ref/lineup-<이름들>.png`로 만든 크기 라인업. 깜자 이미지는 더 이상 참조로 쓰지 않는다 (시트가 선 스타일을 담고 있음). 프롬프트에 "the lineup image shows their relative sizes"를 넣는다.
 - 덕수의 뿔은 시트에서 몸보다 진한 갈색으로 나왔고 10도 모두 일관되므로 그대로 확정 (2갈래).
