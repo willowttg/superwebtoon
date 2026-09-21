@@ -176,7 +176,7 @@ def cmd_export(a):
 
 
 def slide_count(img, ext):
-    """img/slide1.ext 부터 연속으로 있는 장수 (표지 없는 7컷 편은 7, 표지 있는 편은 8)."""
+    """img/slide1.ext 부터 연속으로 있는 장수 (표지 없는 편은 컷 수 4~7, 표지 있는 구편은 8)."""
     n = 0
     while os.path.exists(os.path.join(img, f"slide{n + 1}.{ext}")):
         n += 1
