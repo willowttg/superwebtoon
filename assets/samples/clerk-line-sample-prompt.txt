@@ -1,6 +1,6 @@
 Reference images:
-- The FIRST image is the CHARACTER design reference: a seal drawn with the correct thin pencil line. Reproduce this exact design and line quality in every figure.
-- The SECOND image is a LINE STYLE reference only (a cream sheep): copy its thin grainy pencil line texture exactly in every figure - but NOT its character, shape or color. Emotion symbols (sweat drop, sparkles, motion lines) are drawn simply in the same pencil line.
+- The FIRST image is the CHARACTER design reference (a sheet from this project). Reproduce the SEAL (blob body, no ears, flipper limbs) from it exactly.
+- The SECOND image is a LINE STYLE reference only (a cream sheep): copy its thin grainy pencil line texture exactly - but NOT its character, shape or color.
 
 LINE QUALITY (most important - match the SECOND reference image exactly):
 - Every line is drawn with a real soft graphite PENCIL (2B) on paper, then scanned: a THIN line, about half as thick as a marker line, dark warm gray (never pure black), with clearly VISIBLE graphite grain - slightly rough, fuzzy, uneven edges, tiny speckles of texture along the stroke, darker where the pencil pressed harder and lighter where it lifted.
@@ -16,12 +16,4 @@ The character is a SEAL, a part-time fast-food clerk, drawn without uniform here
 - completely blank, empty stare by default - thinking about nothing; arms hanging limply; small, harmless mood
 - no eyelashes, no whiskers, no clothes, no accessories, no props
 
-Draw a CHARACTER REFERENCE SHEET, landscape, plain white background. Two rows, evenly spaced, every figure the same size and proportions, a thin gray English caption under each figure. No other text, no swatches, no props, no frames. NO rain cloud, no cloud of any kind.
-Row 1, turnaround (full body, upright, blank face): FRONT, 3/4 VIEW, SIDE, BACK.
-Row 2, expressions (full body, front view). Since the seal has no mouth, show emotion only with the eyes, posture and symbols:
-NEUTRAL (dot eyes, flippers limp);
-BORED (eyes as small half-closed dashes, body slouching);
-SURPRISED (eyes as slightly bigger round dots, body leaning back, sweat drop);
-HAPPY (eyes as closed upward arcs, one tiny sparkle);
-TIRED (dot eyes, body leaning to one side, one sweat drop);
-POINTING (one flipper raised sideways as if pointing at something, dot eyes).
+Draw exactly TWO large figures side by side: LEFT full body FRONT view, RIGHT full body SIDE view (profile facing left, one dot eye visible). Upright, flippers hanging limply, blank face. Plain white background, no text, no captions, no frames. NO mouth mark anywhere.

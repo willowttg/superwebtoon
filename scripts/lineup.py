@@ -17,7 +17,7 @@ CAST = {  # 이름: (시트, 상대 크기, 캡션)
     "tangja": ("assets/samples/tangja-sheet.png", 1.0, "TANGJA 100"),
     "sora":   ("assets/samples/sora-sheet.png",   1.0, "SORA 100"),
     "bamtol": ("assets/samples/bamtol-sheet.png", 1.05, "BAMTOL 105"),
-    "clerk":  ("assets/samples/clerk-sheet-high.png",  1.0, "CLERK 100"),
+    "clerk":  ("assets/samples/clerk-sheet.png",  1.0, "CLERK 100"),
 }
 ORDER = ["misook", "deoksu", "dubu", "kong", "tangja", "sora", "bamtol", "clerk"]
 BASE_H = 210  # 크기 1.0 캐릭터의 얼굴 기준선→발끝 픽셀 거리 (귀·뿔·털 제외, 역할 기준 크기)

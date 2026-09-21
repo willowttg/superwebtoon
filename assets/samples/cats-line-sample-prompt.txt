@@ -1,6 +1,6 @@
 Reference images:
-- The FIRST image is the CHARACTER design reference: three cats drawn with the correct thin pencil line. Reproduce this exact design and line quality in every figure.
-- The SECOND image is a LINE STYLE reference only (a cream sheep): copy its thin grainy pencil line texture exactly in every figure - but NOT its character, shape or color. Emotion symbols (sweat drop, sparkles, motion lines) are drawn simply in the same pencil line.
+- The FIRST image is the CHARACTER design reference (a sheet from this project). Reproduce the three cats (silhouette, ears, tail) from it exactly.
+- The SECOND image is a LINE STYLE reference only (a cream sheep): copy its thin grainy pencil line texture exactly - but NOT its character, shape or color.
 
 LINE QUALITY (most important - match the SECOND reference image exactly):
 - Every line is drawn with a real soft graphite PENCIL (2B) on paper, then scanned: a THIN line, about half as thick as a marker line, dark warm gray (never pure black), with clearly VISIBLE graphite grain - slightly rough, fuzzy, uneven edges, tiny speckles of texture along the stroke, darker where the pencil pressed harder and lighter where it lifted.
@@ -17,5 +17,4 @@ Draw THREE CATS, a trio of popular classmates. All three share the same design e
 - no eyelashes, no ribbon, no clothes, no accessories, no props
 Cat A: pink #F2C9CF. Cat B: lavender #D6CBE6. Cat C: mint #C5DCCB.
 
-Draw a CHARACTER REFERENCE SHEET, landscape, plain white background. Three rows (one per cat, A on top, then B, then C), five figures per row, evenly spaced, every figure the same size and proportions, a thin gray English caption under each figure. No other text, no swatches, no props, no frames. NO rain cloud, no cloud of any kind.
-Each row, full body: FRONT, 3/4 VIEW, SIDE, BACK, SIDE-EYE (front view, eyes as two small dashes tilted to look sideways in a cold judging glance, head slightly turned away, arms limp).
+Draw exactly FOUR large figures in one row: Cat A FRONT view, Cat B FRONT view, Cat C FRONT view, then Cat A SIDE view (profile facing left, one dot eye visible). Plain standing, arms hanging limply. Plain white background, no text, no captions, no frames. NO mouth mark anywhere.
