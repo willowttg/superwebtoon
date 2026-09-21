@@ -54,14 +54,22 @@ def front_figure(sheet):
         y1 = y
     a = band[y0:y1 + 1]
     ok = (a < 240).any(axis=2)
-    cols = np.where(ok.any(axis=0))[0]
+    # 캡션(FRONT 글자)은 도와 떨어져 있으므로, 중앙 열 최상단 픽셀에서 자란 연결 성분만 남긴다
+    ok2 = ok.copy()
+    for _ in range(3):
+        ok2 = ok2 | np.roll(ok2, 1, 0) | np.roll(ok2, -1, 0) | np.roll(ok2, 1, 1) | np.roll(ok2, -1, 1)
     cx = int(W / 8)
-    xs = [c for c in cols if c <= cx]; x0 = cx
-    while x0 - 1 in cols: x0 -= 1
-    x1 = cx
-    while x1 + 1 in cols: x1 += 1
-    out = a[:, x0:x1 + 1].copy()
-    out[~ok[:, x0:x1 + 1]] = 255
+    top = np.where(ok[:, cx])[0][0]
+    comps = _components(ok2)
+    m = None
+    for pts, cy0, cy1, cx0, cx1 in comps:
+        if cy0 <= top + 3 <= cy1 and cx0 <= cx <= cx1:
+            m = np.zeros_like(ok); ys = [q[0] for q in pts]; xs = [q[1] for q in pts]; m[ys, xs] = True; break
+    m = (m & ok) if m is not None else ok
+    ys, xs = np.where(m)
+    yy0, yy1, x0, x1 = ys.min(), ys.max(), xs.min(), xs.max()
+    out = a[yy0:yy1 + 1, x0:x1 + 1].copy()
+    out[~m[yy0:yy1 + 1, x0:x1 + 1]] = 255
     return Image.fromarray(out)
 
 
