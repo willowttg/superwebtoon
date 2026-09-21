@@ -1,0 +1,29 @@
+Reference images are CHARACTER SHEETS (and, if present, a size lineup image which shows the characters' relative sizes only). Reproduce these exact character designs and this exact thin pencil line quality. Flat colors, no shading, simple emotion symbols. Cute, small, harmless mood.
+
+LINE QUALITY (most important):
+- Every line is drawn with a real soft graphite PENCIL (2B) on paper, then scanned: a THIN line, about half as thick as a marker line, dark warm gray (never pure black), with clearly VISIBLE graphite grain - slightly rough, fuzzy, uneven edges, tiny speckles of texture along the stroke, darker where the pencil pressed harder and lighter where it lifted.
+- It must NOT look like a clean vector line, a fine ink pen, or a digital brush. If the line looks perfectly smooth and even, it is wrong.
+- Still one continuous closed path per edge: no gaps, no double or sketchy overlapping strokes, no hatching, no smudges outside the line.
+- The path itself wobbles gently like a hand-drawn line.
+- Fill stays flat and clean (no shading, no gradients), background stays pure white with no paper texture. Only the LINE carries the pencil texture.
+
+Dubu design (identical in all figures):
+- cream #F6F2E6 body, ONE solid color everywhere including the face. No markings, no darker face, no inner-ear color
+- 2-head-tall potato body with a soft cloud-shaped fluffy outline (small round bumps along the silhouette), stubby limbs, tiny tail, two small rounded ears sticking out sideways and drooping slightly
+- DEFAULT FACE: two small black dot eyes set wide apart, plus two short thin black eyebrow strokes above them slanted so the inner ends are raised (permanently worried, timid), one small SOLID black dot nose, always fully dark. NO MOUTH — nothing at all below or beside the nose, in every view including profile. NO BLUSH, no eyelashes, no ribbon, no clothes, no props.
+- The worried eyebrows appear in EVERY figure, including side views (one eyebrow stroke above the visible eye) and even when the eyes change. The EYES may change with the emotion: plain dots, bigger glossy round eyes with a tiny white highlight, squeezed-shut ">.<" eyes, closed upward arcs, tired flat dashes, or dots shifted sideways. Tears may stream from the eyes.
+- Eyes always sit ABOVE the nose, spaced apart on the upper face; they never touch the nose.
+- Emotion symbols allowed: sweat drop, sparkles, motion lines, short vertical gloom lines, tears. NO rain cloud, NO cloud of any kind anywhere on the sheet.
+
+Sora design (identical in all figures):
+- slate gray #C2C6CA body, ONE solid color everywhere including face and belly (no white belly, no black back). The ONLY other color is the tiny beak and two small feet in yellow #E8B24A
+- 2-head-tall rounded body, short flipper arms held close to the body, no neck, no ears, tiny tail
+- DEFAULT FACE: two small black dot eyes set wide apart and placed slightly LOW on the face as if looking down at the floor (downcast, shy); a tiny yellow beak instead of a nose. Flippers pressed tight against the body. NO MOUTH, NO BLUSH, no eyelashes, no clothes, no props
+- The low downcast dot eyes are her default. When a caption says so the eyes may become small closed upward arcs (quiet joy), dots shifted up/sideways (peeking), bigger dots (startled), or dots with tear streams
+- personality: the quiet friend, even shyer than the hero. Speaks softly, avoids eye contact, but is the one person who truly sees the hero
+- Emotion symbols allowed: sweat drop, sparkles, motion lines, short vertical gloom lines, tears, tiny hearts. NO rain cloud, NO cloud of any kind anywhere on the sheet. Never a mouth, never blush.
+
+Prop of this episode, THE MIC: a simple handheld microphone, a short mint-green #3ECFB2 handle with a round silver-gray #B0B0B0 mesh head, drawn flat and bold, no shading.
+
+Camera: SIDE VIEW, night, plain white background with only a thin gray ground line. Both characters walk from left to right. Dubu wears a terracotta #C77B3F hero cape knotted at the front of her neck and flowing behind her, THE MIC in one hand and a small concert light stick (a short white handle with a round glowing pale-pink #FFC1D9 tip) in the other, eyes as two closed happy upward arcs, worried eyebrows kept. Sora walks beside her holding a small concert light stick (a short white handle with a round glowing pale-pink #FFC1D9 tip) in one flipper, turning her head toward Dubu, eyes as small closed upward arcs. A few small black five-point stars float in the air above them (no sparkles). The lineup image shows their relative sizes only. Bright, warm colors. Everything in the lower 60% of the image; the upper 40% must be completely empty white.
+No text, no letters, no numbers, no speech bubbles, no captions. Plain white background. One flat light-gray #E6E6E6 ellipse on the ground under each standing character and under any large object resting on the ground, as a contact shadow; no other shadows, no shading on the bodies.

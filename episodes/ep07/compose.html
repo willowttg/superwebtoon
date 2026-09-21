@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>EP.07 A안 합성 — '싫어'라는 단어를 발음할 수 없는 초능력</title>
+<style>
+  @font-face{font-family:'KyoboHand';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff') format('woff');font-display:swap}
+  :root{--ink:#3A3733;--point:#C77B3F;--gray:#8A837A}
+  *{box-sizing:border-box}
+  body{margin:0;background:#ddd}
+  section{position:relative;width:1080px;height:1350px;overflow:hidden;background:#fff;margin:0 auto 20px;font-family:'KyoboHand',sans-serif;color:var(--ink)}
+  section img.art{position:absolute;left:0;bottom:60px;width:1080px;height:1350px;object-fit:cover;object-position:50% 100%;transform:scale(.8);transform-origin:50% 100%}
+  .series{position:absolute;top:40px;left:80px;right:80px;text-align:center;font-size:34px;color:var(--gray);letter-spacing:.02em}
+  .narr{position:absolute;top:70px;left:50px;right:50px;text-align:center;font-size:56px;line-height:1.4;white-space:pre}
+  .narr b{font-weight:700;color:var(--point)}
+  section.first .narr{top:110px}
+  .mind{position:absolute;font-size:40px;line-height:1.35;color:var(--gray);white-space:pre-line}
+  .mind.s{font-size:30px}
+  .label{position:absolute;left:0;right:0;text-align:center;font-size:34px;color:var(--gray)}
+  .cta{position:absolute;left:70px;right:70px;bottom:44px;text-align:center;font-size:40px;font-weight:700;color:var(--point);-webkit-text-stroke:.6px var(--point)}
+  .cta .hh{font-family:'Segoe UI Symbol','Malgun Gothic',sans-serif;font-size:34px;-webkit-text-stroke:0;vertical-align:2px;margin:0 6px}
+</style>
+</head>
+<body>
+
+<section class="first" id="s1">
+  <img class="art" src="img/cut1.png" alt="">
+  <div class="series">- 작은 힘에도 작은 책임은 따른다 -</div>
+  <div class="narr">나에겐 <b>'싫어'라는 단어를</b>
+<b>발음할 수 없는 초능력</b>이 있다.</div>
+  <div class="mind" style="left:20px;top:640px;width:320px;text-align:center">시… 시작할게요.</div>
+</section>
+
+<section id="s2">
+  <img class="art" src="img/cut2.png" alt="">
+  <div class="narr">밤 열한 시 반, 우는 친구의 전화.
+내가 피곤한 건 나중 문제다.</div>
+  <div class="mind" style="left:0;right:0;top:320px;text-align:center">자니…? 나 오늘 진짜…</div>
+  <div class="mind" style="left:0;right:0;top:1268px;text-align:center">안 잤어. 말해.</div>
+</section>
+
+<section id="s3">
+  <img class="art" src="img/cut3.png" alt="">
+  <div class="narr">나는 공항이라는 말에 벌써 고개를 끄덕였다.
+새벽 다섯 시는 그다음에 들었다.</div>
+  <div class="mind" style="left:420px;top:600px;width:420px;text-align:center">누나, 내일 새벽 다섯 시에
+공항만 데려다줘.</div>
+  <div class="mind" style="left:60px;top:700px;width:360px;text-align:center">응. …잠깐, 몇 시?</div>
+</section>
+
+<section id="s4">
+  <img class="art" src="img/cut4.png" alt="">
+  <div class="narr">토요일 일정만 네 개가 겹쳤다.
+전부 내가 간다고 해 놓은 거다.</div>
+  <div class="mind s" style="left:0;right:0;top:330px;text-align:center;color:var(--ink)">05:00 공항 · 09:00 이사 도움 · 13:00 등산 · 18:00 밤톨네 저녁</div>
+  <div class="mind" style="left:0;right:0;top:430px;text-align:center">몸이 하나인 게 문제지.</div>
+</section>
+
+<section id="s5">
+  <img class="art" src="img/cut5.png" alt="">
+  <div class="narr">거절 문자를 삼십 분 동안 썼다.
+이제 전송만 누르면 된다.</div>
+  <div class="mind s" style="left:0;right:0;top:310px;text-align:center;color:var(--ink)">이번 주는 쉬어. 부모님께는 내가 말할게</div>
+  <div class="mind" style="left:620px;top:560px;width:440px;text-align:center">아니야, 갈게.</div>
+  <div class="mind" style="left:620px;top:760px;width:440px;text-align:center">방금 쓴 건 뭐였지.</div>
+</section>
+
+<section id="s6">
+  <img class="art" src="img/cut6.png" alt="">
+  <div class="narr">네가 울면서 전화한 밤은
+다음에도 그냥 받아 줄게.</div>
+  <div class="mind" style="left:600px;top:400px;width:420px;text-align:center">그럼 등산도?</div>
+  <div class="mind" style="left:60px;top:400px;width:380px;text-align:center">…그건 좀.</div>
+  <div class="cta"><span class="hh">♥</span> 당신 옆의 초능력자를 태그해 주세요 <span class="hh">♥</span></div>
+</section>
+
+<script>
+  document.fonts.ready.then(() => {
+    document.querySelectorAll('.narr').forEach(el => {
+      let fs = 56;
+      while (el.scrollWidth > el.clientWidth && fs > 30) el.style.fontSize = (--fs) + 'px';
+      el.dataset.fs = fs;
+    });
+  });
+  const only = new URLSearchParams(location.search).get('only');
+  if (only !== null) {
+    document.querySelectorAll('section').forEach((el, i) => { if (i != only) el.style.display = 'none'; });
+    document.body.style.background = '#fff';
+    document.documentElement.style.overflow = document.body.style.overflow = 'hidden';
+    document.querySelector('section').style.margin = '0';
+  }
+</script>
+</body>
+</html>
