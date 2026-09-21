@@ -23,7 +23,8 @@ sys.stdout.reconfigure(encoding="utf-8"); sys.stderr.reconfigure(encoding="utf-8
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 KST = datetime.timezone(datetime.timedelta(hours=9))
-SLOT = (21, 0)                            # 매일 21:00 KST — docs/research/posting-times/README.md
+SLOTS = {"weekday": [(7, 30), (21, 0)],   # 하루 2편 KST — docs/research/posting-times/README.md
+         "weekend": [(10, 30), (21, 0)]}
 PRE = datetime.timedelta(minutes=5)       # 슬롯 몇 분 전에 깨어나 컨테이너를 만드나
 WAIT_MAX = datetime.timedelta(minutes=20) # 이 안이면 작업 등록 없이 프로세스가 기다린다
 TASK_PREFIX = "superwebtoon-ig-"
@@ -286,27 +287,40 @@ class Tee:
         self.stream.flush(); self.f.flush()
 
 
-def taken_days():
-    """게시됐거나 예약된 날짜(KST) → {date: 'ep01 게시'|'ep02 예약'}"""
+def day_slots(d):
+    """날짜 d(KST) 의 슬롯 시각들. 주말은 아침만 10:30."""
+    kind = "weekend" if d.weekday() >= 5 else "weekday"
+    return [datetime.datetime.combine(d, datetime.time(h, m), tzinfo=KST) for h, m in SLOTS[kind]]
+
+
+def slot_of(t):
+    """게시·예약 시각 t 가 속한 슬롯. 슬롯에서 90분 넘게 떨어진 수동 게시는 슬롯을 차지하지 않는다(None)."""
+    t = t.astimezone(KST)
+    s = min(day_slots(t.date()), key=lambda s: abs(s - t))
+    return s if abs(s - t) <= datetime.timedelta(minutes=90) else None
+
+
+def taken_slots():
+    """게시됐거나 예약된 슬롯(KST) → {datetime: 'ep01 게시'|'ep02 예약'}"""
     out = {}
     for p in glob.glob(os.path.join(ROOT, "episodes", "*", "ig.json")):
         ep = os.path.basename(os.path.dirname(p)); t = json.load(open(p, encoding="utf-8")).get("timestamp")
-        if t:
-            out[parse_iso(t).date()] = f"{ep} 게시"
+        if t and slot_of(parse_iso(t)):
+            out[slot_of(parse_iso(t))] = f"{ep} 게시"
     for p in glob.glob(os.path.join(ROOT, "episodes", "*", "schedule.json")):
         ep = os.path.basename(os.path.dirname(p))
-        out[parse_iso(json.load(open(p, encoding="utf-8"))["publish_at"]).date()] = f"{ep} 예약"
+        out[slot_of(parse_iso(json.load(open(p, encoding="utf-8"))["publish_at"]))] = f"{ep} 예약"
     return out
 
 
 def next_slot(taken):
-    """오늘 21:00 부터, 게시·예약이 없는 첫 날의 슬롯. 하루 한 편."""
-    t = now().replace(hour=SLOT[0], minute=SLOT[1], second=0, microsecond=0)
-    if t - now() < PRE * 2:
-        t += datetime.timedelta(days=1)
-    while t.date() in taken:
-        t += datetime.timedelta(days=1)
-    return t
+    """오늘부터 순서대로, 게시·예약이 없고 아직 오지 않은 첫 슬롯."""
+    d = now().date()
+    while True:
+        for s in day_slots(d):
+            if s - now() >= PRE * 2 and s not in taken:
+                return s
+        d += datetime.timedelta(days=1)
 
 
 def ps(script):
@@ -349,12 +363,12 @@ if ($t) {{ $i = $t | Get-ScheduledTaskInfo; Write-Output ('{{0}} 다음 {{1}}' -
 
 
 def cmd_schedule(a):
-    taken = taken_days()
+    taken = taken_slots()
     at = parse_iso(a.at) if a.at else next_slot(taken)
     if at <= now():
         sys.exit(f"{at:%Y-%m-%d %H:%M} 은 지났다")
-    if a.at and at.date() in taken:
-        print(f"경고: {at:%m-%d} 에 이미 {taken[at.date()]}")
+    if a.at and slot_of(at) and slot_of(at) in taken:
+        print(f"경고: {slot_of(at):%m-%d %H:%M} 슬롯에 이미 {taken[slot_of(at)]}")
     d, caption, urls = prepare(a.ep, a.caption)
     print(f"게시 예정 {at:%Y-%m-%d (%a) %H:%M} KST")
     if a.dry_run:
@@ -387,7 +401,7 @@ def cmd_queue(a):
         rows.append((parse_iso(r["publish_at"]), f"{ep}  예약  작업 {task_state(ep) or '없음 — 스케줄러에서 사라졌다, schedule 다시'}"))
     for t, line in sorted(rows):
         print(f"{t:%Y-%m-%d %a %H:%M}  {line}")
-    print(f"다음 빈 슬롯  {next_slot(taken_days()):%Y-%m-%d %a %H:%M} KST")
+    print(f"다음 빈 슬롯  {next_slot(taken_slots()):%Y-%m-%d %a %H:%M} KST")
 
 
 # ---- 조회·관리 ----

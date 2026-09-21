@@ -10,7 +10,7 @@ description: 인스타 계정 API 관리 — 에피소드 캐러셀 게시, 댓�
 ## 게시
 
 1. `export epNN` → `episodes/epNN/img/slideN.jpg` 생성 → 커밋·푸시 (Pages 반영 1~2분).
-2. `schedule epNN --dry-run` 으로 URL 8개·캡션·예정 시각 확인. 기본은 다음 빈 21:00 KST 슬롯(하루 한 편, 월·목 권장) — 사용자가 시각을 말하면 `--at`.
+2. `schedule epNN --dry-run` 으로 URL 8개·캡션·예정 시각 확인. 기본은 다음 빈 슬롯(하루 2편: 평일 07:30·21:00, 주말 10:30·21:00 KST) — 사용자가 시각을 말하면 `--at`.
 3. **실제 `schedule`(또는 즉시 `publish`) 은 사용자 확인 후.** `schedule.json` 커밋. 게시 뒤 `ig.json` 이 생기면 커밋.
 4. `queue` 로 현황. 작업이 「없음」이면 PC 재부팅 등으로 사라진 것 — 다시 `schedule`.
 

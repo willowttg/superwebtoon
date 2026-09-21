@@ -22,7 +22,7 @@ python scripts/ig.py me                    # 계정·팔로워 확인
 python scripts/ig.py export ep01           # slideN.png → slideN.jpg  (커밋·푸시 → Pages 반영 1~2분)
 python scripts/ig.py publish ep01 --dry-run
 python scripts/ig.py publish ep01          # 캐러셀 8장 + caption.txt 지금 게시 → episodes/ep01/ig.json
-python scripts/ig.py schedule ep01         # 다음 빈 슬롯(매일 21:00 KST, 하루 한 편)에 예약 → schedule.json
+python scripts/ig.py schedule ep01         # 다음 빈 슬롯(평일 07:30·21:00, 주말 10:30·21:00 KST)에 예약 → schedule.json
 python scripts/ig.py schedule ep01 --at 2026-09-24T21:00:00+09:00   # 시각 지정
 python scripts/ig.py queue                 # 게시·예약 현황, 다음 빈 슬롯
 python scripts/ig.py unschedule ep01       # 예약 취소
