@@ -1,13 +1,11 @@
 Reference images:
-- The FIRST image is the CHARACTER to draw: a tan deer named Deoksu. Reproduce this exact body design and default face.
-- The SECOND image is a LINE STYLE reference only (a cream sheep): copy its thin grainy pencil line texture exactly - but NOT its character, shape or color.
+- The FIRST image is the CHARACTER to draw: a tan deer named Deoksu. Reproduce this exact body design, but with the default face described below.
+- The SECOND image is a STYLE reference only (the Korean instatoon dog "Kkamja"): copy its line quality - but NOT its character or color.
 
-LINE QUALITY (most important - match the SECOND reference image exactly):
-- Every line is drawn with a real soft graphite PENCIL (2B) on paper, then scanned: a THIN line, about half as thick as a marker line, dark warm gray (never pure black), with clearly VISIBLE graphite grain - slightly rough, fuzzy, uneven edges, tiny speckles of texture along the stroke, darker where the pencil pressed harder and lighter where it lifted.
-- It must NOT look like a clean vector line, a fine ink pen, or a digital brush. If the line looks perfectly smooth and even, it is wrong.
-- Still one continuous closed path per edge: no gaps, no double or sketchy overlapping strokes, no hatching, no smudges outside the line.
-- The path itself wobbles gently like a hand-drawn line.
-- Fill stays flat and clean (no shading, no gradients), background stays pure white with no paper texture. Only the LINE carries the pencil texture.
+LINE QUALITY (most important):
+- Black outline drawn with a felt-tip pen: SOLID, CONTINUOUS, fully opaque black. No gaps, no white specks, no grain, no texture, no dry-brush, no sketchy double lines, no broken strokes.
+- The hand-drawn feel comes ONLY from the path of the line: gently wobbly, slightly uneven curves, thickness varying a little along the stroke. Not from any texture inside the line.
+- Flat fill, no shading, no gradients, no paper texture, no noise.
 
 Deoksu design (identical in all figures):
 - tan #EACEAA body, ONE solid color everywhere including face and ears. No spots, no white belly, no darker muzzle

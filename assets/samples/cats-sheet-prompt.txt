@@ -1,21 +1,14 @@
 Reference images:
-- The FIRST image is the CHARACTER design reference: three cats drawn with the correct thin pencil line. Reproduce this exact design and line quality in every figure.
-- The SECOND image is a LINE STYLE reference only (a cream sheep): copy its thin grainy pencil line texture exactly in every figure - but NOT its character, shape or color. Emotion symbols (sweat drop, sparkles, motion lines) are drawn simply in the same pencil line.
-
-LINE QUALITY (most important - match the SECOND reference image exactly):
-- Every line is drawn with a real soft graphite PENCIL (2B) on paper, then scanned: a THIN line, about half as thick as a marker line, dark warm gray (never pure black), with clearly VISIBLE graphite grain - slightly rough, fuzzy, uneven edges, tiny speckles of texture along the stroke, darker where the pencil pressed harder and lighter where it lifted.
-- It must NOT look like a clean vector line, a fine ink pen, or a digital brush. If the line looks perfectly smooth and even, it is wrong.
-- Still one continuous closed path per edge: no gaps, no double or sketchy overlapping strokes, no hatching, no smudges outside the line.
-- The path itself wobbles gently like a hand-drawn line.
-- Fill stays flat and clean (no shading, no gradients), background stays pure white with no paper texture. Only the LINE carries the pencil texture.
+- The FIRST image is a DESIGN REFERENCE: a character sheet of cats drawn in this project's grammar (re-generation: use cats-sheet-high.png itself). Copy its cat silhouette and drawing grammar exactly.
+- The other images are STYLE references only (the Korean instatoon dog "Kkamja"): copy its drawing grammar — wobbly hand-drawn black outline of uneven thickness, flat colors, no shading, simple emotion symbols (sweat drop, sparkles, tiny rain cloud, hearts) — but NOT its character or color.
 
 Draw THREE CATS, a trio of popular classmates. All three share the same design except body color:
 - 2-head-tall potato body, head bigger than body, stubby limbs, one thin short tail, small pointed triangular cat ears
-- ONE solid body color everywhere including the face and the INSIDE of the ears (the ears are the same flat color as the body - no lighter or darker inner-ear shape). No markings, no stripes, no patches
+- ONE solid body color everywhere including the face and the INSIDE of the ears (the ears are the same flat color as the body — no lighter or darker inner-ear shape). No markings, no stripes, no patches
 - face: two small black dot eyes set wide apart, one small dark dot nose, NO MOUTH, NO BLUSH
 - blank, slightly dazed expression by default; arms hanging limply; small, scrappy, harmless mood
 - no eyelashes, no ribbon, no clothes, no accessories, no props
 Cat A: pink #F2C9CF. Cat B: lavender #D6CBE6. Cat C: mint #C5DCCB.
 
-Draw a CHARACTER REFERENCE SHEET, landscape, plain white background. Three rows (one per cat, A on top, then B, then C), five figures per row, evenly spaced, every figure the same size and proportions, a thin gray English caption under each figure. No other text, no swatches, no props, no frames. NO rain cloud, no cloud of any kind.
+Draw a CHARACTER REFERENCE SHEET, landscape, plain white background. Three rows (one per cat, A on top, then B, then C), five figures per row, evenly spaced, every figure the same size and proportions, a thin gray English caption under each figure. No other text, no swatches, no props, no frames.
 Each row, full body: FRONT, 3/4 VIEW, SIDE, BACK, SIDE-EYE (front view, eyes as two small dashes tilted to look sideways in a cold judging glance, head slightly turned away, arms limp).
