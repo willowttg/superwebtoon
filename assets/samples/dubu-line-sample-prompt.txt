@@ -1,0 +1,17 @@
+Reference images:
+- The FIRST image is the CHARACTER to draw: a cream-colored sheep named Dubu. Reproduce this exact body design, but with the new default face described below.
+- The SECOND image is a STYLE reference only (the Korean instatoon dog "Kkamja"): copy its line quality — but NOT its character or color.
+
+LINE QUALITY (most important):
+- Black outline drawn with a felt-tip pen: SOLID, CONTINUOUS, fully opaque black. No gaps, no white specks, no grain, no texture, no dry-brush, no sketchy double lines, no broken strokes.
+- The hand-drawn feel comes ONLY from the path of the line: gently wobbly, slightly uneven curves, thickness varying a little along the stroke, corners not perfectly smooth. Not from any texture inside the line.
+- Flat fill, no shading, no gradients, no paper texture, no noise. Clean vector-like crispness with a hand-drawn path.
+
+Dubu design:
+- cream #F6F2E6 body, ONE solid color everywhere including the face. No markings, no darker face, no inner-ear color
+- 2-head-tall potato body with a soft cloud-shaped fluffy outline (small round bumps along the silhouette), stubby limbs, tiny tail, two small rounded ears sticking out sideways and drooping slightly
+- DEFAULT FACE: two small black dot eyes set wide apart, plus two short thin black eyebrow strokes above them slanted so the inner ends are raised (permanently worried, timid), one small dark dot nose. NO MOUTH — nothing at all below the nose. NO BLUSH, no eyelashes, no ribbon, no clothes, no props.
+
+Draw exactly TWO large figures side by side on a plain white background, no text, no captions, no frames:
+LEFT: full body, FRONT view, plain standing, arms hanging limply, default face.
+RIGHT: full body, SIDE view (profile facing left), plain standing. In profile one dot eye is visible with its worried eyebrow stroke above it, the nose is a small dot at the tip of the muzzle, and there is NO mouth mark under or beside the nose.
