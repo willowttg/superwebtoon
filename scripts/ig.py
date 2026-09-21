@@ -5,7 +5,7 @@
   python scripts/ig.py refresh                   # 장기 토큰 갱신 (24h 지난 뒤, 60일 안에)
   python scripts/ig.py me                        # 계정 확인
   python scripts/ig.py export ep01               # img/slideN.png → slideN.jpg (인스타는 JPEG만 받음)
-  python scripts/ig.py publish ep01 [--dry-run]  # GitHub Pages 의 slideN.jpg 8장 + caption.txt → 캐러셀 게시 (지금)
+  python scripts/ig.py publish ep01 [--dry-run]  # GitHub Pages 의 slideN.jpg 전부 + caption.txt → 캐러셀 게시 (지금)
   python scripts/ig.py schedule ep01 [--at 2026-09-24T21:00:00+09:00] [--dry-run]
                                                  # 예약: 다음 빈 슬롯(매일 21:00 KST)에 윈도우 작업 스케줄러 등록
   python scripts/ig.py queue                     # 예약·게시 현황과 다음 빈 슬롯
@@ -165,15 +165,24 @@ def cmd_me(a):
 def cmd_export(a):
     from PIL import Image
     img = os.path.join(ep_dir(a.ep), "img")
-    for n in range(1, 9):
+    n_slides = slide_count(img, "png")
+    for n in range(1, n_slides + 1):
         src = os.path.join(img, f"slide{n}.png")
-        if not os.path.exists(src):
-            sys.exit(f"{src} 없음")
         im = Image.open(src).convert("RGB")
         if im.size != (1080, 1350):
             print(f"경고: slide{n} 크기 {im.size} (1080×1350 아님)")
         im.save(os.path.join(img, f"slide{n}.jpg"), "JPEG", quality=92, optimize=True)
-    print(f"{img}/slide1..8.jpg 저장 — 커밋·푸시 후 publish")
+    print(f"{img}/slide1..{n_slides}.jpg 저장 — 커밋·푸시 후 publish")
+
+
+def slide_count(img, ext):
+    """img/slide1.ext 부터 연속으로 있는 장수 (표지 없는 7컷 편은 7, 표지 있는 편은 8)."""
+    n = 0
+    while os.path.exists(os.path.join(img, f"slide{n + 1}.{ext}")):
+        n += 1
+    if not 2 <= n <= 10:
+        sys.exit(f"{img}/slide1..N.{ext} 이 {n}장 — 캐러셀은 2~10장")
+    return n
 
 
 def check_url(url):
@@ -202,14 +211,15 @@ def prepare(ep, caption_name):
     d = ep_dir(ep)
     caption = open(os.path.join(d, caption_name), encoding="utf-8").read().strip()
     base = env("SITE_URL", "https://willowttg.github.io/superwebtoon").rstrip("/")
-    urls = [f"{base}/episodes/{ep}/img/slide{n}.jpg" for n in range(1, 9)]
+    n_slides = slide_count(os.path.join(d, "img"), "jpg")
+    urls = [f"{base}/episodes/{ep}/img/slide{n}.jpg" for n in range(1, n_slides + 1)]
     if len(caption) > 2200:
         sys.exit(f"캡션 {len(caption)}자 > 2200")
     if os.path.exists(os.path.join(d, "ig.json")):
         sys.exit(f"{ep} 은 이미 게시됨 ({json.load(open(os.path.join(d, 'ig.json'), encoding='utf-8')).get('permalink')})")
     for u in urls:
         check_url(u)
-    print(f"캡션 {len(caption)}자, 해시태그 {caption.count('#')}개, 이미지 8장 확인")
+    print(f"캡션 {len(caption)}자, 해시태그 {caption.count('#')}개, 이미지 {len(urls)}장 확인")
     return d, caption, urls
 
 
@@ -220,7 +230,7 @@ def do_publish(ep, d, caption, urls, at=None):
     children = []
     for i, u in enumerate(urls, 1):
         r = api(f"{uid()}/media", {"image_url": u, "is_carousel_item": "true"}, "POST")
-        children.append(r["id"]); print(f"item {i}/8 {r['id']}")
+        children.append(r["id"]); print(f"item {i}/{len(urls)} {r['id']}")
     for c in children:
         wait_container(c)
     car = api(f"{uid()}/media", {"media_type": "CAROUSEL", "children": ",".join(children), "caption": caption}, "POST")
