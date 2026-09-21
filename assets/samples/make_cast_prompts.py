@@ -5,13 +5,13 @@ import os
 HERE = os.path.dirname(__file__)
 
 LINE = """LINE QUALITY (most important):
-- Black outline drawn with a felt-tip pen: SOLID, CONTINUOUS, fully opaque black. No gaps, no white specks, no grain, no texture, no dry-brush, no sketchy double lines, no broken strokes.
-- The hand-drawn feel comes ONLY from the path of the line: gently wobbly, slightly uneven curves, thickness varying a little along the stroke. Not from any texture inside the line.
-- Flat fill, no shading, no gradients, no paper texture, no noise."""
+- Outline drawn with a soft PENCIL, about HALF as thick as the line in the reference image: a thin, fine line. Color is a very dark warm gray (not pure black), slightly matte with a faint soft pencil grain along the stroke, edges a little soft.
+- The line is still CONTINUOUS and closed: no gaps, no broken strokes, no sketchy multiple overlapping strokes, no hatching, no smudges. One clean thin pencil path per edge.
+- The hand-drawn feel comes from the gently wobbly, slightly uneven path and the pencil texture of the line itself. Pressure varies a little so the line is slightly thicker in places.
+- Flat fill, no shading on the body, no gradients, no paper texture in the background, white background stays pure white."""
 
-SAMPLE = """Reference images:
-- The FIRST image is the CHARACTER to draw: {who}. Reproduce this exact body design, but with the default face described below.
-- The SECOND image is a STYLE reference only (the Korean instatoon dog "Kkamja"): copy its line quality - but NOT its character or color.
+SAMPLE = """Reference image:
+- The image is the CHARACTER to draw: {who}. Reproduce this exact body design and default face, but draw it with the thin pencil line described below instead of the thick marker line of the reference.
 
 {line}
 
@@ -22,9 +22,8 @@ LEFT: full body, FRONT view, plain standing, arms hanging limply, default face.
 RIGHT: full body, SIDE view (profile facing left), plain standing, default face seen in profile ({side_note}). NO mouth mark anywhere.
 """
 
-SHEET = """Reference images:
-- The FIRST image is the CHARACTER to draw: {who}, shown in front and side view with the default face. Reproduce this exact design and this exact line quality in every figure.
-- The SECOND image is a STYLE reference only (the Korean instatoon dog "Kkamja"): copy its pen-line grammar and simple emotion symbols (sweat drop, sparkles, hearts, motion lines) - but NOT its character or color.
+SHEET = """Reference image:
+- The image is the CHARACTER to draw: {who}, shown in front and side view with the default face. Reproduce this exact design and this exact thin pencil line quality in every figure. Emotion symbols (sweat drop, sparkles, hearts, motion lines) are drawn simply in the same thin line.
 
 {line}
 
