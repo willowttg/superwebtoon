@@ -46,12 +46,12 @@ Row 3, comic reaction poses:
 CAST = {
 "misook": dict(
     who="a soft-orange fox named Misook",
-    side_note="one dot eye with its flat eyebrow stroke above and its two short straight vertical eyelash lines standing up from the top of the eye",
+    side_note="one dot eye with its flat eyebrow stroke above it",
     design="""Misook design (identical in all figures):
 - soft orange #F6CA9E body, ONE solid color everywhere including face, ears, tail. No markings, no white chest, no dark ear tips, no dark paws
 - 2-head-tall potato body, stubby limbs, large pointed triangular ears, one big bushy tail curling up beside the body
-- DEFAULT FACE: two small black dot eyes set wide apart; two short straight black eyebrow strokes pressed low and flat just above the eyes (stern, in charge); and on EACH eye two short thin straight VERTICAL black lines standing straight up from the top edge of the eye, parallel to each other, not slanted, not curved (two little upright eyelash lines per eye, between the eye and the eyebrow). One small dark dot nose. NO MOUTH, NO BLUSH, no ribbon, no clothes, no props
-- The flat eyebrows and the two upright vertical eyelash lines per eye appear in EVERY figure, even when the eyes change shape (dots, closed upward arcs, flat dashes, bigger round dots, ">.<")
+- DEFAULT FACE: two small black dot eyes set wide apart; two short straight black eyebrow strokes pressed low and flat just above the eyes (stern, in charge). One small dark dot nose. NO MOUTH, NO BLUSH, NO EYELASHES of any kind, no ribbon, no clothes, no props
+- The flat eyebrows appear in EVERY figure, even when the eyes change shape (dots, closed upward arcs, flat dashes, bigger round dots, ">.<")
 - personality: the mom. Nags because she worries; scolds first, notices first. Brisk, capable, always moving""",
     row2="""POINTING (leaning forward, one arm stretched out pointing with a finger, other hand on hip, small motion lines by the pointing arm);
 RUSHING (seen from the side, hurrying forward with quick short steps, tail streaming behind, motion lines, one sweat drop);

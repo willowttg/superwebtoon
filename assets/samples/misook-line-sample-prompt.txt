@@ -10,10 +10,10 @@ LINE QUALITY (most important):
 Misook design (identical in all figures):
 - soft orange #F6CA9E body, ONE solid color everywhere including face, ears, tail. No markings, no white chest, no dark ear tips, no dark paws
 - 2-head-tall potato body, stubby limbs, large pointed triangular ears, one big bushy tail curling up beside the body
-- DEFAULT FACE: two small black dot eyes set wide apart; two short straight black eyebrow strokes pressed low and flat just above the eyes (stern, in charge); and on EACH eye two short thin straight VERTICAL black lines standing straight up from the top edge of the eye, parallel to each other, not slanted, not curved (two little upright eyelash lines per eye, between the eye and the eyebrow). One small dark dot nose. NO MOUTH, NO BLUSH, no ribbon, no clothes, no props
-- The flat eyebrows and the two upright vertical eyelash lines per eye appear in EVERY figure, even when the eyes change shape (dots, closed upward arcs, flat dashes, bigger round dots, ">.<")
+- DEFAULT FACE: two small black dot eyes set wide apart; two short straight black eyebrow strokes pressed low and flat just above the eyes (stern, in charge). One small dark dot nose. NO MOUTH, NO BLUSH, NO EYELASHES of any kind, no ribbon, no clothes, no props
+- The flat eyebrows appear in EVERY figure, even when the eyes change shape (dots, closed upward arcs, flat dashes, bigger round dots, ">.<")
 - personality: the mom. Nags because she worries; scolds first, notices first. Brisk, capable, always moving
 
 Draw exactly TWO large figures side by side on a plain white background, no text, no captions, no frames:
 LEFT: full body, FRONT view, plain standing, arms hanging limply, default face.
-RIGHT: full body, SIDE view (profile facing left), plain standing, default face seen in profile (one dot eye with its flat eyebrow stroke above and its two short straight vertical eyelash lines standing up from the top of the eye). NO mouth mark anywhere.
+RIGHT: full body, SIDE view (profile facing left), plain standing, default face seen in profile (one dot eye with its flat eyebrow stroke above it). NO mouth mark anywhere.
