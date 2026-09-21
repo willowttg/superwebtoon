@@ -1,5 +1,5 @@
 """캐릭터 시트에서 FRONT 도를 잘라 크기 비교 라인업을 만든다 (컷 생성 참조용).
-크기는 실제 동물이 아니라 역할 기준: 눈높이→발끝 거리를 기준으로 맞춰 귀·뿔·털 길이에 영향받지 않는다.
+크기는 실제 동물이 아니라 역할 기준: 얼굴 기준선(눈·눈썹·코·안경 등 안쪽 검정 요소의 평균 높이)→발끝 거리를 맞춰 귀·뿔·털 길이에 영향받지 않는다.
 
   python scripts/lineup.py dubu misook --out episodes/ep02/ref/lineup.png
   python scripts/lineup.py all --out assets/cast/lineup-all.png
@@ -20,57 +20,66 @@ CAST = {  # 이름: (시트, 상대 크기, 캡션)
     "clerk":  ("assets/samples/clerk-sheet-high.png",  1.0, "CLERK 100"),
 }
 ORDER = ["misook", "deoksu", "dubu", "kong", "tangja", "sora", "bamtol", "clerk"]
-BASE_H = 210  # 크기 1.0 캐릭터의 눈높이→발끝 픽셀 거리 (귀·뿔·털 제외, 역할 기준 크기)
+BASE_H = 210  # 크기 1.0 캐릭터의 얼굴 기준선→발끝 픽셀 거리 (귀·뿔·털 제외, 역할 기준 크기)
 
 
-def grow(seed, ok):
-    m = np.zeros_like(ok); m[seed] = True
-    while True:
-        d = (m | np.roll(m, 1, 0) | np.roll(m, -1, 0) | np.roll(m, 1, 1) | np.roll(m, -1, 1)) & ok
-        if (d == m).all():
-            return m
-        m = d
-
-
-def front_figure(sheet):
-    """시트 1행 1열(FRONT) 도를 연결 성분으로 잘라 반환. 캡션 제외."""
-    im = Image.open(sheet).convert("RGB")
-    W, H = im.size
-    band = im.crop((0, 30, int(W / 4) + 60, int(H * 0.47)))
-    a = np.array(band)
-    ok = (a < 240).any(axis=2)
-    ok2 = ok.copy()
-    for _ in range(2):
-        ok2 = ok2 | np.roll(ok2, 1, 0) | np.roll(ok2, -1, 0) | np.roll(ok2, 1, 1) | np.roll(ok2, -1, 1)
-    cx = int(W / 8)
-    ys = np.where(ok[:, cx])[0]
-    m = grow((ys[0] + 2, cx), ok2) & ok
-    ys, xs = np.where(m)
-    y0, y1, x0, x1 = ys.min(), ys.max(), xs.min(), xs.max()
-    out = a[y0:y1 + 1, x0:x1 + 1].copy()
-    out[~m[y0:y1 + 1, x0:x1 + 1]] = 255
-    return Image.fromarray(out)
-
-
-def eye_line(im):
-    """점 눈 2개의 y 평균. 눈은 채워진 작은 검은 원이라 외곽선과 구분된다."""
-    a = np.array(im.convert("L")); dark = a < 70
-    H, W = dark.shape; seen = np.zeros_like(dark); dots = []
+def _components(mask):
+    """4-연결 성분 목록: (pts, y0, y1, x0, x1)."""
+    H, W = mask.shape; seen = np.zeros_like(mask); out = []
     for y in range(H):
         for x in range(W):
-            if dark[y, x] and not seen[y, x]:
+            if mask[y, x] and not seen[y, x]:
                 st = [(y, x)]; seen[y, x] = True; pts = []
                 while st:
                     cy, cx = st.pop(); pts.append((cy, cx))
                     for ny, nx in ((cy + 1, cx), (cy - 1, cx), (cy, cx + 1), (cy, cx - 1)):
-                        if 0 <= ny < H and 0 <= nx < W and dark[ny, nx] and not seen[ny, nx]:
+                        if 0 <= ny < H and 0 <= nx < W and mask[ny, nx] and not seen[ny, nx]:
                             seen[ny, nx] = True; st.append((ny, nx))
-                ys = [p[0] for p in pts]; xs = [p[1] for p in pts]
-                h = max(ys) - min(ys) + 1; w = max(xs) - min(xs) + 1
-                if 30 < len(pts) < 600 and 0.6 < w / h < 1.6 and len(pts) / (w * h) > 0.55:
-                    dots.append((len(pts), sum(ys) / len(ys)))
-    dots.sort(reverse=True)
-    return (dots[0][1] + dots[1][1]) / 2 if len(dots) >= 2 else None
+                ys = [q[0] for q in pts]; xs = [q[1] for q in pts]
+                out.append((pts, min(ys), max(ys), min(xs), max(xs)))
+    return out
+
+
+def front_figure(sheet):
+    """시트 1행 1열(FRONT) 도를 잘라 반환. 1행의 세로 범위를 빈 행으로 찾아 캡션·2행을 제외한다."""
+    im = Image.open(sheet).convert("RGB")
+    W, H = im.size
+    band = np.array(im.crop((0, 0, int(W / 4) + 40, H)))
+    dark_rows = (band < 200).any(axis=2).any(axis=1)
+    ys = np.where(dark_rows)[0]
+    y0 = ys[0]; y1 = y0
+    for y in ys[1:]:
+        if y - y1 > 12:
+            break
+        y1 = y
+    a = band[y0:y1 + 1]
+    ok = (a < 240).any(axis=2)
+    cols = np.where(ok.any(axis=0))[0]
+    cx = int(W / 8)
+    xs = [c for c in cols if c <= cx]; x0 = cx
+    while x0 - 1 in cols: x0 -= 1
+    x1 = cx
+    while x1 + 1 in cols: x1 += 1
+    out = a[:, x0:x1 + 1].copy()
+    out[~ok[:, x0:x1 + 1]] = 255
+    return Image.fromarray(out)
+
+
+def eye_line(im):
+    """얼굴 기준선: 외곽선과 떨어진 안쪽 검정 요소(눈·눈썹·코·안경 등)의 평균 y.
+    점 눈뿐 아니라 대시·호·안경테도 잡히도록 성분 크기만으로 거른다."""
+    a = np.array(im.convert("L")); dark = a < 90
+    H, W = dark.shape
+    comps = _components(dark)
+    if not comps:
+        return None
+    big = max(comps, key=lambda c: len(c[0]))
+    feats = [c for c in comps if c is not big and 15 < len(c[0]) < 3000
+             and c[1] > big[1] and c[2] < big[2] and c[3] > big[3] and c[4] < big[4]
+             and (c[1] + c[2]) / 2 < H * 0.65]
+    if not feats:
+        return None
+    return sum((c[1] + c[2]) / 2 for c in feats) / len(feats)
 
 
 def main():
