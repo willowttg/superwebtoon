@@ -1,20 +1,33 @@
 Reference images:
-- The FIRST image is the CHARACTER to draw: a slate-gray penguin named Sora (front view). Reproduce this exact character design in every figure.
-- The other images are STYLE references only (the Korean instatoon dog "Kkamja"): copy its drawing grammar — wobbly hand-drawn black outline of uneven thickness, flat colors, no shading, simple emotion symbols (sweat drop, sparkles, tiny rain cloud, hearts) — but NOT its character or color.
+- The FIRST image is the CHARACTER to draw: a slate-gray penguin named Sora, shown in front and side view with the default face. Reproduce this exact design and this exact line quality in every figure.
+- The SECOND image is a STYLE reference only (the Korean instatoon dog "Kkamja"): copy its pen-line grammar and simple emotion symbols (sweat drop, sparkles, hearts, motion lines) - but NOT its character or color.
 
-Sora design (must be identical in all figures):
+LINE QUALITY (most important):
+- Black outline drawn with a felt-tip pen: SOLID, CONTINUOUS, fully opaque black. No gaps, no white specks, no grain, no texture, no dry-brush, no sketchy double lines, no broken strokes.
+- The hand-drawn feel comes ONLY from the path of the line: gently wobbly, slightly uneven curves, thickness varying a little along the stroke. Not from any texture inside the line.
+- Flat fill, no shading, no gradients, no paper texture, no noise.
+
+Sora design (identical in all figures):
 - slate gray #C2C6CA body, ONE solid color everywhere including face and belly (no white belly, no black back). The ONLY other color is the tiny beak and two small feet in yellow #E8B24A
 - 2-head-tall rounded body, short flipper arms held close to the body, no neck, no ears, tiny tail
-- face: two small black dot eyes set wide apart, a tiny yellow beak instead of a nose, NO MOUTH, NO BLUSH
-- blank, slightly dazed expression by default; arms hanging limply; small, scrappy, harmless mood
-- no eyelashes, no ribbon, no clothes, no accessories, no props
+- DEFAULT FACE: two small black dot eyes set wide apart and placed slightly LOW on the face as if looking down at the floor (downcast, shy); a tiny yellow beak instead of a nose. Flippers pressed tight against the body. NO MOUTH, NO BLUSH, no eyelashes, no clothes, no props
+- The low downcast dot eyes are her default. When a caption says so the eyes may become small closed upward arcs (quiet joy), dots shifted up/sideways (peeking), bigger dots (startled), or dots with tear streams
+- personality: the quiet friend, even shyer than the hero. Speaks softly, avoids eye contact, but is the one person who truly sees the hero
+- Emotion symbols allowed: sweat drop, sparkles, motion lines, short vertical gloom lines, tears, tiny hearts. NO rain cloud, NO cloud of any kind anywhere on the sheet. Never a mouth, never blush.
 
-Draw a CHARACTER REFERENCE SHEET, landscape, plain white background. Two rows, evenly spaced, every figure the same size and proportions, a thin gray English caption under each figure. No other text, no swatches, no props, no frames.
-Row 1, turnaround (full body, standing, blank face): FRONT, 3/4 VIEW, SIDE, BACK.
-Row 2, expressions (full body, front view). Since Sora has no mouth, show emotion only with the eyes, posture and symbols:
-NEUTRAL (dot eyes, flippers limp);
-HAPPY (eyes as closed upward arcs, one tiny sparkle — very small and quiet);
-SULKY (eyes as small downward-tilted dashes, head drooping, tiny gray rain cloud above);
-SURPRISED (eyes as slightly bigger round dots, body leaning back, sweat drop);
-CRYING (dot eyes with two thin tear streams, shoulders hunched);
-SHY (dot eyes glancing sideways, body slightly shrunk, flippers held together in front, one sweat drop).
+Draw a CHARACTER REFERENCE SHEET, landscape, plain white background. THREE rows of four figures, evenly spaced, a thin gray English caption under each figure exactly as written below. No other text, no swatches, no props, no frames. Poses may be loose, exaggerated and comic; the body may squash, stretch, tilt or sprawl. Figures need not be the same size or stiffly upright.
+
+Row 1, turnaround (full body, plain standing, default face, arms hanging limply):
+FRONT; 3/4 VIEW; SIDE (profile facing left, one small dot eye placed low as if looking down, tiny yellow beak at the front, no mouth mark); BACK (no face visible).
+
+Row 2, comic action poses:
+SHRINKING (body squashed down smaller and rounder, flippers pressed together in front, downcast eyes, one sweat drop);
+SMALL NOD (standing, head tipped slightly down in a tiny nod, one very short motion line above, flippers tight);
+PEEK UP (eyes shifted up and to one side as if peeking at someone, flippers held together in front, body turned slightly away);
+SITTING (sitting on the floor with both flippers resting on the ground beside her, looking down, tiny tail visible).
+
+Row 3, comic reaction poses:
+QUIET TEARS (standing still, one thin tear line running from each eye, flippers tight, no other motion);
+SMALL JOY (eyes as two tiny closed upward arcs, flippers lifted slightly away from the body, one small sparkle);
+STARTLED (little hop off the ground, eyes as bigger round dots, flippers out, one sweat drop, small motion lines);
+FIDGET (flippers rubbing together in front, eyes shifted sideways, body leaning slightly back, one tiny sweat drop).

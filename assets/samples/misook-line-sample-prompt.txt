@@ -1,0 +1,19 @@
+Reference images:
+- The FIRST image is the CHARACTER to draw: a soft-orange fox named Misook. Reproduce this exact body design, but with the default face described below.
+- The SECOND image is a STYLE reference only (the Korean instatoon dog "Kkamja"): copy its line quality - but NOT its character or color.
+
+LINE QUALITY (most important):
+- Black outline drawn with a felt-tip pen: SOLID, CONTINUOUS, fully opaque black. No gaps, no white specks, no grain, no texture, no dry-brush, no sketchy double lines, no broken strokes.
+- The hand-drawn feel comes ONLY from the path of the line: gently wobbly, slightly uneven curves, thickness varying a little along the stroke. Not from any texture inside the line.
+- Flat fill, no shading, no gradients, no paper texture, no noise.
+
+Misook design (identical in all figures):
+- soft orange #F6CA9E body, ONE solid color everywhere including face, ears, tail. No markings, no white chest, no dark ear tips, no dark paws
+- 2-head-tall potato body, stubby limbs, large pointed triangular ears, one big bushy tail curling up beside the body
+- DEFAULT FACE: two small black dot eyes set wide apart; two short straight black eyebrow strokes pressed low and flat just above the eyes (stern, in charge); and on EACH eye two tiny thin black eyelash strokes sticking UPWARD and slightly outward from the top outer edge of the eye (like two little ticks pointing up). One small dark dot nose. NO MOUTH, NO BLUSH, no ribbon, no clothes, no props
+- The flat eyebrows and the two upward eyelashes per eye appear in EVERY figure, even when the eyes change shape (dots, closed upward arcs, flat dashes, bigger round dots, ">.<")
+- personality: the mom. Nags because she worries; scolds first, notices first. Brisk, capable, always moving
+
+Draw exactly TWO large figures side by side on a plain white background, no text, no captions, no frames:
+LEFT: full body, FRONT view, plain standing, arms hanging limply, default face.
+RIGHT: full body, SIDE view (profile facing left), plain standing, default face seen in profile (one dot eye with its flat eyebrow stroke and its two tiny upward eyelash strokes visible). NO mouth mark anywhere.

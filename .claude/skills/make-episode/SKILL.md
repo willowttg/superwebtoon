@@ -45,7 +45,7 @@ description: 「작은 힘에도 작은 책임은 따른다」 에피소드 1편
 ## 2. 이미지 규칙
 
 - 생성은 **캐릭터 + 소품만**. 프롬프트 끝에 항상 `No text, no letters, no speech bubbles, no captions. Plain white background. One flat light-gray #E6E6E6 ellipse on the ground under each standing character and under any large object resting on the ground, as a contact shadow; no other shadows, no shading on the bodies.` (접지 그림자는 EP.03부터. 공중에 뜬 캐릭터는 그 컷 프롬프트에서 제외 명시.) 말풍선 꼬리가 캐릭터와 안 맞는 문제가 있어 **말풍선은 절대 그리지 않는다** — 속마음도 텍스트 합성으로.
-- 참조: 등장 캐릭터 시트 `assets/samples/<이름>-sheet-high.png`(두부 dubu, 미숙 misook, 덕수 deoksu, 콩 kong, 탱자 tangja, 소라 sora, 밤톨 bamtol) → **2명 이상 동시 출연이면** `python scripts/lineup.py dubu misook --out ref/lineup.png`로 그 컷의 캐릭터만 담은 크기 라인업을 만들어 다음 참조로 . **깜자 스타일 이미지는 캐릭터 시트 제작용이지 컷 생성엔 넣지 않는다** (시트가 이미 그 문법을 담고 있음). 각 시트 프롬프트(`<이름>-sheet-prompt.txt`)의 design 블록을 프롬프트 헤더로 복사하고, 라인업이 있으면 "the lineup image shows their relative sizes"를 덧붙인다.
+- 참조: 등장 캐릭터 시트 `assets/samples/<이름>-sheet.png`(두부 dubu, 미숙 misook, 덕수 deoksu, 콩 kong, 탱자 tangja, 소라 sora, 밤톨 bamtol) → **2명 이상 동시 출연이면** `python scripts/lineup.py dubu misook --out ref/lineup.png`로 그 컷의 캐릭터만 담은 크기 라인업을 만들어 다음 참조로 . **깜자 스타일 이미지는 캐릭터 시트 제작용이지 컷 생성엔 넣지 않는다** (시트가 이미 그 문법을 담고 있음). 각 시트 프롬프트(`<이름>-sheet-prompt.txt`)의 design 블록을 프롬프트 헤더로 복사하고, 라인업이 있으면 "the lineup image shows their relative sizes"를 덧붙인다.
 - 캐스트·크기·색은 `assets/characters.md` 1절.
 - **캐릭터 색은 hex로 고정한다.** 프롬프트의 design 블록에 시트 hex를 반드시 적고(EP.04 `build_prompts.py`의 블록이 기준), 생성 후 `python scripts/check_colors.py img/cutN.png dubu bamtol`로 바디 색을 잰다 — 시트 hex ±12 안의 영역이 없으면 그 컷은 재생성. 단점 컷의 `.dim`(CSS saturate .7)은 캐릭터 색까지 바꾸므로 색 일관성이 우선인 컷은 `.dim`을 빼고 프롬프트의 "muted"만 쓴다.
 - **군중·행인(이름 없는 다수)은 시트 없이 프롬프트 문구를 고정**해서 그린다 (참조 이미지가 늘수록 결과가 흐려짐): `a crowd of many small featureless people-shaped silhouettes in flat medium gray, no faces, no details` — 사람 형태여도 된다. 대사·속마음이 있는 엑스트라만 종을 정해 시트를 만든다.
@@ -54,7 +54,7 @@ description: 「작은 힘에도 작은 책임은 따른다」 에피소드 1편
 - **사회생활 컷**: 캐릭터가 겉으로 웃거나 예의상 멘트를 하는데 진짜 속마음이 다르면, 그림에 속마음 장치를 함께 넣는다 — 등 뒤로 숨긴 손의 주먹·브이, 살랑거리는 꼬리, 등 뒤로 새는 반짝이, 작은 생각 구름(안의 글자는 합성) 등. 콘티 속마음 열에 `속마음 장치: ○○`로 적는다.
 - **구도 다양화**: 정면 나열(테이블 뒤에 일렬로 앉아 카메라를 보는 식)이 기본값이 되지 않게 한다. 콘티 프롬프트 요점에 `구도: ○○`로 컷별 배정을 적고, 프롬프트 첫 문장에 카메라를 명시한다 — 예: 측면(side view, profile), 3/4 뒤에서(seen from behind over Dubu's shoulder), 약간 위에서 내려다봄(high angle looking down at the table), 낮은 앵글(low angle from floor level), 얼굴·소품 클로즈업(extreme close-up on the menu and her hands), 한 명만 크게 + 나머지 멀리(Dubu large in the foreground, others small in the back). 정면 구도는 **편당 3컷 이하**, 같은 구도가 연속 두 컷에 오지 않게 한다. 좌석 배치·소품 위치가 앵글에 따라 바뀌므로 그 컷의 참조 시트는 그대로 두되 lineup 이미지는 크기 참고용임을 문구로 남긴다.
 - 텍스트가 들어갈 여백을 프롬프트로 확보: 내레이션 컷은 `character in the lower half, upper 40% empty`.
-- 생성: `python scripts/gen_image.py --prompt-file prompts/cutN.txt --ref assets/samples/dubu-sheet.png [--ref assets/samples/misook-sheet-high.png --ref ref/lineup.png] --out img/cutN.png` — **전부 `medium`** (`high` 금지). `.env` 로드 필요(`docs/env-setup.md`).
+- 생성: `python scripts/gen_image.py --prompt-file prompts/cutN.txt --ref assets/samples/dubu-sheet.png [--ref assets/samples/misook-sheet.png --ref ref/lineup.png] --out img/cutN.png` — **전부 `medium`** (`high` 금지). `.env` 로드 필요(`docs/env-setup.md`).
 
 ## 3. 텍스트 합성
 

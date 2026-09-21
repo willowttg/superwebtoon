@@ -1,20 +1,33 @@
 Reference images:
-- The FIRST image is the CHARACTER to draw: a tan deer named Deoksu (front view). Reproduce this exact character design in every figure.
-- The other images are STYLE references only (the Korean instatoon dog "Kkamja"): copy its drawing grammar — wobbly hand-drawn black outline of uneven thickness, flat colors, no shading, simple emotion symbols (sweat drop, sparkles, tiny rain cloud, hearts) — but NOT its character or color.
+- The FIRST image is the CHARACTER to draw: a tan deer named Deoksu, shown in front and side view with the default face. Reproduce this exact design and this exact line quality in every figure.
+- The SECOND image is a STYLE reference only (the Korean instatoon dog "Kkamja"): copy its pen-line grammar and simple emotion symbols (sweat drop, sparkles, hearts, motion lines) - but NOT its character or color.
 
-Deoksu design (must be identical in all figures):
+LINE QUALITY (most important):
+- Black outline drawn with a felt-tip pen: SOLID, CONTINUOUS, fully opaque black. No gaps, no white specks, no grain, no texture, no dry-brush, no sketchy double lines, no broken strokes.
+- The hand-drawn feel comes ONLY from the path of the line: gently wobbly, slightly uneven curves, thickness varying a little along the stroke. Not from any texture inside the line.
+- Flat fill, no shading, no gradients, no paper texture, no noise.
+
+Deoksu design (identical in all figures):
 - tan #EACEAA body, ONE solid color everywhere including face and ears. No spots, no white belly, no darker muzzle
-- 2-head-tall potato body, stubby limbs, tiny tail, small upright ears, and a pair of SIMPLE TWO-PRONG antlers (each antler is one stem with one short branch, drawn in the same tan color with black outline) — exactly the same antlers in every figure
-- face: two small black dot eyes set wide apart, one small dark dot nose, NO MOUTH, NO BLUSH
-- blank, slightly dazed expression by default; arms hanging limply; small, scrappy, harmless mood
-- no eyelashes, no ribbon, no clothes, no accessories, no props
+- 2-head-tall potato body, stubby limbs, tiny tail, small upright ears, and a pair of SIMPLE TWO-PRONG antlers (each antler one stem with one short branch, drawn tan with black outline), exactly the same antlers in every figure
+- DEFAULT FACE: eyes drawn as two short flat horizontal black dashes set wide apart (stoic, unreadable), one small dark dot nose. NO MOUTH, NO BLUSH, no eyelashes, no clothes, no props
+- The dash eyes are his default in most figures. Only when a caption says so the eyes open into small round dots (surprise) or close into upward arcs (rare warmth)
+- personality: the dad. Silent and stiff, shows love through actions instead of words. Unreadable but dependable
+- Emotion symbols allowed: sweat drop, sparkles, motion lines, short vertical gloom lines, tears, tiny hearts. NO rain cloud, NO cloud of any kind anywhere on the sheet. Never a mouth, never blush.
 
-Draw a CHARACTER REFERENCE SHEET, landscape, plain white background. Two rows, evenly spaced, every figure the same size and proportions, a thin gray English caption under each figure. No other text, no swatches, no props, no frames.
-Row 1, turnaround (full body, standing, blank face): FRONT, 3/4 VIEW, SIDE, BACK.
-Row 2, expressions (full body, front view). Since Deoksu has no mouth, show emotion only with the eyes, posture and symbols:
-NEUTRAL (dot eyes, limp arms);
-HAPPY (eyes as closed upward arcs, no sparkles — very restrained);
-STERN (eyes as small straight dashes, standing very straight);
-SURPRISED (eyes as slightly bigger round dots, body leaning back, sweat drop);
-WORRIED (dot eyes, one sweat drop, hands held together in front);
-QUIETLY PROUD (dot eyes, arms limp, one small heart floating above — face stays blank).
+Draw a CHARACTER REFERENCE SHEET, landscape, plain white background. THREE rows of four figures, evenly spaced, a thin gray English caption under each figure exactly as written below. No other text, no swatches, no props, no frames. Poses may be loose, exaggerated and comic; the body may squash, stretch, tilt or sprawl. Figures need not be the same size or stiffly upright.
+
+Row 1, turnaround (full body, plain standing, default face, arms hanging limply):
+FRONT; 3/4 VIEW; SIDE (profile facing left, one short flat dash eye visible, small upright ear and both antlers visible, no mouth mark); BACK (no face visible).
+
+Row 2, comic action poses:
+HANDS BUSY (sitting on the floor, head bent down, both hands held together low in front as if carefully working on something small, dash eyes looking down);
+WALKING AWAY (seen from behind, walking off, one hand raised in a small wave without turning around, tiny tail);
+SQUARE NOD (standing very square, head tipped forward in a small nod, one short motion line above the head, arms straight at the sides);
+PIGGYBACK (bent forward slightly with both arms reaching back as if carrying someone on his back, seen from the side, steady steps).
+
+Row 3, comic reaction poses:
+STARTLED (eyes opened into small round dots, body leaning back a little, one sweat drop, otherwise still stiff);
+SLEEPING (lying flat on his back with arms straight at the sides, dash eyes, two or three tiny curved motion lines drifting above the head - absolutely NO letters, NO "z" symbols, no text of any kind);
+QUIET PRIDE (hands clasped behind the back, chest slightly out, dash eyes, one tiny sparkle beside the head);
+WAITING (standing in profile with both hands behind the back, one foot tapping with a small motion line, dash eyes).
