@@ -54,7 +54,7 @@ description: 「작은 힘에도 작은 책임은 따른다」 에피소드 1편
 - **사회생활 컷**: 캐릭터가 겉으로 웃거나 예의상 멘트를 하는데 진짜 속마음이 다르면, 그림에 속마음 장치를 함께 넣는다 — 등 뒤로 숨긴 손의 주먹·브이, 살랑거리는 꼬리, 등 뒤로 새는 반짝이, 작은 생각 구름(안의 글자는 합성) 등. 콘티 속마음 열에 `속마음 장치: ○○`로 적는다.
 - **구도 다양화**: 정면 나열(테이블 뒤에 일렬로 앉아 카메라를 보는 식)이 기본값이 되지 않게 한다. 콘티 프롬프트 요점에 `구도: ○○`로 컷별 배정을 적고, 프롬프트 첫 문장에 카메라를 명시한다 — 예: 측면(side view, profile), 3/4 뒤에서(seen from behind over Dubu's shoulder), 약간 위에서 내려다봄(high angle looking down at the table), 낮은 앵글(low angle from floor level), 얼굴·소품 클로즈업(extreme close-up on the menu and her hands), 한 명만 크게 + 나머지 멀리(Dubu large in the foreground, others small in the back). 정면 구도는 **편당 3컷 이하**, 같은 구도가 연속 두 컷에 오지 않게 한다. 좌석 배치·소품 위치가 앵글에 따라 바뀌므로 그 컷의 참조 시트는 그대로 두되 lineup 이미지는 크기 참고용임을 문구로 남긴다.
 - 텍스트가 들어갈 여백을 프롬프트로 확보: 내레이션 컷은 `character in the lower half, upper 40% empty`.
-- 생성: `python scripts/gen_image.py --prompt-file prompts/cutN.txt --ref assets/samples/dubu-sheet-high.png [--ref assets/samples/misook-sheet-high.png --ref ref/lineup.png] --out img/cutN.png` — **전부 `medium`** (`high` 금지). `.env` 로드 필요(`docs/env-setup.md`).
+- 생성: `python scripts/gen_image.py --prompt-file prompts/cutN.txt --ref assets/samples/dubu-sheet.png [--ref assets/samples/misook-sheet-high.png --ref ref/lineup.png] --out img/cutN.png` — **전부 `medium`** (`high` 금지). `.env` 로드 필요(`docs/env-setup.md`).
 
 ## 3. 텍스트 합성
 

@@ -7,7 +7,7 @@ ARGS=("$@")
 for n in cover cut1 cut2 cut3 cut4 cut5 cut6 cut7; do
   want "${ARGS[@]}" || continue
   case $n in
-    cut2|cut7) g $n --ref $S/tangja-sheet-high.png --ref $S/dubu-sheet-high.png --ref $R/lineup-tangja-dubu.png ;;
+    cut2|cut7) g $n --ref $S/tangja-sheet-high.png --ref $S/dubu-sheet.png --ref $R/lineup-tangja-dubu.png ;;
     cut3)      g $n --ref $S/tangja-sheet-high.png --ref $S/sora-sheet-high.png --ref $R/lineup-tangja-sora.png ;;
     *)         g $n --ref $S/tangja-sheet-high.png ;;
   esac

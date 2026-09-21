@@ -10,7 +10,7 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 
 CAST = {  # 이름: (시트, 상대 크기, 캡션)
-    "dubu":   ("assets/samples/dubu-sheet-high.png",   1.0, "DUBU 100"),
+    "dubu":   ("assets/samples/dubu-sheet.png",   1.0, "DUBU 100"),
     "misook": ("assets/samples/misook-sheet-high.png", 1.05, "MISOOK 105"),
     "deoksu": ("assets/samples/deoksu-sheet-high.png", 1.10, "DEOKSU 110"),
     "kong":   ("assets/samples/kong-sheet-high.png",   1.00, "KONG 100"),

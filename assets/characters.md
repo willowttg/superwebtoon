@@ -9,7 +9,7 @@
 | 요소 | 기준 |
 |---|---|
 | 비율 | 2등신. 감자형 몸통에 머리가 몸보다 큼. 팔다리는 짧은 돌기 |
-| 얼굴 | 점 눈 2개, 코는 작은 점(조류는 부리), **입 없음, 볼터치 없음**. 하찮은 느낌: 눈 작고 벌어짐, 멍한 표정, 늘어진 자세 (리본·속눈썹 금지) |
+| 얼굴 | 점 눈 2개, 코는 작은 점(조류는 부리), **입 없음, 볼터치 없음** (리본·속눈썹 금지). 두부는 기본 얼굴에 **걱정 눈썹 2획**(안쪽 올라감)이 항상 붙고, 눈은 감정에 따라 초롱초롱(하이라이트)·`>.<`·호·대시 등으로 바뀌어도 된다. 자세는 과장·코믹 허용, 컷마다 비율이 완벽히 같을 필요 없음 |
 | 선 | 검정, 굵기 불균일한 손그림 선, 닫힌 외곽선 |
 | 채색 | 플랫, 몸에 명암 없음. **바디 단색**, 무늬·반점·마커 없음. 식별은 실루엣(종)과 크기로만. 발밑에 납작한 연회색 타원 **접지 그림자 1개** (EP.03부터, EP.01·02는 없음) |
 | 배경 | 흰색. 소품 1~2개 |
@@ -50,6 +50,6 @@ MBTI는 설계용이며 **작품 안(표지·컷·캡션·해시태그 어디에
 
 ## 3. 시트와 참조 입력
 
-- 시트 7장: `assets/samples/{dubu,misook,deoksu,kong,tangja,sora,bamtol}-sheet-high.png` ([cast-sheets.html](https://willowttg.github.io/superwebtoon/assets/samples/cast-sheets.html)). 소품 없음 — 망토 등은 에피소드별로 프롬프트에 지정.
+- 시트 7장: `assets/samples/dubu-sheet.png`(턴어라운드 4 + 코믹 포즈 8) + `assets/samples/{misook,deoksu,kong,tangja,sora,bamtol}-sheet-high.png` ([cast-sheets.html](https://willowttg.github.io/superwebtoon/assets/samples/cast-sheets.html)). 소품 없음 — 망토 등은 에피소드별로 프롬프트에 지정.
 - 컷 생성 참조 순서: 등장 캐릭터 시트 → 동시 출연이면 `python scripts/lineup.py <이름들> --out episodes/epNN/ref/lineup-<이름들>.png`로 만든 크기 라인업. 깜자 스타일 이미지는 시트 제작에만 쓰고 컷 생성엔 넣지 않는다. 프롬프트에 "the lineup image shows their relative sizes"를 넣는다.
 - 덕수의 뿔은 시트에서 몸보다 진한 갈색으로 나왔고 10도 모두 일관되므로 그대로 확정 (2갈래).
