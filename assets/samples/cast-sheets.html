@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>확정 캐스트 시트 7장 + 크기 라인업</title>
+<title>확정 캐스트 시트 8장 + 크기 라인업</title>
 <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
 <style>
   body{margin:0;padding:40px 16px 80px;background:#EFEAE2;color:#3A3733;font-family:'Gowun Dodum','Malgun Gothic',sans-serif;line-height:1.6}
@@ -19,12 +19,12 @@
 </head>
 <body>
 <main>
-  <h1>확정 캐스트 시트 7장 + 크기 라인업</h1>
-  <p class="sub">gpt-image-2.5-sunburst · high · 1536×1024 · 7인 + 엑스트라 2장 공통 <b>검정 펠트펜 굵은 선</b>(매끈한 단색, 흔들림은 경로에만): 성격별 기본 얼굴 + 턴어라운드 4 + 코믹 포즈 8. 제작은 정면·측면 선 샘플(<code>&lt;이름&gt;-line-sample.png</code>) 먼저 → 그 샘플 + 깜자 1장만 참조로 시트. 연필 가는 선 안은 시도 후 기각. 모든 시트는 소품 없음(망토 등은 에피소드별 지정).</p>
+  <h1>확정 캐스트 시트 8장 + 크기 라인업</h1>
+  <p class="sub">gpt-image-2.5-sunburst · high · 1536×1024 · 8인 + 엑스트라 2장 공통 <b>검정 펠트펜 굵은 선</b>(매끈한 단색, 흔들림은 경로에만): 성격별 기본 얼굴 + 턴어라운드 4 + 코믹 포즈 8. 제작은 정면·측면 선 샘플(<code>&lt;이름&gt;-line-sample.png</code>) 먼저 → 그 샘플 + 깜자 1장만 참조로 시트. 연필 가는 선 안은 시도 후 기각. 모든 시트는 소품 없음(망토 등은 에피소드별 지정).</p>
 
   <h2>크기 라인업 (시트 FRONT 도를 잘라 합성, 생성 아님)</h2>
-  <img src="../cast/lineup-all.png" alt="7인 크기 라인업">
-  <p class="cap">역할 기준 크기 (주인공 100): 아빠 110 / 엄마 105 / 남친 105 / 동생·친구 100. 실제 동물 크기와 무관하며, 귀·뿔·털에 영향받지 않도록 <b>눈높이→발끝 거리</b>를 기준으로 맞춘다. <code>python scripts/lineup.py all --out …</code></p>
+  <img src="../cast/lineup-all.png" alt="8인 크기 라인업">
+  <p class="cap">역할 기준 크기 (주인공 100): 아빠 110 / 엄마 105 / 남친 105 / 동생·친구·할머니 100. 실제 동물 크기와 무관하며, 귀·뿔·털에 영향받지 않도록 <b>눈높이→발끝 거리</b>를 기준으로 맞춘다. <code>python scripts/lineup.py all --out …</code></p>
   <h2>동시 출연 참조 예시 — 두부 + 미숙</h2>
   <img src="../cast/lineup-example-dubu-misook.png" alt="두부 미숙 라인업" style="max-width:420px">
   <p class="cap">컷에 나오는 캐릭터만 골라 만든다: <code>python scripts/lineup.py dubu misook --out episodes/epNN/ref/lineup.png</code> → 컷 생성 시 <code>--ref</code>로 시트들과 함께 입력.</p>
@@ -50,6 +50,9 @@
   <h2>밤톨 — 남친 · 고슴도치 · 1.1배</h2>
   <img src="bamtol-sheet.png" alt="밤톨 시트">
   <p class="cap">기본 얼굴 = 점 눈 + 브릿지만 있는 동그란 안경. 2행: 팔짱 · 설명 손가락 · 안경 올리기 · 성큼성큼 · 3행: 공벌레 · 놀람(안경 삐뚤) · 생각 · 등 뒤 하트 · 프롬프트 <a href="bamtol-sheet-prompt.txt">bamtol-sheet-prompt.txt</a></p>
+  <h2>할머니 — 사슴 · 뿔 없음 · 쪽 머리</h2>
+  <img src="halmoni-sheet.png" alt="할머니 시트">
+  <p class="cap">기본 얼굴 = 웃는 호 눈 + 쪽 머리. 2행: 내밀기 · 머리 쓰다듬기 · 종종걸음 · 손 흔들기 · 3행: 기쁨 · 권하기 · 걱정 · 귀 기울이기 · 선 샘플 <a href="halmoni-line-sample.png">halmoni-line-sample.png</a> · 프롬프트 <a href="halmoni-sheet-prompt.txt">halmoni-sheet-prompt.txt</a></p>
   <h2>엑스트라 — 고양이 3인조 (주류 무리)</h2>
   <img src="cats-sheet.png" alt="고양이 3인조 시트">
   <p class="cap">핑크 · 라벤더 · 민트, 같은 디자인에 색만 다름 · 각 행: 턴어라운드 4 + 아니꼬운 곁눈질 · 프롬프트 <a href="cats-sheet-prompt.txt">cats-sheet-prompt.txt</a></p>

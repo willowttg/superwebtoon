@@ -1,4 +1,4 @@
-"""조연 6인 선 샘플·시트 프롬프트 생성.  python assets/samples/make_cast_prompts.py
+"""조연 선 샘플·시트 프롬프트 생성.  python assets/samples/make_cast_prompts.py
 산출: assets/samples/<이름>-line-sample-prompt.txt, <이름>-sheet-prompt.txt
 """
 import os
@@ -10,7 +10,7 @@ LINE = """LINE QUALITY (most important):
 - Flat fill, no shading, no gradients, no paper texture, no noise."""
 
 SAMPLE = """Reference images:
-- The FIRST image is the CHARACTER to draw: {who}. Reproduce this exact body design, but with the default face described below.
+- {sample_head}
 - The SECOND image is a STYLE reference only (the Korean instatoon dog "Kkamja"): copy its line quality - but NOT its character or color.
 
 {line}
@@ -152,9 +152,31 @@ STARTLED (leaning back, glasses tilted slightly askew on the face, eyes as bigge
 THINKING (sitting on the floor, chin resting on one hand, elbow on knee, dot eyes behind the glasses, one very short line above the head);
 SOFT MOMENT (standing stiffly facing front with both hands behind the back, eyes as closed upward arcs behind the glasses, one tiny pale pink outline heart floating low behind his back).""",
 ),
+"halmoni": dict(
+    who="a dusty-rose grandmother deer, Dubu's grandma (no antlers, small hair bun)",
+    sample_head="The FIRST image shows a deer character from this project (Deoksu, the dad). Use it ONLY for the deer body grammar (potato body, small upright ears, tiny tail, dot nose) and the line quality. Draw a DIFFERENT character described below: the grandmother - NO antlers, different color, a hair bun, a slight stoop.",
+    side_note="one closed upward-arc eye visible, small upright ear, the round hair bun on top of the head, back slightly rounded",
+    design="""Grandma deer design (identical in all figures):
+- dusty rose #EBCAC1 body, ONE solid color everywhere including face, ears and the hair bun. No spots, no white belly, no darker muzzle
+- 2-head-tall potato body, stubby limbs, tiny tail, small upright deer ears, and NO ANTLERS at all. On top of the head one small round HAIR BUN (a simple circle in the body color with a black outline, sitting between the ears), exactly the same bun in every figure
+- posture: back slightly rounded, shoulders soft, hands often held together in front - a small, gentle old lady
+- DEFAULT FACE: eyes drawn as two closed upward-curving black arcs set wide apart (a warm, benevolent smile), one small dark dot nose. NO MOUTH, NO BLUSH, no eyelashes, no glasses, no clothes, no props
+- The smiling arc eyes are her default in almost every figure. Only when a caption says so the eyes open into small round dots (worry) or ">.<"
+- personality: the grandmother. Endlessly kind, keeps giving more, cannot be refused. Her warmth is unstoppable""",
+    row2="""OFFERING (leaning forward with both hands held out in front, palms up, as if handing something over, smiling arc eyes, one tiny sparkle);
+HEAD PAT (reaching one hand out and slightly down as if patting a grandchild's head, other hand behind the back, arc eyes);
+SHUFFLING (seen from the side, walking with small careful steps, back rounded, hands clasped in front, two short motion lines by the feet);
+WAVING GOODBYE (standing facing front, one hand raised high waving with small motion lines, other hand clasped at the chest, arc eyes).""",
+    row3="""DELIGHTED (both hands clasped together at the chest, arc eyes, three small sparkles around the head);
+INSISTING (leaning forward, one hand gently pushing forward at chest height as if pressing something on someone, arc eyes, short motion lines by the hand);
+WORRIED (eyes opened into small round dots, both hands held together at the chest, body leaning slightly forward, one sweat drop);
+LISTENING (head tilted to one side, one hand cupped behind an ear, arc eyes, one tiny heart floating beside the head).""",
+),
 }
 
 for n, c in CAST.items():
+    c = dict(c)
+    c.setdefault("sample_head", f"The FIRST image is the CHARACTER to draw: {c['who']}. Reproduce this exact body design, but with the default face described below.")
     with open(os.path.join(HERE, f"{n}-line-sample-prompt.txt"), "w", encoding="utf-8") as f:
         f.write(SAMPLE.format(line=LINE, **c))
     with open(os.path.join(HERE, f"{n}-sheet-prompt.txt"), "w", encoding="utf-8") as f:

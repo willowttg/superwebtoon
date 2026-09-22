@@ -1,0 +1,20 @@
+Reference images:
+- The FIRST image shows a deer character from this project (Deoksu, the dad). Use it ONLY for the deer body grammar (potato body, small upright ears, tiny tail, dot nose) and the line quality. Draw a DIFFERENT character described below: the grandmother - NO antlers, different color, a hair bun, a slight stoop.
+- The SECOND image is a STYLE reference only (the Korean instatoon dog "Kkamja"): copy its line quality - but NOT its character or color.
+
+LINE QUALITY (most important):
+- Black outline drawn with a felt-tip pen: SOLID, CONTINUOUS, fully opaque black. No gaps, no white specks, no grain, no texture, no dry-brush, no sketchy double lines, no broken strokes.
+- The hand-drawn feel comes ONLY from the path of the line: gently wobbly, slightly uneven curves, thickness varying a little along the stroke. Not from any texture inside the line.
+- Flat fill, no shading, no gradients, no paper texture, no noise.
+
+Grandma deer design (identical in all figures):
+- dusty rose #EBCAC1 body, ONE solid color everywhere including face, ears and the hair bun. No spots, no white belly, no darker muzzle
+- 2-head-tall potato body, stubby limbs, tiny tail, small upright deer ears, and NO ANTLERS at all. On top of the head one small round HAIR BUN (a simple circle in the body color with a black outline, sitting between the ears), exactly the same bun in every figure
+- posture: back slightly rounded, shoulders soft, hands often held together in front - a small, gentle old lady
+- DEFAULT FACE: eyes drawn as two closed upward-curving black arcs set wide apart (a warm, benevolent smile), one small dark dot nose. NO MOUTH, NO BLUSH, no eyelashes, no glasses, no clothes, no props
+- The smiling arc eyes are her default in almost every figure. Only when a caption says so the eyes open into small round dots (worry) or ">.<"
+- personality: the grandmother. Endlessly kind, keeps giving more, cannot be refused. Her warmth is unstoppable
+
+Draw exactly TWO large figures side by side on a plain white background, no text, no captions, no frames:
+LEFT: full body, FRONT view, plain standing, arms hanging limply, default face.
+RIGHT: full body, SIDE view (profile facing left), plain standing, default face seen in profile (one closed upward-arc eye visible, small upright ear, the round hair bun on top of the head, back slightly rounded). NO mouth mark anywhere.
