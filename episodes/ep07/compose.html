@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>EP.07 합성 — No를 Yes로 바꿔 말하는 초능력자 특징</title>
+<style>
+  @font-face{font-family:'CornCorn';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/2412-1@1.0/Ownglyph_corncorn-Rg.woff2') format('woff2');font-display:swap}
+  @font-face{font-family:'KyoboHand';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff') format('woff');font-display:swap}
+  :root{--ink:#3A3733;--point:#C77B3F;--gray:#8A837A}
+  *{box-sizing:border-box}
+  body{margin:0;background:#ddd}
+  section{position:relative;width:1080px;height:1350px;overflow:hidden;background:#fff;margin:0 auto 20px;font-family:'KyoboHand',sans-serif;color:var(--ink)}
+  section img.art{position:absolute;left:0;bottom:60px;width:1080px;height:1350px;object-fit:cover;object-position:50% 100%;transform:scale(.8);transform-origin:50% 100%}
+  section.cover img.art{object-fit:contain;object-position:50% 100%}
+  .series{position:absolute;top:84px;left:80px;right:80px;text-align:center;font-size:44px;color:var(--gray);letter-spacing:.02em}
+  .title{position:absolute;top:160px;left:40px;right:40px;text-align:center;font-family:'CornCorn',cursive;font-size:104px;line-height:1.18;letter-spacing:-.01em}
+  .title b{font-weight:400;color:var(--point)}
+  .feat{position:absolute;top:90px;left:50px;right:50px;text-align:center;font-size:56px;line-height:1.4;white-space:pre}
+  .feat b{font-weight:700;color:var(--point);margin-right:14px}
+  .mind{position:absolute;font-size:40px;line-height:1.35;color:var(--gray);white-space:pre-line}
+  .cta{position:absolute;left:70px;right:70px;bottom:44px;text-align:center;font-size:40px;font-weight:700;color:var(--point);-webkit-text-stroke:.6px var(--point)}
+  .cta .hh{font-family:'Segoe UI Symbol','Malgun Gothic',sans-serif;font-size:34px;-webkit-text-stroke:0;vertical-align:2px;margin:0 6px}
+</style>
+</head>
+<body>
+
+<section class="cover" id="s0">
+  <img class="art" src="img/cover.png" alt="">
+  <div class="series">- 작은 힘에도 작은 책임은 따른다 -</div>
+  <div class="title"><b>No</b>를 <b>Yes</b>로<br>바꿔 말하는<br>초능력자 특징</div>
+</section>
+
+<section id="s1">
+  <img class="art" src="img/cut1.png" alt="">
+  <div class="feat"><b>1.</b>할머니집 가면 배탈남</div>
+  <div class="mind" style="left:560px;top:370px;width:210px;text-align:center">더 먹어</div>
+  <div class="mind" style="left:40px;top:640px;width:240px;text-align:center">네…</div>
+</section>
+
+<section id="s2">
+  <img class="art" src="img/cut2.png" alt="">
+  <div class="feat"><b>2.</b>스팸 전화 못 끊음</div>
+  <div class="mind" style="left:640px;top:590px;width:400px;text-align:center">중요한 전화야?</div>
+  <div class="mind" style="left:40px;top:1235px;width:520px;text-align:center">네 네, 듣고 있어요</div>
+</section>
+
+<section id="s3">
+  <img class="art" src="img/cut3.png" alt="">
+  <div class="feat"><b>3.</b>오프라인 쇼핑 공포증 있음</div>
+  <div class="mind" style="left:20px;top:560px;width:300px;text-align:center">잘 어울린다고
+했단 말이야</div>
+</section>
+
+<section id="s4">
+  <img class="art" src="img/cut4.png" alt="">
+  <div class="feat"><b>4.</b>보험 100개 있음</div>
+  <div class="mind" style="left:380px;top:530px;width:400px;text-align:center">제발 한 번만 다쳐라</div>
+</section>
+
+<section id="s5">
+  <img class="art" src="img/cut5.png" alt="">
+  <div class="feat"><b>5.</b>재미없어도 좋아요 눌러 줌</div>
+  <div class="mind" style="left:560px;top:380px;width:460px;text-align:center">재밌지? 재밌지?</div>
+  <div class="mind" style="left:20px;top:1060px;width:240px;text-align:center">재밌어요</div>
+  <div class="cta"><span class="hh">♥</span> 당신 곁의 두부를 태그해 주세요 <span class="hh">♥</span></div>
+</section>
+
+<script>
+  // 특징 문장: 한 줄이 폭을 넘으면 그 슬라이드만 폰트를 줄인다 (기본 56px)
+  document.fonts.ready.then(() => {
+    document.querySelectorAll('.feat').forEach(el => {
+      let fs = 56;
+      while (el.scrollWidth > el.clientWidth && fs > 30) el.style.fontSize = (--fs) + 'px';
+      el.dataset.fs = fs;
+    });
+  });
+  // compose.html?only=N → 그 슬라이드만 표시 (헤드리스 스크린샷용, N은 0부터)
+  const only = new URLSearchParams(location.search).get('only');
+  if (only !== null) {
+    document.querySelectorAll('section').forEach((el, i) => { if (i != only) el.style.display = 'none'; });
+    document.body.style.background = '#fff';
+    document.documentElement.style.overflow = document.body.style.overflow = 'hidden';
+    document.querySelector('section').style.margin = '0';
+  }
+</script>
+</body>
+</html>

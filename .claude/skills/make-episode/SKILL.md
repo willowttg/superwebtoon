@@ -5,7 +5,7 @@ description: 「작은 힘에도 작은 책임은 따른다」 에피소드 1편
 
 # make-episode
 
-입력: MBTI 유형 1개 (+ 선택: 다룰 특징, 폰트 지정). 산출물은 `episodes/epNN/`.
+입력: MBTI 유형 1개 (+ 선택: 다룰 특징, 폰트 지정). 산출물은 `episodes/epNN/`. **EP.01~06은 이전 포맷이라 예시·템플릿으로 쓰지 않는다** — 참조는 EP.07부터.
 
 ## 1. 기획 규칙
 
@@ -36,7 +36,7 @@ description: 「작은 힘에도 작은 책임은 따른다」 에피소드 1편
 - 폰트: **교보손글씨 2019**, `@font-face`는 `assets/fonts.html`에서 복사.
 - 표지(slide1): 시리즈명 `.series`(top 40px, 34px 회색) + 제목 상단 가운데 큰 글씨(72px 내외, 2~3줄), 핵심 구절 `<b>`로 포인트 컬러 볼드. 두부 그림 아래.
 - 특징 컷(slide2~6): 상단에 `N. 특징 문장` **56px** 가운데 정렬, 긴 줄은 그 슬라이드만 자동 축소. 대사·속마음 **40px** 회색, 박스 없이 캐릭터 옆 — `python scripts/art_bbox.py img/cutN.png`로 그림 영역을 잰 뒤 그 밖에 놓는다.
-- 마지막 슬라이드 하단(bottom 44px)에 CTA 40px 볼드 포인트 컬러, 양옆 활자 `♥`: "당신 곁의 두부를 태그해 주세요". 스타일은 `episodes/ep03/compose.html`의 `.cta`.
+- 마지막 슬라이드 하단(bottom 44px)에 CTA 40px 볼드 포인트 컬러, 양옆 활자 `♥`: "당신 곁의 두부를 태그해 주세요". 스타일은 `episodes/ep07/compose.html`을 템플릿으로 복사.
 - Playwright MCP로 각 `<section>`을 `img/slideN.png`(N=1..6)로 스크린샷 (viewport 1080×1350, `clip`). MCP 브라우저 사용 중이면 `python scripts/shoot_slides.py epNN`.
 
 ## 4. 산출물과 마무리
