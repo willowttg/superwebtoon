@@ -1,0 +1,38 @@
+Reference images:
+- The FIRST image is the CHARACTER SHEET of Dubu, a cream-colored sheep. Reproduce this exact design, face and line quality in every figure. This new sheet adds ONE prop to her: the BATTERY PACK described below.
+- If a SECOND image is present it is a STYLE reference only (the Korean instatoon dog "Kkamja"): copy its pen-line grammar — but NOT its character or color.
+
+LINE QUALITY (most important):
+- Black outline drawn with a felt-tip pen: SOLID, CONTINUOUS, fully opaque black. No gaps, no white specks, no grain, no texture, no dry-brush, no sketchy double lines, no broken strokes.
+- The hand-drawn feel comes ONLY from the path of the line: gently wobbly, slightly uneven curves, thickness varying a little along the stroke. Not from any texture inside the line.
+- Flat fill, no shading, no gradients, no paper texture, no noise.
+
+Dubu design (identical in all figures):
+- cream #F6F2E6 body, ONE solid color everywhere including the face. No markings, no darker face, no inner-ear color
+- 2-head-tall potato body with a soft cloud-shaped fluffy outline (small round bumps along the silhouette), stubby limbs, tiny tail, two small rounded ears sticking out sideways and drooping slightly
+- DEFAULT FACE: two small black dot eyes set wide apart, plus two short thin black eyebrow strokes above them slanted so the inner ends are raised (permanently worried, timid), one small SOLID black dot nose, always fully dark. NO MOUTH — nothing at all below or beside the nose, in every view including profile. NO BLUSH, no eyelashes, no ribbon, no clothes.
+- The worried eyebrows appear in EVERY figure, including side views, even when the eyes change. The EYES may change with the emotion: plain dots, bigger glossy round eyes with a tiny white highlight, squeezed-shut ">.<" eyes, closed upward arcs, tired flat dashes, or dots shifted sideways.
+- Emotion symbols allowed: sweat drop, sparkles, motion lines, short vertical gloom lines, tears. NO rain cloud, NO cloud of any kind anywhere on the sheet.
+
+BATTERY PACK prop (identical in all figures, worn in every figure):
+- a small round backpack shaped like a chunky AA BATTERY, worn on Dubu's back with two thin black-outlined straps over her shoulders. Battery body in vivid electric blue #2F7CF6 with a big bright yellow #FFD600 LIGHTNING-BOLT emblem on it and a small yellow #FFD600 cap (the battery's positive terminal) sticking up at the top
+- from the bottom of the battery comes a bright yellow #FFD600 COILED spiral cable ending in a chunky yellow two-prong PLUG. When she is charging, the plug is inserted into a small white wall outlet; otherwise the plug dangles or drags on the ground behind her
+- the pack is about half as tall as her body, clearly visible from every angle; in the front view the straps and the cap peeking above her shoulder show it, in side and back views the whole battery is visible
+- it looks like a toy superhero gadget: bright, glossy-flat colors, thick outline. No letters, no numbers, no percent signs on it
+
+Draw a CHARACTER REFERENCE SHEET, landscape, plain white background. THREE rows of four figures, evenly spaced, a thin gray English caption under each figure exactly as written below. No other text, no swatches, no frames. Poses may be loose, exaggerated and comic; the body may squash, stretch, tilt or sprawl.
+
+Row 1, turnaround (full body, plain standing, default face, arms hanging limply, plug dangling behind):
+FRONT; 3/4 VIEW; SIDE (profile facing left, one dot eye with its eyebrow stroke above, whole battery pack visible on the back); BACK (no face visible, battery pack and lightning bolt fully visible).
+
+Row 2, charging poses:
+PLUGGED IN (sitting on the floor leaning back against a cushion, plug inserted into a small white wall outlet behind her, eyes as closed upward arcs, three sparkles above the head);
+FULLY CHARGED (standing tall, arms raised in a V, big glossy round eyes with highlights, sparkles all around, plug dangling);
+DRAINED (lying flat face-down on the floor like a puddle, limbs splayed, ears flat, eyes as tired flat dashes, the cable and plug lying limp on the floor beside her, three short vertical gloom lines above the head);
+LOW BATTERY (standing hunched, knees bent, dragging the plug on the floor behind her, eyes as tired flat dashes, one sweat drop).
+
+Row 3, comic action poses:
+RUNNING AWAY (seen from the side, sprinting in a panic, arms flailing, cable and plug flying out behind her, the visible eye a squeezed-shut ">" mark, sweat drops);
+PEEKING (both hands covering the lower face, dot eyes glancing sideways, body shrunk small, plug dangling);
+HIDING BEHIND POLE (hugging a tall gray pole with both arms, only her head and the battery pack sticking out, one sweat drop);
+TIPTOE (sneaking sideways on exaggerated tiptoe, hands raised, dot eyes shifted to the side, holding the plug in one hand so it does not drag).

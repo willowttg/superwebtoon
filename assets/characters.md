@@ -13,7 +13,7 @@
 | 선 | 검정 펠트펜 굵은 선, 매끈한 단색(입자·끊김·얼룩 없음), 흔들림은 경로에만, 굵기 불균일, 닫힌 외곽선 |
 | 채색 | 플랫, 몸에 명암 없음. **바디 단색**, 무늬·반점·마커 없음. 식별은 실루엣(종)과 크기로만. 발밑에 납작한 연회색 타원 **접지 그림자 1개** (EP.03부터, EP.01·02는 없음) |
 | 배경 | 흰색. 소품 1~2개로 장소를 표현 |
-| 감정 기호 | 땀방울·눈물·반짝이·하트·낙서 소용돌이·세로 그늘선. **먹구름 금지.** 표지의 두부는 망토 + 포인트 컬러 `#C77B3F` |
+| 감정 기호 | 땀방울·눈물·반짝이·하트·낙서 소용돌이·세로 그늘선. **먹구름 금지.** 표지·소품 컷의 두부는 그 편의 **초능력 소품**(에피소드별 지정, 스킬 2절)을 착용 |
 
 ## 1. 확정 캐스트
 
@@ -51,6 +51,6 @@ MBTI는 설계용이며 **작품 안(표지·컷·캡션·해시태그 어디에
 
 ## 3. 시트와 참조 입력
 
-- 시트 8장: `assets/samples/{dubu,misook,deoksu,kong,tangja,sora,bamtol,halmoni}-sheet.png` (각 턴어라운드 4 + 성격별 코믹 포즈 8. 제작은 정면·측면 선 샘플 `<이름>-line-sample.png` 먼저 → 그 샘플 + 깜자 1장(선 스타일 참조)으로 시트. 2026-09-22 연필 가는 선을 시도했으나 굵은 선이 더 어울려 되돌림) ([cast-sheets.html](https://willowttg.github.io/superwebtoon/assets/samples/cast-sheets.html)). 소품 없음 — 망토 등은 컷 프롬프트에 지정. 조연 프롬프트는 `make_cast_prompts.py`에서 생성.
+- 시트 8장: `assets/samples/{dubu,misook,deoksu,kong,tangja,sora,bamtol,halmoni}-sheet.png` (각 턴어라운드 4 + 성격별 코믹 포즈 8. 제작은 정면·측면 선 샘플 `<이름>-line-sample.png` 먼저 → 그 샘플 + 깜자 1장(선 스타일 참조)으로 시트. 2026-09-22 연필 가는 선을 시도했으나 굵은 선이 더 어울려 되돌림) ([cast-sheets.html](https://willowttg.github.io/superwebtoon/assets/samples/cast-sheets.html)). 소품 없음 — 에피소드별 초능력 소품은 `episodes/epNN/ref/dubu-<소품>-sheet.png`로 따로 만든다. 조연 프롬프트는 `make_cast_prompts.py`에서 생성.
 - 컷 생성 참조 순서: 등장 캐릭터 시트 → 동시 출연이면 `python scripts/lineup.py <이름들> --out episodes/epNN/ref/lineup-<이름들>.png`로 만든 크기 라인업. 깜자 스타일 이미지는 시트 제작에만 쓰고 컷 생성엔 넣지 않는다 (시트가 선 스타일을 담고 있음). 프롬프트에 "the lineup image shows their relative sizes"를 넣는다.
 - 덕수의 뿔은 시트에서 몸보다 진한 갈색으로 나왔고 10도 모두 일관되므로 그대로 확정 (2갈래).
