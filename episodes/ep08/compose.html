@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>EP.08 합성 — 집에서만 충전되는 초능력자 특징</title>
+<style>
+  @font-face{font-family:'CornCorn';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/2412-1@1.0/Ownglyph_corncorn-Rg.woff2') format('woff2');font-display:swap}
+  @font-face{font-family:'KyoboHand';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff') format('woff');font-display:swap}
+  :root{--ink:#3A3733;--point:#C77B3F;--gray:#8A837A}
+  *{box-sizing:border-box}
+  body{margin:0;background:#ddd}
+  section{position:relative;width:1080px;height:1350px;overflow:hidden;background:#fff;margin:0 auto 20px;font-family:'KyoboHand',sans-serif;color:var(--ink)}
+  section img.art{position:absolute;left:0;bottom:60px;width:1080px;height:1350px;object-fit:cover;object-position:50% 100%;transform:scale(.8);transform-origin:50% 100%}
+  section.cover img.art{object-fit:contain;object-position:50% 100%}
+  .series{position:absolute;top:84px;left:80px;right:80px;text-align:center;font-size:44px;color:var(--gray);letter-spacing:.02em}
+  .title{position:absolute;top:160px;left:40px;right:40px;text-align:center;font-family:'CornCorn',cursive;font-size:104px;line-height:1.18;letter-spacing:-.01em}
+  .title b{font-weight:400;color:var(--point)}
+  .feat{position:absolute;top:90px;left:50px;right:50px;text-align:center;font-size:56px;line-height:1.4;white-space:pre}
+  .feat b{font-weight:700;color:var(--point);margin-right:14px}
+  .mind{position:absolute;font-size:40px;line-height:1.35;color:var(--gray);white-space:pre-line}
+  .cta{position:absolute;left:70px;right:70px;bottom:44px;text-align:center;font-size:40px;font-weight:700;color:var(--point);-webkit-text-stroke:.6px var(--point)}
+  .cta .hh{font-family:'Segoe UI Symbol','Malgun Gothic',sans-serif;font-size:34px;-webkit-text-stroke:0;vertical-align:2px;margin:0 6px}
+</style>
+</head>
+<body>
+
+<section class="cover" id="s0">
+  <img class="art" src="img/cover.png" alt="">
+  <div class="series">- 작은 힘에도 작은 책임은 따른다 -</div>
+  <div class="title"><b>집에서만</b><br><b>충전</b>되는<br>초능력자 특징</div>
+</section>
+
+<section id="s1">
+  <img class="art" src="img/cut1.png" alt="">
+  <div class="feat"><b>1.</b>전화는 끊긴 뒤에 문자로 받음</div>
+  <div class="mind" style="left:40px;top:720px;width:420px;text-align:center">무슨 일이지…
+무슨 일이지…</div>
+</section>
+
+<section id="s2">
+  <img class="art" src="img/cut2.png" alt="">
+  <div class="feat"><b>2.</b>배달 기사 발소리 사라진 뒤 문 엶</div>
+  <div class="mind" style="left:760px;top:760px;width:280px;text-align:center">갔나…</div>
+</section>
+
+<section id="s3">
+  <img class="art" src="img/cut3.png" alt="">
+  <div class="feat"><b>3.</b>점원이 다가오면 옷걸이 사이로 사라짐</div>
+  <div class="mind" style="left:620px;top:600px;width:440px;text-align:center">찾으시는 거 있으세요?</div>
+  <div class="mind" style="left:100px;top:470px;width:400px;text-align:center">없어요 없어요</div>
+</section>
+
+<section id="s4">
+  <img class="art" src="img/cut4.png" alt="">
+  <div class="feat"><b>4.</b>헤어진 친구랑 같은 방향이면 숨음</div>
+  <div class="mind" style="left:800px;top:520px;width:240px;text-align:center">내일 봐</div>
+  <div class="mind" style="left:620px;top:930px;width:400px;text-align:center">먼저 가 제발</div>
+</section>
+
+<section id="s5">
+  <img class="art" src="img/cut5.png" alt="">
+  <div class="feat"><b>5.</b>집 오면 현관에서 바로 방전됨</div>
+  <div class="mind" style="left:700px;top:590px;width:300px;text-align:center">누나 밥은?</div>
+  <div class="mind" style="left:280px;top:600px;width:400px;text-align:center">충전 끝나면</div>
+  <div class="cta"><span class="hh">♥</span> 당신 곁의 두부를 태그해 주세요 <span class="hh">♥</span></div>
+</section>
+
+<script>
+  // 특징 문장: 한 줄이 폭을 넘으면 그 슬라이드만 폰트를 줄인다 (기본 56px)
+  document.fonts.ready.then(() => {
+    document.querySelectorAll('.feat').forEach(el => {
+      let fs = 56;
+      while (el.scrollWidth > el.clientWidth && fs > 30) el.style.fontSize = (--fs) + 'px';
+      el.dataset.fs = fs;
+    });
+  });
+  // compose.html?only=N → 그 슬라이드만 표시 (헤드리스 스크린샷용, N은 0부터)
+  const only = new URLSearchParams(location.search).get('only');
+  if (only !== null) {
+    document.querySelectorAll('section').forEach((el, i) => { if (i != only) el.style.display = 'none'; });
+    document.body.style.background = '#fff';
+    document.documentElement.style.overflow = document.body.style.overflow = 'hidden';
+    document.querySelector('section').style.margin = '0';
+  }
+</script>
+</body>
+</html>
