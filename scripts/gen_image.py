@@ -46,7 +46,7 @@ def main():
         data, ct = multipart(fields, [("image[]", p) for p in a.ref])
         url = "https://api.openai.com/v1/images/edits"
     else:
-        data, ct = json.dumps(fields).encode(), "application/json"
+        data, ct = json.dumps({**fields, "n": 1}).encode(), "application/json"
         url = "https://api.openai.com/v1/images/generations"
     req = urllib.request.Request(url, data=data,
                                  headers={"Authorization": f"Bearer {key}", "Content-Type": ct})

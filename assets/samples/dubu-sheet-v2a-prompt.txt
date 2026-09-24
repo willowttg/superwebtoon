@@ -1,0 +1,40 @@
+Draw a CHARACTER REFERENCE SHEET of a cream-colored sheep named Dubu, landscape, plain white background, no reference image — invent the drawing from this description only.
+
+STYLE: a Korean "instatoon" webtoon doodle drawn by hand with a black felt-tip marker, quickly and a little carelessly, in a deliberately crude, humble, slightly ugly-cute way. It must NOT look like clean vector art or an AI illustration. It should look like a person scribbled it in a notebook in a few seconds and it turned out funny.
+
+LINE QUALITY:
+- Black marker line, opaque black, no texture inside the stroke, no dry-brush, no paper grain.
+- The line is visibly SHAKY and WOBBLY along its path: curves are lumpy and uneven, circles are lopsided and slightly egg-shaped, a stroke may overshoot a corner by a millimeter or two strokes may not meet perfectly at a joint. Line thickness changes unevenly along one stroke.
+- Left and right sides of the body are NOT symmetric. Ears differ slightly in size. Nothing is perfectly aligned.
+- Flat fill only, no shading, no gradients, no highlights on the body, no blush.
+
+DUBU DESIGN (the identity that stays the same in every figure):
+- body one flat cream color #F6F2E6 everywhere including the face, no markings.
+- about 2 heads tall, a potato-shaped body whose outline is a lumpy cloud of small bumps (wool), stubby stick-like arms and legs, a tiny tail, two small floppy rounded ears sticking out sideways and drooping.
+- one small solid black dot nose in the middle of the face.
+- DEFAULT face: two small black dot eyes set far apart, two short thin eyebrow strokes above them with the INNER ends raised (permanently worried, timid), and a tiny wobbly short line for a mouth just under the nose.
+- The worried eyebrows are her trademark and appear in every figure, even when everything else on the face changes.
+
+FACE RULES (most important — this sheet exists to show a WIDE range of expressions):
+- The MOUTH is a real, drawn feature and it changes shape a lot: a tiny dot, a short flat dash, a wavy squiggle, a huge wide-open black "O" with the jaw dropped, a jagged zigzag, a cat-like "3" mouth, an upside-down wobbly trapezoid filled black when wailing, a wide grin with one tooth, a mouth pushed far to one side of the face, a mouth open with a tiny tongue. Draw big mouths BIG — the mouth may take up half the face.
+- The EYES change with emotion: tiny dots, dots pulled close together, dots pushed to the far edges, big hollow circles, spirals, ">" and "<" squeezed shut, upward arcs, downward arcs, half-closed lazy dashes, one eye bigger than the other, a single tiny dot for a dead stare.
+- The HEAD is soft like a rice cake and DEFORMS with emotion: it squashes flat, stretches tall, dents inward, bulges to one side, tilts, and the face features slide around on it. Two figures in this sheet should not have the same head shape.
+- Emotion symbols allowed: sweat drops, tears, sparkles, small motion lines, short vertical gloom lines, a little heart, a scribble spiral. NO rain cloud, no cloud of any kind, no speech bubbles.
+
+LAYOUT: THREE rows, evenly spaced, a thin small gray English caption under each figure exactly as written below. No other text, no swatches, no props, no frames, no color patches. Figures need not be the same size.
+
+Row 1 — TURNAROUND, 4 full-body figures with the DEFAULT face, standing plainly, arms hanging: FRONT ; 3/4 VIEW ; SIDE (profile facing left, one dot eye with its eyebrow, nose dot at the muzzle tip, tiny mouth line under it) ; BACK (no face, tiny tail).
+
+Row 2 — EXPRESSIONS, 5 upper-body / bust figures, each with a differently deformed head:
+SHOCKED (head stretched tall, eyes two big hollow circles, mouth a huge wide-open black O that drops below the chin line) ;
+FAKE SMILE (eyes two upward arcs but worried eyebrows still pinched, mouth a wide flat wobbly line with both corners twitching upward, one sweat drop on the temple) ;
+SULKING (head squashed wide and flat, cheeks puffed out to both sides, eyes two tiny dots pulled close together, mouth a tiny wavy line shoved far to one side) ;
+WAILING (eyes ">" "<" squeezed shut, mouth an enormous upside-down trapezoid filled black taking up the lower half of the face, two thick fountain tear streams shooting sideways) ;
+SMUG (eyes two half-closed lazy dashes, one eyebrow raised higher than the other, mouth a small crooked cat-like "3" grin, head tilted).
+
+Row 3 — POSES, 5 full-body figures with deformed faces:
+SPRINTING (seen from the side, running away in panic, arms flailing overhead, legs a scribble of motion lines, the face dragged backward by speed, one visible eye a tiny dot, mouth a wide open scream at the muzzle) ;
+MELTED (lying face-down flat on the floor like a spilled puddle, body smeared wide, ears flat, eyes two lazy dashes, mouth a long wavy line, three short vertical gloom lines above) ;
+CRINGE (crouching and hugging herself, whole face scrunched toward the nose, eyes two tight "><" marks, mouth a tiny "^" shape, sweat drops) ;
+PANIC (standing with both arms thrown straight up, body leaning back, eyes two tiny dots pushed to the far edges of the face, mouth a wide wobbly open rectangle, sweat drops flying) ;
+FLOPPED (lying on her back with limbs spread out, eyes two closed upward arcs, mouth wide open in a lopsided grin with a tiny tongue, a small sparkle).
