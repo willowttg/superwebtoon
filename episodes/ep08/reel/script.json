@@ -1,0 +1,33 @@
+{
+ "note": "릴스 대본. slide 0=표지, 1~5=특징 컷. kind: title(표지 제목 밑 줄)·narr(특징 자막, 쌓임)·line(대사, pos는 compose.html 좌표 그대로)·cta. 목소리는 전부 CustomVoice sohee, emo는 감정 지시.",
+ "voice": "sohee",
+ "narr_emo": "A cheerful young Korean woman narrating a relatable comic to a friend, playful and lively, natural casual pace",
+ "lines": [
+  {"slide": 0, "kind": "title", "text": "집에서만 충전되는 초능력자 특징."},
+  {"slide": 0, "kind": "title", "text": "몇 개나 해당되는지 세어 보세요."},
+
+  {"slide": 1, "kind": "narr", "text": "하나, 전화는 죽어도 안 받아요."},
+  {"slide": 1, "kind": "narr", "text": "끊어지면 그제야 톡으로 답하죠."},
+  {"slide": 1, "kind": "line", "text": "무슨 일이지…\n무슨 일이지…", "emo": "whispering nervously to herself, anxious", "pos": [40, 720, 420]},
+
+  {"slide": 2, "kind": "narr", "text": "둘, 배달 기사님이 엘리베이터 타실 때까지"},
+  {"slide": 2, "kind": "narr", "text": "숨어서 몰래 훔쳐봐요."},
+  {"slide": 2, "kind": "line", "text": "갔나…", "emo": "very quiet whisper, holding breath", "pos": [800, 700, 260]},
+
+  {"slide": 3, "kind": "narr", "text": "셋, 옷 고를 때 누가 말을 걸면"},
+  {"slide": 3, "kind": "narr", "text": "옷 사이로 숨어 버려요."},
+  {"slide": 3, "kind": "line", "text": "찾으시는 거\n있으세요?", "emo": "bright, overly friendly shop clerk greeting a customer", "pos": [620, 600, 440]},
+  {"slide": 3, "kind": "line", "text": "없어요, 없어요…", "emo": "flustered, quickly mumbling while backing away", "pos": [100, 470, 400]},
+
+  {"slide": 4, "kind": "narr", "text": "넷, 친구랑 집 방향이 같아도"},
+  {"slide": 4, "kind": "narr", "text": "다른 길인 척하고 먼저 갈 때까지 기다려요."},
+  {"slide": 4, "kind": "line", "text": "두부야, 낼 봐~", "emo": "cheerful, casually waving goodbye", "pos": [760, 520, 300]},
+  {"slide": 4, "kind": "line", "text": "먼저 가, 제발…", "emo": "desperate whisper, pleading under her breath", "pos": [620, 930, 400]},
+
+  {"slide": 5, "kind": "narr", "text": "다섯, 약속 끝나고 집에 오면"},
+  {"slide": 5, "kind": "narr", "text": "현관에서 그대로 쓰러져요."},
+  {"slide": 5, "kind": "line", "text": "누나, 밥은?", "emo": "flat, deadpan, hungry younger sibling", "pos": [700, 590, 300]},
+  {"slide": 5, "kind": "line", "text": "충전 끝나면…", "emo": "completely exhausted, barely alive, mumbling into the floor", "pos": [280, 600, 400]},
+  {"slide": 5, "kind": "cta", "text": "당신 곁의 두부를 태그해 주세요."}
+ ]
+}
